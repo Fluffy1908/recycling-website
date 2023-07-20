@@ -21,7 +21,7 @@ export default function Main() {
 
             <div className="dispose-tires">
                 <h2 className="dispose-tires-text">Dispose Tires</h2>
-                <p>The main priority of our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and our specialist will contact you.</p>
+                <p>The main priority of our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and our specialist will contact you. Some text to test here</p>
                 <button className="dispose-button">Click me!</button>
             </div>
         </>
