@@ -38,3 +38,44 @@ header img {
 .language-options .eng-option:hover, .ukr-option:hover {
   color: rgb(47, 129, 58);
 }
+
+.about-us {
+  text-align: center;
+  background-image: url();
+}
+
+.about-us h1 {
+  border-bottom: solid rgb(89, 185, 89);
+  display: inline-block;
+}
+
+.backgr {
+  text-align: center;
+  margin-top: 40px;
+  padding: 200px;
+}
+
+.main-sec {
+  min-height: 90vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;  
+  
+}
+
+.main-sec .content h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 50px;
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+.main-sec .content p {
+  color: #fff;
+  margin-left: 50px;
+  max-width: 700px;
+  font-size: 20px;
+}
+
