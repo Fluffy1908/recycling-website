@@ -1,19 +1,37 @@
+.navbar img {
+  width: 175px;
+}
+
 .navbar {
   background-color: #97b0c7;
   width: 100%;
+  display: flex;
 }
 
 .navbar ul{
   display: flex;
   list-style: none;
-  justify-content: start;
+  align-items: center;
 }
 
 .navbar li {
-  margin-left: 100px;
-  
+  margin-left: 75px;
 }
 
+
+
 .navbar span:hover {
-  background-color: blue;
+  background-color: rgb(40, 163, 116);
+  transition: 500ms;
+  border-radius: 5px;
+}
+
+.navbar img {
+  width: 175px;
+}
+
+.navbar span {
+  color: white;
+  cursor: pointer;
+  font-size: large;
 }

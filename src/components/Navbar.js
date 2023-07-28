@@ -9,7 +9,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo' style={{textDecoration: 'none'}}>
-                    Logo
+                    <img src="/images/recyclingLogo.png"></img>
                 </Link>
                 <ul>
                     <li className='nav-item'>
