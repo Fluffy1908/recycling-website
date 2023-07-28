@@ -1,67 +1,53 @@
 import React, { useState } from 'react'
-import { Button } from './Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import Dropdown from './Dropdown'
 
 function Navbar() {
-    const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false)
 
-    const handleClick = () => setClick(!click)
-    const closeMobileMenu = () => setClick(false)
-
-    const onMouseEnter = () => {
-        if (window.innerWidth < 960) {
-            setDropdown(false)
-        } else {
-            setDropdown(true);
-        }
-    }
-
-    const onMouseLeave = () => {
-        if (window.innerWidth < 960) {
-            setDropdown(false)
-        } else {
-            setDropdown(false);
-        }
-    }
 
     return (
         <>
             <nav className='navbar'>
-                <Link to='/' className='navbar-logo'>
-                    Epic
+                <Link to='/' className='navbar-logo' style={{textDecoration: 'none'}}>
+                    Logo
                 </Link>
-                <div className='menu-icon' onClick={handleClick}>
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                <ul>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            Home
-                        </Link>
-                    </li>
-                    <li className='nav-item'
-                    onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}>
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services <i className='fas fa-caret-down' />
-                        </Link>
-                        {dropdown && <Dropdown />}
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
-                            Contact Us
+                        <Link to='/' className='nav-links' style={{textDecoration: 'none'}}>
+                            <span>Home</span>
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign up
+                        <Link to='/about-us' className='nav-links' style={{textDecoration: 'none'}}>
+                            <span>About Us</span>
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/what-we-do' className='nav-links' style={{textDecoration: 'none'}}>
+                            <span>What We Do</span>
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/our-products' className='nav-links-mobile' style={{textDecoration: 'none'}}>
+                            <span>Our products</span>
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/applications' className='nav-links-mobile' style={{textDecoration: 'none'}}>
+                            <span>Applications</span>
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/news' className='nav-links-mobile' style={{textDecoration: 'none'}}>
+                            <span>News</span>
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/contact-us' className='nav-links-mobile' style={{textDecoration: 'none'}}>
+                        <span>Contact Us</span>
                         </Link>
                     </li>
                 </ul>
-                <Button />
             </nav>
         </>
     )
