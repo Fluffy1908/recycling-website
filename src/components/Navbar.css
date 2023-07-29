@@ -6,6 +6,9 @@
   background-color: #97b0c7;
   width: 100%;
   display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 .navbar ul{
