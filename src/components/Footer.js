@@ -69,7 +69,7 @@ function Footer () {
             <div className="center-footer">
                 <ul>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/news' className="footer-links" style={{textDecoration: 'none'}}>
                             <span>News</span>
                         </Link>
                     </li>
@@ -101,7 +101,7 @@ function Footer () {
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/contact-us' className="footer-links" style={{textDecoration: 'none'}}>
                             <span>Contacts</span>
                         </Link>
                     </li>
