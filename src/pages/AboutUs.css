@@ -1,0 +1,10 @@
+.main-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-text p {
+    background-color: blanchedalmond;
+    padding: 100px;
+}

@@ -17,7 +17,7 @@ function Footer () {
     
                 <p>(+38) 068 68 68 700 <br/>
                 info@tirerecycling.com.ua <br/>
-                Boris Krotova, 16, Dnipro, <br/>
+                Borisa Krotova, 16, Dnipro, <br/>
                 Dnipropetrovsk Oblast, <br/>
                 49000, Ukraine</p>
             </div>

@@ -7,6 +7,7 @@ import OurProducts from './pages/OurProducts';
 import Applications from './pages/Applications';
 import News from './pages/News';
 import ContactUs from './pages/ContactUs';
+import NoPage from './pages/NoPage';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='applications' element={<Applications />} />
         <Route path='news' element={<News />} />
         <Route path='contact-us' element={<ContactUs />} />
+        <Route path='*' element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   );
