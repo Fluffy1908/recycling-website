@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Main() {
     const tireHeader = "/images/tireheader.png"
@@ -6,6 +8,7 @@ export default function Main() {
     
     return (
         <>
+            <Navbar />
             <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
                 <div className="content">
                     <h3>Tire Recycling UA</h3>
@@ -98,6 +101,7 @@ export default function Main() {
                         </li>
                 </ul>
             </div>
+            <Footer />
         </>
     )
 }
