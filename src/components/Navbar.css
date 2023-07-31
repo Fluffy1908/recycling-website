@@ -36,3 +36,9 @@
   color: rgb(14, 153, 14);
   transition: 210ms;
 }
+
+button {
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 65px;
+}

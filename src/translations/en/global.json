@@ -1,0 +1,20 @@
+{
+    "navbar" : {
+        "home" : "Home",
+        "aboutUs": "About Us",
+        "whatWeDo": "What We Do",
+        "ourProducts": "Our Products",
+        "applications": "Applications",
+        "news": "News",
+        "contactUs": "Contact Us"
+    },
+    
+    "home": {
+        "body" : "A store deisgned for all your pet needs"
+    },
+    
+    "aboutUs": {
+            "upperText": "About Us Page Here",
+            "body": "Information about us and text text text text"
+        }
+}
