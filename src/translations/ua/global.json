@@ -1,0 +1,20 @@
+{
+    "navbar" : {
+        "home" : "Головна",
+        "aboutUs": "Про нас",
+        "whatWeDo": "Діяльність",
+        "ourProducts": "Наша продукція",
+        "applications": "Застосування",
+        "news": "Новинт",
+        "contactUs": "Контакти"
+    },
+    
+    "home": {
+        "body" : "A store deisgned for all your pet needs"
+    },
+    
+    "aboutUs": {
+            "upperText": "Текст про нас на цій сторінці",
+            "body": "Текст текст текст текст"
+        }
+}

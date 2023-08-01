@@ -53,8 +53,11 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                <button onClick={() => handleChangeLanguage("en")}>EN</button>
-                <button onClick={() => handleChangeLanguage("ru")}>RU</button>
+                <div className="navbar-buttons">
+                    <button onClick={() => handleChangeLanguage("en")}>EN</button>
+                    <button onClick={() => handleChangeLanguage("ru")}>RU</button>
+                    <button onClick={() => handleChangeLanguage("ua")}>UA</button>
+                </div>
             </nav>
         </>
     )

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import global_en from "./translations/en/global.json";
 import global_ru from "./translations/ru/global.json";
+import global_ua from "./translations/ua/global.json"
 import i18next from "i18next";
 import { I18nextProvider } from 'react-i18next';
 
@@ -18,6 +19,9 @@ i18next.init({
     },
     ru: {
       global: global_ru,
+    },
+    ua: {
+      global: global_ua,
     }
   }
 })
