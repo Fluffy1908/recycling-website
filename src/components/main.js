@@ -13,7 +13,7 @@ export default function Main() {
     return (
         <>
             <Navbar />
-            <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
+            {/* <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
                 <div className="content">
                     <h3>Tire Recycling UA</h3>
                     <p>{t("home.body")}</p>
@@ -105,7 +105,7 @@ export default function Main() {
                         </li>
                 </ul>
             </div>
-            <Footer />
+            <Footer /> */}
         </>
     )
 }
