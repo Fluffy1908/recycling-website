@@ -6,7 +6,7 @@ export default function ContactUs () {
     return (
         <>
             <Navbar />
-            <h1>Contact Us Page testing netlify</h1>
+            <h1>Contact Us Page</h1>
             <Footer />
         </>
     ) 
