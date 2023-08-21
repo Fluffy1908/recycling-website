@@ -23,37 +23,37 @@ function Navbar() {
                 <div>
                     <ul id="navbar" className= {click ? "#navbar active" : "navbar"}>
                         <li className='nav-item' >
-                            <Link to='/'>
+                            <Link to='/' className='contact-us-nav'>
                                 <span className="active">{t("navbar.home")}</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/about-us' >
+                            <Link to='/about-us' className='contact-us-nav'>
                                 <span>{t("navbar.aboutUs")}</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/what-we-do' >
+                            <Link to='/what-we-do' className='contact-us-nav'>
                                 <span>{t("navbar.whatWeDo")}</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/our-products'>
+                            <Link to='/our-products' className='contact-us-nav'>
                                 <span>{t("navbar.ourProducts")}</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/applications'>
+                            <Link to='/applications' className='contact-us-nav'>
                                 <span>{t("navbar.applications")}</span>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/news' >
+                            <Link to='/news' className='contact-us-nav'>
                                 <span>{t("navbar.news")}</span>
                             </Link>
                         </li>
-                        <li className='nav-item'>
-                            <Link to='/contact-us' >
+                        <li className='nav-item' >
+                            <Link to='/contact-us' className='contact-us-nav'>
                                 <span>{t("navbar.contactUs")}</span>
                             </Link>
                         </li>

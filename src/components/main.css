@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Titillium Web", sans-serif;
-} /* Added for header func */
+} 
 
 .backgr {
     text-align: center;
@@ -109,5 +109,9 @@
   
   .container ul {
     list-style-type: none;
+  }
+
+  nav Link {
+    text-decoration: none;
   }
 

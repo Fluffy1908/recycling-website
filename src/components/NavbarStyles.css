@@ -5,10 +5,14 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     background: #1b2430;
-    padding: 20px 80px;
+    padding: 20px 60px;
     box-shadow: 0 5px 15px rgva(0,0,0,0.06);
+}
+
+.contact-us-nav {
+    text-decoration: none;
 }
 
 #navbar{
@@ -24,7 +28,6 @@ nav {
 }
 
 #navbar li span {
-    text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
     color: #fff;
@@ -55,7 +58,7 @@ nav {
     color: white;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 900px) {
     #navbar{
         display: flex;
         flex-direction: column;
@@ -87,5 +90,18 @@ nav {
     #mobile i{
         font-size: 24px;
         cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #1b2430;
+        padding: 20px 70px;
+        box-shadow: 0 5px 15px rgva(0,0,0,0.06);
+    }
+
+    #logo img {
+        width: 20vw;
     }
 }
