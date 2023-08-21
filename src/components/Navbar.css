@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 21px;
+  height: 21px;   
 }
 
 .toggle-button .bar {
@@ -61,6 +61,9 @@
   cursor: pointer;
 }
 
+.brand-image img {
+  width: 10vw;
+}
 
 @media (max-width: 1101px) {
   .toggle-button {
@@ -98,4 +101,23 @@
   .navbar-links.active {
     display: flex;
   }
+
+  .brand-image img {
+    width: 15vw;
+  }
+
+  .toggle-button  {
+    margin-top: 3vh;
+  }
+}
+
+@media (max-width: 680px) {
+  .brand-image img {
+    width: 22vw;
+  }
+
+  .toggle-button  {
+    margin-top: 2vh;
+  }
+
 }

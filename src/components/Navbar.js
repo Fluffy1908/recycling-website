@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 function Navbar() {
         const [t, i18n] = useTranslation("global");
+        const logo = "/images/recyclingLogo.png"
         
         const toggleButton = document.getElementsByClassName('toggle-button')[0]
         const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -16,8 +17,8 @@ function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <Link to='/' className='navbar-logo' style={{textDecoration: 'none'}}>
-                    <div className='brand-title'>Brand Name</div>
+                <Link to='/' className='navbar-logo'>
+                    <div className='brand-image'><img src={logo}></img></div>
                 </Link>
                 <Link to='/' className='toggle-button' onClick={() => {
                      navbarLinks.classList.toggle('active')
