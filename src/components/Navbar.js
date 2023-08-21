@@ -17,12 +17,12 @@ function Navbar() {
     return (
         <>
             <nav>
-                <Link to='/'> 
+                <Link to='/' id='logo'> 
                     <img src={logo} />
                 </Link>
                 <div>
-                    <ul id="navbar">
-                        <li className='nav-item'>
+                    <ul id="navbar" className= {click ? "#navbar active" : "navbar"}>
+                        <li className='nav-item' >
                             <Link to='/'>
                                 <span className="active">{t("navbar.home")}</span>
                             </Link>

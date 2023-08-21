@@ -1,3 +1,7 @@
+#logo img {
+    width: 10vw;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -8,7 +12,8 @@ nav {
 }
 
 #navbar{
-    display: flex;;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -42,6 +47,45 @@ nav {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+}
+
 #mobile i{
     color: white;
+}
+
+@media screen and (max-width: 769px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #2a3239;
+        box-shadow: 0 40px 60px rgb(0,0,0,0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #mobile {
+        display: block;
+    }
+    
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
 }
