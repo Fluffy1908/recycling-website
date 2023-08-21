@@ -25,39 +25,39 @@ function Footer () {
             <div className="center-footer">
                 <ul>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Home</span>
                         </Link>
                     </li>
                     
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Collection Services</span>
                         </Link>
                     </li>
                     
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links">
                             <span>Recycling Services</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Crumb Rubber </span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Rubber Mulch</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>RTP</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Dispose tires</span>
                         </Link>
                     </li>
@@ -69,39 +69,39 @@ function Footer () {
             <div className="center-footer">
                 <ul>
                     <li className="footer-item">
-                        <Link to='/news' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/news' className="footer-links" >
                             <span>News</span>
                         </Link>
                     </li>
                     
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Plastic Compound</span>
                         </Link>
                     </li>
                     
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Metal Cord</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Textile Cord </span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Boad Ring</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/' className="footer-links" >
                             <span>Vacancies</span>
                         </Link>
                     </li>
                     <li className="footer-item">
-                        <Link to='/contact-us' className="footer-links" style={{textDecoration: 'none'}}>
+                        <Link to='/contact-us' className="footer-links" >
                             <span>Contacts</span>
                         </Link>
                     </li>

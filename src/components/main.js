@@ -104,8 +104,8 @@ export default function Main() {
                             <div className="overlay"><span>Image title</span></div>
                         </li>
                 </ul>
-            </div>
-            <Footer /> */}
+            </div> */}
+            <Footer />
         </>
     )
 }
