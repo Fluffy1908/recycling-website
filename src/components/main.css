@@ -1,18 +1,5 @@
-* {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
-} 
-
-.backgr {
-    text-align: center;
-    margin-top: 40px;
-    padding: 200px;
-  }
-  
   .main-sec {
-    min-height: 80vh;
+    min-height: 60vh;
     display: flex;
     background-size: cover;
     background-position: center;  
@@ -23,17 +10,17 @@
     font-size: 5rem;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 4vh;
     display: inline-flex;
-    margin-left: 50px;
+    margin-left: 5vw;
     margin-bottom: 10px;
   }
   
   .main-sec .content p {
     color: #fff;
-    margin-left: 80px;
-    max-width: 700px;
-    font-size: 20px;
+    margin-left: 5vw;
+    max-width: 43.75rem;
+    font-size: 1.20rem;
   }
   
   .about-us {
@@ -48,7 +35,7 @@
   }
   
   .about-us p {
-    max-width: 900px;
+    max-width: 35vw;
   }
   
   .dispose-tires {
@@ -57,20 +44,21 @@
     align-items: center;
     text-align: center;
   }
+
+  .dispose-tires-text {
+    margin-bottom: 0.75vh;
+    margin-top: 0.75vh;
+  }
   
   .dispose-tires p {
-    max-width: 600px;
+    max-width: 35vw;
   }
   
   .dispose-button {
-    padding: 10px;
+    margin-top: 1vh;
+    padding: 0.75rem;
     color: orange;
-    margin-bottom: 20px;
-  }
-  
-  .dispose-tires-text {
-    margin-bottom: 5px;
-    padding-top: 12px;
+    margin-bottom: 1vh;
   }
   
   .product-section {
@@ -81,11 +69,11 @@
   }
   
   .product-section p {
-    max-width: 600px;
+    max-width: 35vw;
   }
   
   .gold-ingots {
-    width: 100px;
+    width: 7rem;
     text-align: center;
   }
   
@@ -93,25 +81,39 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 0.75rem;
   }
   
   .image-gallery-one > li {
-    flex-basis: 400px;
+    flex-basis: 22rem;
   }
   
   .image-gallery-one li img {
     object-fit: cover;
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 0.50rem;
   }
   
   .container ul {
     list-style-type: none;
   }
 
-  nav Link {
-    text-decoration: none;
+@media screen and (max-width: 965px) {
+
+  .image-gallery-one > li {
+    flex-basis: 17rem;
   }
 
+  .image-gallery-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  /* CODE HERE  */
+}

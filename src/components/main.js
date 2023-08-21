@@ -6,14 +6,16 @@ import { useTranslation } from "react-i18next";
 
 export default function Main() {
     const tireHeader = "/images/tireheader.png"
-    const grassImage = "/images/grass.jpg"
+    // const grassImage = "/images/grass.jpg"
 
     const [t, i18n] = useTranslation("global")
     
     return (
         <>
             <Navbar />
-            {/* <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
+
+
+            <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
                 <div className="content">
                     <h3>Tire Recycling UA</h3>
                     <p>{t("home.body")}</p>
@@ -104,7 +106,9 @@ export default function Main() {
                             <div className="overlay"><span>Image title</span></div>
                         </li>
                 </ul>
-            </div> */}
+            </div>
+
+
             <Footer />
         </>
     )
