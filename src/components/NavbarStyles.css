@@ -71,7 +71,7 @@ nav {
         height: 100vh;
         background-color: #2a3239;
         box-shadow: 0 40px 60px rgb(0,0,0,0.1);
-        padding: 40px 0 0 10px;
+        padding: 40px 0 0 0px;
         transition: 0.3s ease-in-out;
     }
 
