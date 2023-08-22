@@ -1,6 +1,8 @@
 import React from "react";
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 function Footer () {
     
@@ -116,10 +118,25 @@ function Footer () {
             </div>
         </div>
 
+        <div className="mobile-sn-icons">
+                    <a href="https://facebook.com">
+                        <FontAwesomeIcon icon={faFacebook} />
+                    </a>
+                    <a href="https://facebook.com">
+                        <FontAwesomeIcon icon={faTwitter} />
+                    </a>
+                    <a href="https://facebook.com">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <a href="https://facebook.com">
+                        <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+            </div>
+
+
         <div className="footer-copyright">
             <p>© COPYRIGHT 2023 TIRE RECYCLING UA. ALL RIGHTS RESERVED.</p>
         </div>
-
         </>
         
     )

@@ -64,9 +64,11 @@
     font-size: 1.05rem;
     padding-top: 1vh;
     padding-bottom: 1vh;
-
 }
 
+.mobile-sn-icons {
+    display: none;
+}
 @media screen and (max-width: 1005px) {
     .footer  {
         display: none;
@@ -79,8 +81,31 @@
         display: none;
     }
 
+    .footer-copyright {
+        border-top: none;
+    }
+
     .footer-copyright p {
         font-size: 0.75rem;
+    }
+
+    .mobile-sn-icons {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(170, 150, 170);
+        padding: 1vh;
+        margin-top: 3rem;
+    }
+
+    .mobile-sn-icons a {
+        color: white;
+        font-size: 1.60rem;
+        margin-left: 1.25rem;
+    }
+    .mobile-sn-icons a:hover {
+        color: black;
+        font-size: 1.60rem;
+        transition: 300ms ease-in-out;
     }
 
 }
