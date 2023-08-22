@@ -1,9 +1,12 @@
   .main-sec {
-    min-height: 60vh;
+    min-height: 75vh;
     display: flex;
     background-size: cover;
-    background-position: center;  
-    
+    background-position: 0% 50%;  
+  }
+
+  .background-text-mobile {
+    display: none;
   }
   
   .main-sec .content h3 {
@@ -114,6 +117,30 @@
 
 }
 
-@media screen and (max-width: 600px) {
-  /* CODE HERE  */
+@media screen and (max-width: 650px) {
+  
+.main-sec .content {
+  display: none;
+}
+
+.main-sec {
+  min-height: 20vh;
+  display: flex;
+  }
+
+  .about-us p {
+    max-width: 80vw;
+  }
+
+  .dispose-tires p {
+    max-width: 80vw;
+  }
+
+  .product-section p {
+    max-width: 80vw;
+  }
+
+  
+
+
 }

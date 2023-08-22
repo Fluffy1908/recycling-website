@@ -5,7 +5,7 @@ import './main.css'
 import { useTranslation } from "react-i18next";
 
 export default function Main() {
-    const tireHeader = "/images/tireheader.png"
+    const tireHeader = "/images/rec-header.jpg"
     // const grassImage = "/images/grass.jpg"
 
     const [t, i18n] = useTranslation("global")
@@ -17,8 +17,8 @@ export default function Main() {
 
             <div style={{backgroundImage: `url(${tireHeader})`}} className="main-sec">
                 <div className="content">
-                    <h3>Tire Recycling UA</h3>
-                    <p>{t("home.body")}</p>
+                    {/* <h3>Tire Recycling UA</h3> */}
+                    {/* <p>{t("home.body")}</p> */}
                 </div>
             </div>
            
