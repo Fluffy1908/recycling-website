@@ -50,10 +50,12 @@
 
 .row-one-about .images-container-one p {
     max-width: 6vw;
+    min-width: 6vw;
 }
 
 .row-one-about .images-container-two p {
     max-width: 6vw;
+    min-width: 6vw;
 }
 
 

@@ -8,6 +8,11 @@ export default function AboutUs () {
     const [t, i18n] = useTranslation("global");
 
     const tireIcon = "/images/tire.png"
+    const starIcon = "/images/star.png"
+    const employeeIcon = "/images/employees.png"
+    const handIcon = "/images/handshake.png"
+    const factoryIcon = "/images/eco-factory.png"
+    const earthIcon = "/images/globe-earth.png"
 
     return (
         <>
@@ -23,34 +28,34 @@ export default function AboutUs () {
                 <div className="row-one-about">
                     <div className="images-container-one">
                         <img src={tireIcon} id="tire-icon"></img>
-                        <h4>4,000,000</h4>
+                        <h4>2,000,000</h4>
                         <p>Number of recycled tires</p>
                     </div>
                     <div className="images-container-one">
-                        <img src={tireIcon}></img>
-                        <h4>4,000,000</h4>
-                        <p>By technology andvolume</p>
+                        <img src={starIcon}></img>
+                        <h4>#1</h4>
+                        <p>By technology and volume</p>
                     </div>
                     <div className="images-container-one">
-                        <img src={tireIcon}></img>
-                        <h4>4,000,000</h4>
-                        <p>Some text here</p>
+                        <img src={employeeIcon}></img>
+                        <h4>120</h4>
+                        <p>Employees</p>
                     </div>
                 </div>
 
                 <div className="row-one-about">
                     <div className="images-container-two">
-                        <img src={tireIcon}></img>
+                        <img src={handIcon}></img>
                         <h4>4,000,000</h4>
                         <p>Number of recycled tires</p>
                     </div>
                     <div className="images-container-two">
-                        <img src={tireIcon}></img>
+                        <img src={factoryIcon}></img>
                         <h4>4,000,000</h4>
                         <p>By technology andvolume</p>
                     </div>
                     <div className="images-container-two">
-                        <img src={tireIcon}></img>
+                        <img src={earthIcon}></img>
                         <h4>4,000,000</h4>
                         <p>Some text here</p>
                     </div>
