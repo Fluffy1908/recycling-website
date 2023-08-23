@@ -1,10 +1,87 @@
-.main-text {
+.about-us-main-text {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.about-us-main-text p {
+    max-width: 35vw;
     text-align: center;
 }
 
-.main-text p {
-    background-color: blanchedalmond;
-    padding: 100px;
+.facts-section-one {
+    justify-content: start;
+}
+
+.facts-section-one h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.row-one-about {
+    display: flex;
+    justify-content: center;
+}
+
+.facts-section-one .images-container-one {
+    text-align: center;
+    margin: 2.50rem;
+}
+
+.facts-section-one .images-container-one img {
+    max-width: 4vw;
+}
+
+.facts-section-one .images-container-two {
+    text-align: center;
+    margin: 3rem;
+    margin-top: 0.10rem;
+}
+
+.facts-section-one .images-container-two img {
+    max-width: 4vw;
+}
+
+#tire-icon:hover {
+    transform: rotate(4.142rad);
+    transition: 300ms ease-in-out;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .about-us-main-text p {
+        max-width: 70vw;
+        text-align: center;
+    }
+
+    .facts-section-one h2 {
+        margin-bottom: 2rem;
+    }
+    
+    
+    .facts-section-one .row-one-about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .facts-section-one .images-container-one img {
+        max-width: 10vw;
+    }
+    
+    .facts-section-one .images-container-two img {
+        max-width: 10vw;
+    }
+
+    .facts-section-one .images-container-one {
+        text-align: center;
+        margin: auto;
+    }
+
+    .facts-section-one .images-container-two {
+        text-align: center;
+        margin: auto;
+    }
+
 }
