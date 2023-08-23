@@ -24,12 +24,12 @@ export default function AboutUs () {
                     <div className="images-container-one">
                         <img src={tireIcon} id="tire-icon"></img>
                         <h4>4,000,000</h4>
-                        <p>Some text here</p>
+                        <p>Number of recycled tires</p>
                     </div>
                     <div className="images-container-one">
                         <img src={tireIcon}></img>
                         <h4>4,000,000</h4>
-                        <p>Some text here</p>
+                        <p>By technology andvolume</p>
                     </div>
                     <div className="images-container-one">
                         <img src={tireIcon}></img>
@@ -42,12 +42,12 @@ export default function AboutUs () {
                     <div className="images-container-two">
                         <img src={tireIcon}></img>
                         <h4>4,000,000</h4>
-                        <p>Some text here</p>
+                        <p>Number of recycled tires</p>
                     </div>
                     <div className="images-container-two">
                         <img src={tireIcon}></img>
                         <h4>4,000,000</h4>
-                        <p>Some text here</p>
+                        <p>By technology andvolume</p>
                     </div>
                     <div className="images-container-two">
                         <img src={tireIcon}></img>

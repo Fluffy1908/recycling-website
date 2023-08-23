@@ -35,7 +35,7 @@
 
 .facts-section-one .images-container-two {
     text-align: center;
-    margin: 3rem;
+    margin: 2.50rem;
     margin-top: 0.10rem;
 }
 
@@ -46,6 +46,14 @@
 #tire-icon:hover {
     transform: rotate(4.142rad);
     transition: 300ms ease-in-out;
+}
+
+.row-one-about .images-container-one p {
+    max-width: 6vw;
+}
+
+.row-one-about .images-container-two p {
+    max-width: 6vw;
 }
 
 
@@ -63,15 +71,15 @@
     
     .facts-section-one .row-one-about {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .facts-section-one .images-container-one img {
-        max-width: 10vw;
+        max-width: 15vw;
     }
     
     .facts-section-one .images-container-two img {
-        max-width: 10vw;
+        max-width: 15vw;
     }
 
     .facts-section-one .images-container-one {
@@ -82,6 +90,41 @@
     .facts-section-one .images-container-two {
         text-align: center;
         margin: auto;
+    }
+
+    .row-one-about .images-container-one p {
+        text-align: center;
+    }
+
+    .row-one-about .images-container-one p {
+        max-width: none;
+    }
+    
+    .row-one-about .images-container-two p {
+        max-width: none;
+    }
+
+    .row-one-about .images-container-one {
+        margin: 0.60rem;
+    }
+    
+    .row-one-about .images-container-two {
+        margin: 0.60rem;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    .facts-section-one .row-one-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts-section-one .images-container-one img {
+        max-width: 15vw;
+    }
+    
+    .facts-section-one .images-container-two img {
+        max-width: 15vw;
     }
 
 }
