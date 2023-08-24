@@ -1,9 +1,3 @@
-#what-we-do-upper-text {
-    text-align: center;
-    background-image: url("../../public/images/grass-about.jpg");
-    height: 15vh
-}
-
 .what-we-do-text {
     display: flex;
     justify-content: center;
@@ -19,4 +13,29 @@
 .what-we-do-text p {
     max-width: 50vw;
     text-align: center;
+}
+
+.visualization-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.visualization-images img {
+    max-width: 6vw;
+    margin-left: 1rem;
+}
+
+#right-arrow {
+    opacity: 0.95;
+}
+
+.collections-points {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.processing-points {
+    text-align: center;
+    margin-top: 4rem;
 }
