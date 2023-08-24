@@ -1,0 +1,22 @@
+#what-we-do-upper-text {
+    text-align: center;
+    background-image: url("../../public/images/grass-about.jpg");
+    height: 15vh
+}
+
+.what-we-do-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.what-we-do-text img {
+    max-width: 5vw;
+    margin: 1rem;
+}
+
+.what-we-do-text p {
+    max-width: 50vw;
+    text-align: center;
+}
