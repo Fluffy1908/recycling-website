@@ -1,5 +1,4 @@
 #application-background {
-    background-image: url("");
     text-align: center;
 }
 
@@ -8,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 .applications-upper-text img {
@@ -20,22 +19,22 @@
     text-align: center;
 }
 
-
 .wrapper-applications {
-    /* width: 100%; */
     display: flex;
     justify-content: center;
 }
 
 .image-applications {
-    width: 500px;
+    width: 25vw;
     position: relative;
+    margin: 0.50rem;
 }
 
 .image-applications img {
     width: 100%;
     display: block;
     margin: auto;
+    border-radius: 0.50rem;
 }
 
 .content-applications {
@@ -44,26 +43,49 @@
     top: 0;
     left: 0;
     position: absolute;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.3);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity: 0;
+    opacity: 1;
     transition: 0.6s;
+    border-radius: 0.50rem;
 }
 
-.content-applications:hover {
+.content-applications {
     opacity: 1;
 }
 
+.content-applications:hover {
+    background: rgba(0,0,0,0.6);
+}
+
 .content-applications h1 {
-    font-size: 45px;
-    color: #ffe100;
+    font-size: 2rem;
+    color: #7a7869;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .content-applications p {
     font-size: 19px;
     color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper-applications {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-applications {
+        width: 300px;
+        position: relative;
+        margin: 0.50rem;
+    }
+    
 }
