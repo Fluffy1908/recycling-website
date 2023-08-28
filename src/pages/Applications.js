@@ -20,11 +20,65 @@ export default function Applications () {
             <div className="application-gallery">
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h1>Hello</h1></div>
+                    <div className="centered"><h2>Hello</h2></div>
                     <div className="lower-center"><p>Hello</p></div>
                 </div>
+
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+                
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+
             </div>
                 
+            <div className="application-gallery">
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+                
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+
+            </div>
+
+            <div className="application-gallery">
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+                
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h2>Hello</h2></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+
+            </div>
             <Footer />
         </>
     ) 

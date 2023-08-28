@@ -19,10 +19,16 @@
     text-align: center;
 }
 
+.application-gallery {
+    display: flex;
+    justify-content: center;
+}
+
 .application-image-container {
     position: relative;
     text-align: center;
     color: white;
+    margin: 0.35rem;
 }
 
 .application-image-container .centered {
@@ -43,5 +49,27 @@
 
 .application-image-container img {
     border-radius: 1rem;
-    width: 20vw;
+    width: 24vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .application-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .application-image-container img {
+        border-radius: 1rem;
+        width: 70vw;
+    }
+
+    .applications-upper-text img {
+        max-width: 9vw;
+    }
+
+    .applications-upper-text p {
+        width: 80vw;
+        text-align: center;
+    }
+    
 }
