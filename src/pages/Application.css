@@ -18,3 +18,30 @@
     width: 35vw;
     text-align: center;
 }
+
+.application-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.application-image-container .centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.application-image-container .lower-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.application-image-container img {
+    border-radius: 1rem;
+    width: 20vw;
+}

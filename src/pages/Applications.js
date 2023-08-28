@@ -16,8 +16,15 @@ export default function Applications () {
                 <p>Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.</p>
                 <img src={starIcon} />
             </div>
-
-            
+                
+            <div className="application-gallery">
+                <div className="application-image-container">
+                    <img src={testImage} alt="Image" />
+                    <div className="centered"><h1>Hello</h1></div>
+                    <div className="lower-center"><p>Hello</p></div>
+                </div>
+            </div>
+                
             <Footer />
         </>
     ) 
