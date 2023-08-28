@@ -16,86 +16,8 @@ export default function Applications () {
                 <p>Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.</p>
                 <img src={starIcon} />
             </div>
+
             
-            <div className="wrapper-applications">
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Highways</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-                
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Alternative fuel for production</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-                
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Infrastructure backfill</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="wrapper-applications">
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Rubber Mulch</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-                
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Construction Materials</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-                
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Athletic covering</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-    
-            </div>
-
-            <div className="wrapper-applications">
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Highways</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Highways</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-
-                <div className="image-applications">
-                    <img src={testImage} />
-                    <div className="content-applications">
-                        <h1>Highways</h1>
-                        <p>Lorem ipsum dolor sit amet</p>
-                    </div>
-                </div>
-
-            </div>
             <Footer />
         </>
     ) 
