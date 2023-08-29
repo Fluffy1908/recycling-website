@@ -7,6 +7,7 @@ import { useTranslation } from 'react-i18next'
 function Navbar() {
         const [t, i18n] = useTranslation("global");
         const [click, setClick] = useState(false);
+        const [dropClick, setDropClick] = useState(false);
 
         const logo = "/images/recyclingLogo.png"
         
@@ -39,7 +40,23 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/our-products' className='contact-us-nav'>
-                                <span>{t("navbar.ourProducts")}</span>
+                                {/* <span>{t("navbar.ourProducts")}</span> */}
+                                <div className='dropdown'>
+                                    <button className="dropbtn">
+                                    <span id="dropdown-menu-bottom">DropDown </span><i className='fa fa-caret-down'></i>
+                                    </button>
+                                <div className='dropdown-content'>
+                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Some link</p>
+                                    </Link>
+                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Some link</p>
+                                    </Link>
+                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Some link</p>
+                                    </Link>
+                                </div>
+                                </div>
                             </Link>
                         </li>
                         <li className='nav-item'>
