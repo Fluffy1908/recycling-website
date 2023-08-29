@@ -40,22 +40,28 @@ function Navbar() {
                         </li>
                         
                         <li className='nav-item'>
+                            
                             <Link to='/our-products' className='contact-us-nav'>
                                 {/* <span>{t("navbar.ourProducts")}</span> */}
+                               
                                 <div className='dropdown'>
                                     <button className="dropbtn">
                                     <span id="dropdown-menu-bottom">Our Products </span><i className='fa fa-caret-down' id='mobile-hide-dropdown-icon'></i>
                                     </button>
+                                
                                 <div className='dropdown-content' id='mobile-hide-dropdown'>
                                     <Link to='/our-products' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+                                    <p className='dropdown-links'>Overview</p>
                                     </Link>
-                                    <Link to='/our-products' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+
+                                    <Link to='/' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Crumb Rubber</p>
                                     </Link>
-                                    <Link to='/our-products' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+
+                                    <Link to='/' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Rubber Mulch</p>
                                     </Link>
+
                                 </div>
                                 </div>
                             </Link>    
@@ -71,10 +77,10 @@ function Navbar() {
                                     <Link to='/our-products' className='contact-us-nav'>
                                     <p className='dropdown-links'>Some link</p>
                                     </Link>
-                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <Link to='/' className='contact-us-nav'>
                                     <p className='dropdown-links'>Some link</p>
                                     </Link>
-                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <Link to='/' className='contact-us-nav'>
                                     <p className='dropdown-links'>Some link</p>
                                     </Link>
                                 </div>
