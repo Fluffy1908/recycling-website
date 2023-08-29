@@ -71,6 +71,10 @@ nav {
     color: white;
 }
 
+#mobile-product-list {
+    display: none;
+}
+
 /* The dropdown container */
 .dropdown {
     float: left;
@@ -112,6 +116,10 @@ nav {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .nav-item-mobile {
+    display: none;
   }
 
 @media screen and (max-width: 965px) {
@@ -173,6 +181,18 @@ nav {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  #mobile-hide-dropdown {
+    display: none;
+  }
+  
+  #mobile-hide-dropdown-icon {
+    display: none;
+  }
+
+  .nav-item-mobile {
+    display: block;
   }
 
   #mobile-active {
