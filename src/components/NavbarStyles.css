@@ -114,7 +114,6 @@ nav {
     display: block;
   }
 
-
 @media screen and (max-width: 965px) {
     #navbar{
         display: flex;
@@ -174,5 +173,13 @@ nav {
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  #mobile-active {
+    display: block;
+  }
+
+  #mobile-inactive {
+    display: none;
   }
 }

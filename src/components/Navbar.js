@@ -42,10 +42,10 @@ function Navbar() {
                             <Link to='/our-products' className='contact-us-nav'>
                                 {/* <span>{t("navbar.ourProducts")}</span> */}
                                 <div className='dropdown'>
-                                    <button className="dropbtn">
+                                    <button className="dropbtn" onClick={() => setDropClick(!dropClick)}>
                                     <span id="dropdown-menu-bottom">DropDown </span><i className='fa fa-caret-down'></i>
                                     </button>
-                                <div className='dropdown-content'>
+                                <div className='dropdown-content' id= {dropClick ?  "#mobile-active" : "mobile-inactive"}>
                                     <Link to='/our-products' className='contact-us-nav'>
                                     <p className='dropdown-links'>Some link</p>
                                     </Link>
