@@ -54,11 +54,11 @@ function Navbar() {
                                     <p className='dropdown-links'>Overview</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/crumb-rubber' className='contact-us-nav'>
                                     <p className='dropdown-links'>Crumb Rubber</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/rubber-mulch' className='contact-us-nav'>
                                     <p className='dropdown-links'>Rubber Mulch</p>
                                     </Link>
 
