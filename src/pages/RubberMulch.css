@@ -1,0 +1,92 @@
+#rubber-mulch-main-text {
+    text-align: center;
+    margin-bottom: 2rem
+}
+
+.mulch-upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    /* border: 1px solid #ccc;
+    background-color: #f0f0f0; */
+}
+
+.what-is-rubber-mulch {
+    /* text-align: center; */
+    max-width: 20vw;
+    margin-right: 3rem;
+}
+
+.what-is-rubber-mulch p {
+    font-size: 1.6rem;
+}
+
+.what-is-rubber-mulch-image img {
+    border-radius: 1.50rem;
+}
+
+
+/* Next section  */
+
+#areas-of-use-upper-text {
+    text-align: center;
+}
+
+.areas-of-use {
+    display: flex;
+    justify-content: center;
+}
+
+.applications-rubber-mulch {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#checkmark-option {
+    vertical-align: bottom;
+}
+
+.image-text-rubber-mulch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.rubber-mulch-info-left,
+.rubber-mulch-info-right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rubber-mulch-info-left p {
+    line-height: 1.5;
+    max-width: 30vw;
+}
+
+.rubber-mulch-info-left img {
+    width: 4vw;
+}
+
+.rubber-mulch-info-right h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.rubber-mulch-info-right img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 0.30rem; */
+    border-bottom: 5px solid green ;
+}
+
+.rubber-mulch-info-left p {
+    font-size: 1.6rem;
+}

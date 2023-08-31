@@ -39,3 +39,8 @@
     text-align: center;
     margin-top: 4rem;
 }
+
+.areas-of-use {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
