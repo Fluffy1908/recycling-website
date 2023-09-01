@@ -9,21 +9,18 @@ export default function BeadRing () {
     return (
         <>
             <Navbar />
-            <h1 id="bead-ring-main-text">Bead Ring</h1>
-        
-        <section className="bead-ring-upper-section">
-            
-            <div className="what-is-bead-ring">
+            <h1 id="textile-cord-main-text">Bead Ring</h1>
+
+        <section className="textile-cord-component">
+            <div className="textile-cord-info-left">
                 <h2>What is bead ring?</h2>
-                <p>One of the best uses for recycled tires is to turn them into rubber mulch for landscaping, playgrounds, and training courses. Rubber mulch serves the same purpose as regular wood mulch, but it has a number of additional benefits. </p>
+                <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.</p>
             </div>
 
-            <div className="what-is-bead-ring-image">
+            <div className="textile-cord-info-right">
                 <img src={factoryImage} />
             </div>
-
         </section>
-
             <Footer />
         </>
     ) 

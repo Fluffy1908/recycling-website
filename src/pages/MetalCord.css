@@ -33,7 +33,7 @@
         align-items: center;
         text-align: center;
         padding: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     .metal-cord-info-left {
@@ -44,5 +44,9 @@
         line-height: 1.5;
         max-width: 70vw;
         font-size: 1.6rem;
+    }
+
+    .metal-cord-info-right img {
+        width: 70vw;
     }
 }

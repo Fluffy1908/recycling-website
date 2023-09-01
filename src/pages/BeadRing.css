@@ -1,27 +1,52 @@
 #bead-ring-main-text {
     text-align: center;
-    margin-bottom: 2rem
 }
 
-.bead-ring-upper-section {
+.bead-ring-component {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 3rem;
-    /* border: 1px solid #ccc;
-    background-color: #f0f0f0; */
+    padding: 2rem;
 }
 
-.what-is-bead-ring {
-    /* text-align: center; */
-    width: 20vw;
-    margin-right: 3rem;
+.bead-ring-info-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
 }
 
-.what-is-bead-ring p {
+.bead-ring-info-left p {
+    line-height: 1.5;
+    max-width: 20vw;
     font-size: 1.6rem;
 }
 
-.what-is-bead-ring-image img {
+.bead-ring-info-right img {
+    max-width: 100%;
+    height: auto;
     border-radius: 1.50rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .bead-ring-component {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .bead-ring-info-left {
+        padding-right: 0rem;
+    }
+
+    .bead-ring-info-left p {
+        line-height: 1.5;
+        max-width: 70vw;
+        font-size: 1.6rem;
+    }
+
+    .bead-ring-info-right img {
+        width: 70vw;
+    }
 }

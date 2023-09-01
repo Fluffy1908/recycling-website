@@ -10,20 +10,17 @@ export default function TextileCord () {
         <>
             <Navbar />
             <h1 id="textile-cord-main-text">Textile Cord</h1>
-        
-        <section className="textile-cord-upper-section">
-            
-            <div className="what-is-textile-cord">
-                <h2>What is textile cord?</h2>
-                <p>One of the best uses for recycled tires is to turn them into rubber mulch for landscaping, playgrounds, and training courses. Rubber mulch serves the same purpose as regular wood mulch, but it has a number of additional benefits. </p>
-            </div>
 
-            <div className="what-is-textile-cord-image">
-                <img src={factoryImage} />
-            </div>
+<section className="textile-cord-component">
+    <div className="textile-cord-info-left">
+        <h2>What is Textile Cord?</h2>
+        <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.</p>
+    </div>
 
-        </section>
-
+    <div className="textile-cord-info-right">
+        <img src={factoryImage} />
+    </div>
+</section>
             <Footer />
         </>
     ) 
