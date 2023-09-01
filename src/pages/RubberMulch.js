@@ -74,13 +74,12 @@ export default function RubberMulch () {
             <div className="image-text-rubber-mulch-container">
                     
                     <div className="rubber-mulch-info-left">
-                        <img src={starIcon} alt="star icon"/>
                         <h2>Landscape for your houses</h2>
+                        <img src={starIcon} alt="star icon"/>
                         <p>Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
                     </div>
 
                     <div className="rubber-mulch-info-right">
-                        <h2>Landscape for your houses</h2>
                         <img src={factoryImage} alt="Asphalt" />
                         <img src={factoryImage} alt="Asphalt" />
                         <img src={factoryImage} alt="Asphalt" />
@@ -91,13 +90,12 @@ export default function RubberMulch () {
                 <div className="image-text-rubber-mulch-container">
                     
                     <div className="rubber-mulch-info-left">
-                        <img src={starIcon} alt="star icon"/>
                         <h2>Coating for playgrounds</h2>
+                        <img src={starIcon} alt="star icon"/>
                         <p>Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
                     </div>
 
                     <div className="rubber-mulch-info-right">
-                        <h2>Coating for playgrounds</h2>
                         <img src={factoryImage} alt="Asphalt" />
                         <img src={factoryImage} alt="Asphalt" />
                         <img src={factoryImage} alt="Asphalt" />
