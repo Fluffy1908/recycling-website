@@ -62,6 +62,20 @@ function Navbar() {
                                     <p className='dropdown-links'>Rubber Mulch</p>
                                     </Link>
 
+                                    <Link to='/metal-cord' 
+                                    className='contact-us-nav'>
+                                    <p className='dropdown-links'>Metal Cord</p>
+                                    </Link>
+
+                                    <Link to='/bead-ring' 
+                                    className='contact-us-nav'>
+                                    <p className='dropdown-links'>Bead Ring</p>
+                                    </Link>
+
+                                    <Link to='/textile-cord' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Textile Cord</p>
+                                    </Link>
+
                                 </div>
                                 </div>
                             </Link>    
@@ -75,14 +89,29 @@ function Navbar() {
                                     </button>
                                 <div className='dropdown-content' id= {dropClick ?  "#mobile-active" : "mobile-inactive"}>
                                     <Link to='/our-products' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+                                    <p className='dropdown-links'>Crumb Rubber</p>
                                     </Link>
+
                                     <Link to='/' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+                                    <p className='dropdown-links'>Rubber Mulch</p>
                                     </Link>
+
                                     <Link to='/' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Some link</p>
+                                    <p className='dropdown-links'>Bead Ring</p>
                                     </Link>
+
+                                    <Link to='/' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Metal Cord</p>
+                                    </Link>
+
+                                    <Link to='/' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Bead Ring</p>
+                                    </Link>
+
+                                    <Link to='/' className='contact-us-nav'>
+                                    <p className='dropdown-links'>Textile Cord</p>
+                                    </Link>
+
                                 </div>
                                 </div>  
                         </li>

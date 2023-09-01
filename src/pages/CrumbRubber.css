@@ -3,6 +3,14 @@
 }
 
 .what-is-crumb-rubber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.what-is-crumb-rubber p {
+    max-width: 75vw;
     text-align: center;
 }
 
@@ -66,9 +74,13 @@
 }
 
 
-
 @media screen and (max-width: 1000px) {
-.crumb-rubber-gallery {
+
+    .image-text-crumb-rubber-container{
+        flex-direction: column;
+    }
+
+    .crumb-rubber-gallery {
         display: flex;
         flex-direction: column;
     }
@@ -81,6 +93,14 @@
     .crumb-rubber-image-container {
         border-top : dotted green;
         padding-top: 2rem;
+    }
+
+    .crumb-rubber-info-left p {
+        max-width: 75vw;
+    }
+
+    .crumb-rubber-info-left img {
+        width: 10vw;
     }
         
 }
