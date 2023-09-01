@@ -88,27 +88,23 @@ function Navbar() {
                                     <span id="dropdown-menu-bottom" onClick={() => setDropClick(!dropClick)}>Product List </span><i className='fa fa-caret-down'></i>
                                     </button>
                                 <div className='dropdown-content' id= {dropClick ?  "#mobile-active" : "mobile-inactive"}>
-                                    <Link to='/our-products' className='contact-us-nav'>
+                                    <Link to='/crumb-rubber' className='contact-us-nav'>
                                     <p className='dropdown-links'>Crumb Rubber</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/rubber-mulch' className='contact-us-nav'>
                                     <p className='dropdown-links'>Rubber Mulch</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Bead Ring</p>
-                                    </Link>
-
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/metal-cord' className='contact-us-nav'>
                                     <p className='dropdown-links'>Metal Cord</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/bead-ring' className='contact-us-nav'>
                                     <p className='dropdown-links'>Bead Ring</p>
                                     </Link>
 
-                                    <Link to='/' className='contact-us-nav'>
+                                    <Link to='/textile-cord' className='contact-us-nav'>
                                     <p className='dropdown-links'>Textile Cord</p>
                                     </Link>
 

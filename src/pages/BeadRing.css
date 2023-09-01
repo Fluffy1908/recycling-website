@@ -1,0 +1,27 @@
+#bead-ring-main-text {
+    text-align: center;
+    margin-bottom: 2rem
+}
+
+.bead-ring-upper-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    /* border: 1px solid #ccc;
+    background-color: #f0f0f0; */
+}
+
+.what-is-bead-ring {
+    /* text-align: center; */
+    width: 20vw;
+    margin-right: 3rem;
+}
+
+.what-is-bead-ring p {
+    font-size: 1.6rem;
+}
+
+.what-is-bead-ring-image img {
+    border-radius: 1.50rem;
+}

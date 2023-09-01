@@ -1,7 +1,7 @@
 .footer {
     background-color: rgb(170, 150, 170);
     display: flex;
-    margin-top: 6vh;
+    /* margin-top: 6vh; */
     justify-content: center;
     padding: 2vh
 }

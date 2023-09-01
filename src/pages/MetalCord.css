@@ -1,0 +1,48 @@
+#metal-cord-main-text {
+    text-align: center;
+}
+
+.metal-cord-component {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.metal-cord-info-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+}
+
+.metal-cord-info-left p {
+    line-height: 1.5;
+    max-width: 20vw;
+    font-size: 1.6rem;
+}
+
+.metal-cord-info-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.50rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .metal-cord-component {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .metal-cord-info-left {
+        padding-right: 0rem;
+    }
+
+    .metal-cord-info-left p {
+        line-height: 1.5;
+        max-width: 70vw;
+        font-size: 1.6rem;
+    }
+}

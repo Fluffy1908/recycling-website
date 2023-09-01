@@ -69,6 +69,7 @@
 .rubber-mulch-info-left p {
     line-height: 1.5;
     max-width: 30vw;
+    font-size: 1.6rem;
 }
 
 .rubber-mulch-info-left img {
@@ -86,11 +87,6 @@
     /* border-radius: 0.30rem; */
     border-bottom: 5px solid green ;
 }
-
-.rubber-mulch-info-left p {
-    font-size: 1.6rem;
-}
-
 
 @media screen and (max-width: 1000px) {
     .mulch-upper-section {
@@ -116,5 +112,12 @@
     .image-text-rubber-mulch-container {
         flex-direction: column;
     }
+
+    .rubber-mulch-info-left p {
+        max-width: 75vw;
+    }
     
+    .rubber-mulch-use-section {
+        margin-top: 3rem;
+    }
 }
