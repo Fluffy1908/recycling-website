@@ -118,8 +118,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/news' className='contact-us-nav'>
-                                <span>{t("navbar.news")}</span>
+                            <Link to='/dispose-tires' className='contact-us-nav'>
+                                <span>Dispose Tires</span>
                             </Link>
                         </li>
                         <li className='nav-item' >

@@ -10,7 +10,7 @@ import MetalCord from './pages/MetalCord';
 import BeadRing from './pages/BeadRing';
 import TextileCord from './pages/TextileCord';
 import Applications from './pages/Applications';
-import News from './pages/News';
+import DisposeTires from './pages/Dispose Tires';
 import ContactUs from './pages/ContactUs';
 import NoPage from './pages/NoPage';
 
@@ -30,7 +30,7 @@ function App() {
         <Route path='bead-ring' element={<BeadRing />} />
         <Route path='textile-cord' element={<TextileCord />} />
         <Route path='applications' element={<Applications />} />
-        <Route path='news' element={<News />} />
+        <Route path='dispose-tires' element={<DisposeTires />} />
         <Route path='contact-us' element={<ContactUs />} />
         <Route path='*' element={<NoPage />} />
       </Routes>
