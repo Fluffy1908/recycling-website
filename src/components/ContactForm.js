@@ -14,9 +14,6 @@ export default function ContactForm() {
   };
 
   return (
-  <div className="mui-test-1">
-
-    <div>
       <Box
         sx={{
           display: "flex",
@@ -62,12 +59,5 @@ export default function ContactForm() {
           </form>
         </Box>
       </Box>
-    </div>
-
-    <div className="mui-test2">
-      <h1>Hello World</h1>
-    </div>
-
-  </div>
   );
 }
