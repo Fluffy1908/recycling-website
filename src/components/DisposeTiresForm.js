@@ -1,11 +1,14 @@
 import React, { useRef, useState } from "react";
 import './DisposeTiresForm.css';
-import { TextField, Button, Typography, Box } from "@mui/material";
+import { TextField, Typography, Box } from "@mui/material";
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import Stack from '@mui/material/Stack';
 import emailjs from '@emailjs/browser';
 
 export default function DisposeTiresForm () {
@@ -112,7 +115,13 @@ export default function DisposeTiresForm () {
                             label="Additional comments"
                             margin="dense"  
                             />
-                        
+                            
+                            <Stack direction="row" spacing={2} style={{justifyContent: 'center'}} margin="dense" sx={{m: 1}}>
+                                <Button variant="contained" endIcon={<SendIcon />} size="large" type="submit">
+                                    Send
+                                </Button>
+                                </Stack>
+                                                    
                     </form>
             </Box>
 
