@@ -11,7 +11,7 @@ export default function DisposeTires () {
         <div className="dipose-page">
             <Navbar />
             <DisposeTiresForm />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     ) 
 }

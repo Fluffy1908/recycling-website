@@ -1,4 +1,44 @@
-.mui-test-1 {
+.contact-us-page-form {
     display: flex;
+    text-align: start;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-us-left-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.contact-us-left-container p {
+    width: 30rem;
+}
+
+.contact-us-right-container {
+    border: 0.10rem solid black;
+    border-radius: 0.25rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-us-page-form{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-us-left-container  {
+        text-align: center;
+        align-items: center;
+        margin-right: 0rem;
+    }
+
+    .contact-us-right-container{
+        border: none;
+    }
+
+    .contact-us-left-container p {
+        width: 20rem;
+    }
 }
