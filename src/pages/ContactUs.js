@@ -9,7 +9,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import ContactForm from "../components/ContactForm";
 import AccordionComponent from "../components/AccordionComponent";
 
-export default function ContactUs () {
+export default function ContactUs() {
 
     return (
         <>
