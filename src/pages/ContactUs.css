@@ -1,0 +1,65 @@
+.contact-upper-section-text {
+    text-align: center;
+}
+
+.reference-contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #f0f0f0; */
+    padding: 2rem;
+}
+
+.reference-container {
+    display: flex;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.contact-us-info-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-info-right h3 {
+    margin-bottom: 0;
+}
+
+.contact-us-info-right p {
+    margin-top: 0.40rem;
+}
+
+.icon-contact-us {
+    padding: 2rem;
+}
+
+#contact-us-connector {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.usually-asked-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 2rem ;
+}
+
+#usually-text {
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .reference-contact-us {
+        flex-direction: column;
+    }
+
+    .reference-container {
+        margin-bottom: 1rem;
+    }
+
+ }
