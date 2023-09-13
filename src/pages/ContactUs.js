@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './ContactUs.css';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -60,7 +60,7 @@ export default function ContactUs() {
         </div>
         
         <ContactForm />
-        <Footer />
+        <NewFooter />
         </>
       );
 }

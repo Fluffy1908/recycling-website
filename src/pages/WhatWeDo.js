@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './WhatWeDo.css';
 
 
@@ -52,7 +52,7 @@ export default function WhatWeDo () {
                     <p>Email: info@tirerecycling.com.ua</p>
                 </div>
 
-            <Footer />
+            <NewFooter />
         </>
     ) 
 }

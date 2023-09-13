@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './Application.css';
 
 export default function Applications () {
@@ -79,7 +79,7 @@ export default function Applications () {
                 </div>
 
             </div>
-            <Footer />
+            <NewFooter />
         </>
     ) 
 }

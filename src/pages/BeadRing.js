@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './BeadRing.css';
 
 export default function BeadRing () {
@@ -21,7 +21,7 @@ export default function BeadRing () {
                 <img src={factoryImage} alt="Factory Icon"/>
             </div>
         </section>
-            <Footer />
+            <NewFooter />
         </>
     ) 
 }

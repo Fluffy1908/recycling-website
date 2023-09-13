@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './RubberMulch.css';
 import { useTranslation } from 'react-i18next';
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
@@ -105,7 +105,7 @@ export default function RubberMulch () {
 
         </section>
 
-        <Footer />
+        <NewFooter />
         </>
     ) 
 }

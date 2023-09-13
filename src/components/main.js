@@ -1,6 +1,6 @@
 import React, { useTransition } from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+import NewFooter from "./NewFooter";
 import './main.css'
 import { useTranslation } from "react-i18next";
 
@@ -109,7 +109,7 @@ export default function Main() {
             </div>
 
 
-            <Footer />
+            <NewFooter />
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './TextileCord.css';
 
 export default function TextileCord () {
@@ -21,7 +21,7 @@ export default function TextileCord () {
         <img src={factoryImage} alt="Factory image"/>
     </div>
 </section>
-            <Footer />
+            <NewFooter />
         </>
     ) 
 }

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import global_en from "./translations/en/global.json";
 import global_ru from "./translations/ru/global.json";
 import global_ua from "./translations/ua/global.json"

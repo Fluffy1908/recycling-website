@@ -14,7 +14,7 @@ function Footer () {
 
             <div className="left-side-footer">
                 <Link to='/'>
-                    <img src="/images/recyclingLogo.png" alt="Logo Image"/>
+                    <img src="/images/recyclingLogo.png" alt="Recycling Logo"/>
                 </Link>
     
                 <p>(+38) 068 68 68 700 <br/>

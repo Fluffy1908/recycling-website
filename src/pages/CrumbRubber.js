@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import './CrumbRubber.css';
 import { useTranslation } from 'react-i18next';
 
@@ -73,7 +73,7 @@ export default function AboutUs () {
                 
                 </div>
             
-        <Footer />
+        <NewFooter />
         </>
     ) 
 }

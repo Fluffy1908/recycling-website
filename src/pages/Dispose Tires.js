@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import NewFooter from "../components/NewFooter";
 import DisposeTiresForm from "../components/DisposeTiresForm";
 import './DisposeTires.css';
 
@@ -10,7 +10,7 @@ export default function DisposeTires () {
         <div className="dipose-page">
             <Navbar />
             <DisposeTiresForm />
-            <Footer />
+            <NewFooter />
         </div>
     ) 
 }
