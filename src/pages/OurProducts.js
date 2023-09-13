@@ -10,11 +10,11 @@ export default function OurProducts () {
     return (
         <>
             <Navbar />
-            <h2 id="our-products-background">Our Products</h2>
+            <h2 id="our-products-background" className="mt-3">Our Products</h2>
 
-            <div className="our-products-upper-text">
+            <div className="our-products-upper-text mt-3">
                 <p>Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.</p>
-                <img src={starIcon} />
+                <img src={starIcon} alt="Star icon"/>
             </div>
 
             <div className="our-product-gallery">
@@ -37,7 +37,7 @@ export default function OurProducts () {
                 </div>
             </div>
 
-            <div className="our-product-gallery">
+            <div className="our-product-gallery mb-5">
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h2>Hello</h2></div>

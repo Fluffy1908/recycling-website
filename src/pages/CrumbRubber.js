@@ -14,14 +14,14 @@ export default function AboutUs () {
     return (
         <>
         <Navbar />
-            <h1 className="crumb-rubber-title">Crumb Rubber</h1>
+            <h1 className="crumb-rubber-title mt-3">Crumb Rubber</h1>
 
-            <div className="what-is-crumb-rubber">
+            <div className="what-is-crumb-rubber mt-3">
                 <h2>What is crumb rubber?</h2>
                 <p>Crumb rubber is a product of shredded tires into little granules of different fractions, the size of the fractions can reach up to 0.55mm on our factory. Depending on the size of the fraction, crumb rubber can be used in a variety of very differentindustries.</p>
             </div>
 
-            <div className="crumb-rubber-fractions">
+            <div className="crumb-rubber-fractions mt-3 mb-3">
                 <h2>Fractions of crumb rubber</h2>
                 <p>Our company provides crumb rubber sizes up to 0.55mm</p>
             </div>
@@ -48,9 +48,9 @@ export default function AboutUs () {
                 <div className="image-text-crumb-rubber-container">
                     
                     <div className="crumb-rubber-info-left">
-                        <h2>Rubberized asphalt</h2>
+                        <h2 className="mb-3">Rubberized asphalt</h2>
                         <img src={starIcon} alt="star icon"/>
-                        <p>Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.</p>
+                        <p className="mt-3">Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.</p>
                     </div>
 
                     <div className="crumb-rubber-info-right">
@@ -62,9 +62,9 @@ export default function AboutUs () {
                 <div className="image-text-crumb-rubber-container">
                     
                     <div className="crumb-rubber-info-left">
-                        <h2>Sport coverings</h2>
+                        <h2 className="mb-3">Sport coverings</h2>
                         <img src={starIcon} alt="star icon"/>
-                        <p>Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.</p>
+                        <p className="mt-3">Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.</p>
                     </div>
 
                     <div className="crumb-rubber-info-right">

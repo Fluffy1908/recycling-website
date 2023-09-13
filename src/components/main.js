@@ -23,22 +23,22 @@ export default function Main() {
             </div>
            
             <div className="about-us">
-                    <h1>About Us</h1>
-                    <h2>Tire Recycling UA</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim.
+                    <h1 className="mt-4">About Us</h1>
+                    <h2 className="mt-4">Tire Recycling UA</h2>
+                    <p className="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim.
                     </p>
             </div>
 
-            <div className="dispose-tires">
+            <div className="dispose-tires mt-4">
                 <h2 className="dispose-tires-text">Dispose Tires</h2>
-                <p>The main priority of our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and our specialist will contact you. Some text to test here</p>
-                <button className="dispose-button">Click me!</button>
+                <p className="mt-3">The main priority of our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and our specialist will contact you. Some text to test here</p>
+                <button className="dispose-button mt-3">Click me!</button>
             </div>
 
-            <div className="product-section">
+            <div className="product-section mt-4">
                 <h2>Our production</h2>
-                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots"/>
-                <p>Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis</p>
+                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots mt-3"/>
+                <p className="mt-4">Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis</p>
             </div>
 
             <div className="container">
@@ -71,13 +71,13 @@ export default function Main() {
                         </li>
                 </ul>
             </div>
-            <div className="product-section">
+            <div className="product-section mt-4">
                 <h2>Applications</h2>
-                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots"/>
-                <p>Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim.</p>
+                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots mt-3"/>
+                <p className="mt-4">Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim.</p>
             </div>
 
-            <div className="container">
+            <div className="container mb-5">
                     <ul className="image-gallery-one">
                         <li>
                             <img src="/images/factory-photo.jpg" alt="Crumb Rubber" />

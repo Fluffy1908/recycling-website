@@ -18,7 +18,7 @@ export default function BeadRing () {
             </div>
 
             <div className="textile-cord-info-right">
-                <img src={factoryImage} />
+                <img src={factoryImage} alt="Factory Icon"/>
             </div>
         </section>
             <Footer />

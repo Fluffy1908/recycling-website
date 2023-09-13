@@ -18,11 +18,11 @@ export default function AboutUs () {
         <>
             <Navbar />
             <div className="about-us-main-text">
-                <h2>Tire Recycling UA</h2>
-                <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed. Our extensive experience in the tire industry has helped us define the scale this ecological disaster and we started to act. Now Tire Recycling UA is the largest tire recycling company in Ukraine, recycling more than 15,000 tons per year, we give further life to more than two million tires. Annual investment in new equipment and expansion of our facilities throughout Ukraine helps us to increase the volume of processing every year, which will soon time will ensure the disposal and recycling of every used tire in the country.</p>
+                <h2 className="mt-3">Tire Recycling UA</h2>
+                <p className="mt-3">Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed. Our extensive experience in the tire industry has helped us define the scale this ecological disaster and we started to act. Now Tire Recycling UA is the largest tire recycling company in Ukraine, recycling more than 15,000 tons per year, we give further life to more than two million tires. Annual investment in new equipment and expansion of our facilities throughout Ukraine helps us to increase the volume of processing every year, which will soon time will ensure the disposal and recycling of every used tire in the country.</p>
             </div>
 
-            <div className="facts-section-one">
+            <div className="facts-section-one mt-3">
                 <h2>Facts</h2>
                 
                 <div className="row-one-about">

@@ -16,20 +16,20 @@ export default function WhatWeDo () {
         <>
             <Navbar />
                 
-                <div className="what-we-do-text">
+                <div className="what-we-do-text mt-3">
                     <h2>What We Do</h2>
-                    <img src={starIcon}></img>
-                    <p>Our company is engaged in the acceptance of used tires from companies and individuals in any quantity. Our recyclers benefit from used tires by crushing them into small granules, which can then be used to make rubber products, rubber floors, rubberized asphalt, playground mulch and more, click here to view the application. Tire collection points will soon appear in all corners of Ukraine to ensure the delivery of tires by enterprises and the population. Click here to view tire pick-up points. Recycling points will also be updated to ensure that the required volume of tires is recycled throughout Ukraine. To view the tire recycling points click here .</p>
+                    <img src={starIcon} alt="Star icon"></img>
+                    <p className="mt-3">Our company is engaged in the acceptance of used tires from companies and individuals in any quantity. Our recyclers benefit from used tires by crushing them into small granules, which can then be used to make rubber products, rubber floors, rubberized asphalt, playground mulch and more, click here to view the application. Tire collection points will soon appear in all corners of Ukraine to ensure the delivery of tires by enterprises and the population. Click here to view tire pick-up points. Recycling points will also be updated to ensure that the required volume of tires is recycled throughout Ukraine. To view the tire recycling points click here .</p>
                 </div>
 
                 <div className="visualization-images">
-                    <img src={tirevisuIcon}></img>
-                    <img src={rightArrow2} id="right-arrow"></img>
-                    <img src={factory2} id="factory-what-we-do"></img>
-                    <img src={rightArrow2} id="right-arrow"></img>
-                    <img src={crumbRubber2} id="factory-what-we-do"></img>
-                    <img src={rightArrow2} id="right-arrow"></img>
-                    <img src={enlargement}></img>
+                    <img src={tirevisuIcon} alt="Tire Vis Icon"></img>
+                    <img src={rightArrow2} id="right-arrow" alt="Right arrow"></img>
+                    <img src={factory2} id="factory-what-we-do" alt="Factory Icon 2"></img>
+                    <img src={rightArrow2} id="right-arrow" alt="Right arrow"></img>
+                    <img src={crumbRubber2} id="factory-what-we-do" alt="Factory Icon"></img>
+                    <img src={rightArrow2} id="right-arrow" alt="Right arrow"></img>
+                    <img src={enlargement} alt="Enlargement"></img>
                 </div>
 
                 <div className="collections-points">

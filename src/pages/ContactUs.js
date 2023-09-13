@@ -16,7 +16,7 @@ export default function ContactUs() {
         <Navbar />
         <div className="contact-upper-section">
           <div className="contact-upper-section-text">
-          <h1>Get in touch</h1>
+          <h1 className="mt-3">Get in touch</h1>
           <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.</p>
         </div>
 
@@ -56,7 +56,7 @@ export default function ContactUs() {
         </div>
 
         <div id="contact-us-connector">
-          <MoreVertIcon sx={{fontSize: 50}}/>
+          <MoreVertIcon sx={{fontSize: 50}} className="mt-3 mb-3"/>
         </div>
         
         <ContactForm />

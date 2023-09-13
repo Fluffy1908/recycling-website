@@ -13,15 +13,11 @@
     font-size: 5rem;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 4vh;
     display: inline-flex;
-    margin-left: 5vw;
-    margin-bottom: 10px;
   }
   
   .main-sec .content p {
     color: #fff;
-    margin-left: 5vw;
     max-width: 43.75rem;
     font-size: 1.20rem;
   }
@@ -47,21 +43,16 @@
     align-items: center;
     text-align: center;
   }
-
-  .dispose-tires-text {
-    margin-bottom: 0.75vh;
-    margin-top: 0.75vh;
-  }
   
   .dispose-tires p {
     max-width: 35vw;
   }
   
   .dispose-button {
-    margin-top: 1vh;
+    /* margin-top: 1vh; */
     padding: 0.75rem;
     color: orange;
-    margin-bottom: 1vh;
+    /* margin-bottom: 1vh; */
   }
   
   .product-section {
@@ -139,8 +130,5 @@
   .product-section p {
     max-width: 80vw;
   }
-
-  
-
 
 }

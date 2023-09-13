@@ -18,7 +18,7 @@ export default function MetalCord () {
                     </div>
 
                     <div className="metal-cord-info-right">
-                        <img src={factoryImage} />
+                        <img src={factoryImage} alt="Factory image"/>
                     </div>
                 </section>
             <Footer />

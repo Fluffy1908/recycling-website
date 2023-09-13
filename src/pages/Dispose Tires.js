@@ -3,15 +3,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import DisposeTiresForm from "../components/DisposeTiresForm";
 import './DisposeTires.css';
-import emailjs from '@emailjs/browser';
 
 export default function DisposeTires () {
 
     return (
         <div className="dipose-page">
             <Navbar />
-            {/* <DisposeTiresForm />
-            <Footer /> */}
+            <DisposeTiresForm />
+            <Footer />
         </div>
     ) 
 }

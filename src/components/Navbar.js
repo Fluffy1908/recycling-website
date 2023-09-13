@@ -1,151 +1,38 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import './NavbarStyles.css'
-import { useTranslation } from 'react-i18next'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-function Navbar() {
-        const [t, i18n] = useTranslation("global");
-        const [click, setClick] = useState(false);
-        const [dropClick, setDropClick] = useState(false);
-
-        const logo = "/images/recyclingLogo.png"
-        
-        const handleChangeLanguage = (lang) => {
-            i18n.changeLanguage(lang)
-        }
-
-    return (
-        <>
-            <nav>
-                <Link to='/' id='logo'> 
-                    <img src={logo} />
-                </Link>
-                <div>
-                    <ul id="navbar" className= {click ? "#navbar active" : "navbar"}>
-                        <li className='nav-item' >
-                            <Link to='/' className='contact-us-nav'>
-                                <span className="active">{t("navbar.home")}</span>
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/about-us' className='contact-us-nav'>
-                                <span>{t("navbar.aboutUs")}</span>
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/what-we-do' className='contact-us-nav'>
-                                <span>{t("navbar.whatWeDo")}</span>
-                            </Link>
-                        </li>
-                        
-                        <li className='nav-item'>
-                            
-                            <Link to='/our-products' className='contact-us-nav'>
-                                {/* <span>{t("navbar.ourProducts")}</span> */}
-                               
-                                <div className='dropdown'>
-                                    <button className="dropbtn">
-                                    <span id="dropdown-menu-bottom">Our Products </span><i className='fa fa-caret-down' id='mobile-hide-dropdown-icon'></i>
-                                    </button>
-                                
-                                <div className='dropdown-content' id='mobile-hide-dropdown'>
-                                    <Link to='/our-products' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Overview</p>
-                                    </Link>
-
-                                    <Link to='/crumb-rubber' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Crumb Rubber</p>
-                                    </Link>
-
-                                    <Link to='/rubber-mulch' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Rubber Mulch</p>
-                                    </Link>
-
-                                    <Link to='/metal-cord' 
-                                    className='contact-us-nav'>
-                                    <p className='dropdown-links'>Metal Cord</p>
-                                    </Link>
-
-                                    <Link to='/bead-ring' 
-                                    className='contact-us-nav'>
-                                    <p className='dropdown-links'>Bead Ring</p>
-                                    </Link>
-
-                                    <Link to='/textile-cord' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Textile Cord</p>
-                                    </Link>
-
-                                </div>
-                                </div>
-                            </Link>    
-                        </li>
-                        
-                        <li className='nav-item-mobile'>
-                                {/* <span>{t("navbar.ourProducts")}</span> */}
-                                <div className='dropdown'>
-                                    <button className="dropbtn">
-                                    <span id="dropdown-menu-bottom" onClick={() => setDropClick(!dropClick)}>Product List </span><i className='fa fa-caret-down'></i>
-                                    </button>
-                                <div className='dropdown-content' id= {dropClick ?  "#mobile-active" : "mobile-inactive"}>
-                                    <Link to='/crumb-rubber' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Crumb Rubber</p>
-                                    </Link>
-
-                                    <Link to='/rubber-mulch' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Rubber Mulch</p>
-                                    </Link>
-
-                                    <Link to='/metal-cord' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Metal Cord</p>
-                                    </Link>
-
-                                    <Link to='/bead-ring' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Bead Ring</p>
-                                    </Link>
-
-                                    <Link to='/textile-cord' className='contact-us-nav'>
-                                    <p className='dropdown-links'>Textile Cord</p>
-                                    </Link>
-
-                                </div>
-                                </div>  
-                        </li>
-                        
-                        <li className='nav-item'>
-                            <Link to='/applications' className='contact-us-nav'>
-                                <span>{t("navbar.applications")}</span>
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/dispose-tires' className='contact-us-nav'>
-                                <span>Dispose Tires</span>
-                            </Link>
-                        </li>
-                        <li className='nav-item' >
-                            <Link to='/contact-us' className='contact-us-nav'>
-                                <span>{t("navbar.contactUs")}</span>
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-                {/* <div className='language-options'>
-                    <span className="individual-lang-option-en" onClick={() => handleChangeLanguage("en")}>ENG</span>
-                    <span className="individual-lang-option-ru" onClick={() => handleChangeLanguage("ru")}>RU</span>
-                    <span className="individual-lang-option-ua" onClick={() => handleChangeLanguage("ua")}>UA</span>
-                </div> */}
-
-                <div id='mobile'
-                onClick={() => setClick(!click)}>
-                    <i 
-                    id='bar'
-                    className=
-                    {click ? "fas fa-times" : "fas fa-bars"}
-                    ></i>
-                </div>
-            </nav>
-        </>
-    )
+function NavbarComponent() {
+  return (
+    
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+      <Container>
+        <Navbar.Brand as={Link} to="/">Tire Recycling UA</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/what-we-do">What We Do</Nav.Link>
+            <NavDropdown title="Our Products" id="collapsible-nav-dropdown">
+              <NavDropdown.Item as={Link} to="/our-products">Overview</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/crumb-rubber">Crumb Rubber</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/rubber-mulch">Rubber Mulch</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/metal-cord">Metal Cord</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/bead-ring">Bead Ring</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/textile-cord">Textile Cord</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link as={Link} to="/applications">Applications</Nav.Link>
+            <Nav.Link as={Link} to="/dispose-tires">Dispose Tires</Nav.Link>
+            <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar;
+export default NavbarComponent;

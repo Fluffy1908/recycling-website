@@ -17,7 +17,7 @@ export default function RubberMulch () {
     return (
         <>
         <Navbar />
-            <h1 id="rubber-mulch-main-text">Rubber Mulch</h1>
+            <h1 id="rubber-mulch-main-text" className="mt-3">Rubber Mulch</h1>
         
         <section className="mulch-upper-section">
             
@@ -27,7 +27,7 @@ export default function RubberMulch () {
             </div>
 
             <div className="what-is-rubber-mulch-image">
-                <img src={factoryImage} />
+                <img src={factoryImage} alt="Factory icon"/>
             </div>
 
         </section>
@@ -74,9 +74,9 @@ export default function RubberMulch () {
             <div className="image-text-rubber-mulch-container">
                     
                     <div className="rubber-mulch-info-left">
-                        <h2>Landscape for your houses</h2>
+                        <h2 className="mb-3">Landscape for your houses</h2>
                         <img src={starIcon} alt="star icon"/>
-                        <p>Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
+                        <p className="mt-3">Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
                     </div>
 
                     <div className="rubber-mulch-info-right">
@@ -90,9 +90,9 @@ export default function RubberMulch () {
                 <div className="image-text-rubber-mulch-container">
                     
                     <div className="rubber-mulch-info-left">
-                        <h2>Coating for playgrounds</h2>
+                        <h2 className="mb-3">Coating for playgrounds</h2>
                         <img src={starIcon} alt="star icon"/>
-                        <p>Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
+                        <p className="mt-3">Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.</p>
                     </div>
 
                     <div className="rubber-mulch-info-right">

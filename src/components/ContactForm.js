@@ -11,9 +11,9 @@ export default function ContactForm() {
     <>
       <div className="contact-us-page-form">
         <div className="contact-us-left-container">
-          <h2>Message Us</h2>
+          <h2 className="mb-3">Message Us</h2>
           <span><MessageOutlinedIcon sx={{ fontSize: 60 }}/></span>
-          <p>If you wish to be considered for employment at Weifield, please do not send a message, here instead, please complete Weifields job application  and our Human Resources department will contact you after their review of your submitted information.</p>
+          <p className="mt-3">If you wish to be considered for employment at Weifield, please do not send a message, here instead, please complete Weifields job application  and our Human Resources department will contact you after their review of your submitted information.</p>
         </div>
 
         <div className="contact-us-right-container">
