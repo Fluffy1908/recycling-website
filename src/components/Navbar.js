@@ -6,12 +6,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavbarComponent() {
+  function ScrollToTopMain() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    console.log("Scroll function run.")
+  }
 
   return (
     <>
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky='top'>
       <Container>
-        <Navbar.Brand as={Link} to="/" >Tire Recycling UA</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" onClick={ScrollToTopMain}>Tire Recycling UA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
