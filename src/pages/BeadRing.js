@@ -9,7 +9,7 @@ export default function BeadRing () {
     return (
         <>
             <Navbar />
-            <h1 id="textile-cord-main-text">Bead Ring</h1>
+            <h1 id="textile-cord-main-text" className="mt-3">Bead Ring</h1>
 
         <section className="textile-cord-component">
             <div className="textile-cord-info-left">

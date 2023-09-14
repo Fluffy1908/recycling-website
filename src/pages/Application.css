@@ -49,7 +49,7 @@
 
 .application-image-container img {
     border-radius: 1rem;
-    width: 24vw;
+    width: 19vw;
 }
 
 @media screen and (max-width: 1000px) {

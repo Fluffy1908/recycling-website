@@ -6,23 +6,22 @@
 }
 
 .what-we-do-text img {
-    max-width: 5vw;
+    width: 4vw;
     margin: 1rem;
 }
 
 .what-we-do-text p {
-    max-width: 50vw;
+    width: 50vw;
     text-align: center;
 }
 
 .visualization-images {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
 }
 
 .visualization-images img {
-    max-width: 4vw;
+    width: 4vw;
     margin-left: 1rem;
 }
 
@@ -30,17 +29,55 @@
     opacity: 0.95;
 }
 
-.collections-points {
-    text-align: center;
-    margin-top: 4rem;
+.proc-col-points {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
-.processing-points {
-    text-align: center;
-    margin-top: 4rem;
+.proc-col-points .collections-points {
+    margin-right: 6rem;
 }
 
-.areas-of-use {
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
+.proc-col-points .collections-points p {
+    width: 25rem;
+}
+
+.proc-col-points .processing-points p {
+    width: 25rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .proc-col-points {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .proc-col-points .collections-points {
+        margin-right: 0rem;
+    }
+
+    .what-we-do-text img {
+        width: 12vw;
+        margin: 1rem;
+    }
+
+    .what-we-do-text p {
+        width: 80vw;
+    }
+
+    .visualization-images img {
+        width: 9vw;
+        margin-left: 1rem;
+    }
+
+    .proc-col-points .collections-points {
+        margin-top: 0.50rem;
+    }
+
+    .proc-col-points .processing-points {
+        margin-top: 2rem;
+    }
+
 }

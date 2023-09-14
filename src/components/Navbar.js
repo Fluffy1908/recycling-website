@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function NavbarComponent() {
   return (
     
-    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky='top' >
       <Container>
         <Navbar.Brand as={Link} to="/">Tire Recycling UA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

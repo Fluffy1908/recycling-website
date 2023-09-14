@@ -9,7 +9,7 @@ export default function MetalCord () {
     return (
         <>
             <Navbar />
-                <h1 id="metal-cord-main-text">Metal Cord</h1>
+                <h1 id="metal-cord-main-text" className="mt-3">Metal Cord</h1>
 
                 <section className="metal-cord-component">
                     <div className="metal-cord-info-left">

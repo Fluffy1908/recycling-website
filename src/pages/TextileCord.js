@@ -9,7 +9,7 @@ export default function TextileCord () {
     return (
         <>
             <Navbar />
-            <h1 id="textile-cord-main-text">Textile Cord</h1>
+            <h1 id="textile-cord-main-text" className="mt-3">Textile Cord</h1>
 
 <section className="textile-cord-component">
     <div className="textile-cord-info-left">
@@ -18,7 +18,7 @@ export default function TextileCord () {
     </div>
 
     <div className="textile-cord-info-right">
-        <img src={factoryImage} alt="Factory image"/>
+        <img src={factoryImage} alt="Factory img"/>
     </div>
 </section>
             <NewFooter />

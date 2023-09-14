@@ -22,7 +22,7 @@ export default function WhatWeDo () {
                     <p className="mt-3">Our company is engaged in the acceptance of used tires from companies and individuals in any quantity. Our recyclers benefit from used tires by crushing them into small granules, which can then be used to make rubber products, rubber floors, rubberized asphalt, playground mulch and more, click here to view the application. Tire collection points will soon appear in all corners of Ukraine to ensure the delivery of tires by enterprises and the population. Click here to view tire pick-up points. Recycling points will also be updated to ensure that the required volume of tires is recycled throughout Ukraine. To view the tire recycling points click here .</p>
                 </div>
 
-                <div className="visualization-images">
+                <div className="visualization-images mt-5">
                     <img src={tirevisuIcon} alt="Tire Vis Icon"></img>
                     <img src={rightArrow2} id="right-arrow" alt="Right arrow"></img>
                     <img src={factory2} id="factory-what-we-do" alt="Factory Icon 2"></img>
@@ -32,6 +32,7 @@ export default function WhatWeDo () {
                     <img src={enlargement} alt="Enlargement"></img>
                 </div>
 
+            <div className="proc-col-points">
                 <div className="collections-points">
                     <h2>Collection Points</h2>
                     <h4>Dnipro:</h4>
@@ -51,6 +52,7 @@ export default function WhatWeDo () {
                     <p>Tel. (+38) 068 68 68 700</p>
                     <p>Email: info@tirerecycling.com.ua</p>
                 </div>
+            </div>
 
             <NewFooter />
         </>
