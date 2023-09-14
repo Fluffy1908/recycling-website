@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Main from './components/main'
 import { BrowserRouter, Route, Routes } from 'react-router-dom' 
+import ScrollToTop from './components/ScrollToTop';
 import AboutUs from './pages/AboutUs';
 import WhatWeDo from './pages/WhatWeDo';
 import OurProducts from './pages/OurProducts';
@@ -20,6 +21,7 @@ import NoPage from './pages/NoPage';
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path='about-us' element={<AboutUs />} />
