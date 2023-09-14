@@ -6,9 +6,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavbarComponent() {
-  function scrollToTop() {
-    window.scrollTo(0,0);
-  }
+
+  function scrollToTop () {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  };
 
   return (
     <>
