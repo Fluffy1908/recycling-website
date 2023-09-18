@@ -1,18 +1,31 @@
 {
     "navbar" : {
         "home" : "Главная",
-        "aboutUs": "О Нас",
-        "whatWeDo": "Деятельность",
-        "ourProducts": "Наши Продукты",
-        "applications": "Применение",
-        "news": "Новости",
-        "contactUs": "Контакты"
+        "about-us": "О Нас",
+        "what-we-do": "Деятельность",
+        "our-products": "Наша продукция",
+        "overview": "Общее",
+        "crumb-rubber": "Резиновая крошка",
+        "rubber-mulch": "Резиновая мульча",
+        "metal-cord": "Металический корд",
+        "bead-ring": "Бортовое кольцо",
+        "textile-cord": "Текстильный корд",
+        "applications": "Применения",
+        "dispose-tires": "Сдать шины",
+        "contact-us": "Контакты"
     },
-    "home": {
-        "body" : "Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст "
+
+    "footer": {
+        "some" : "footer"
     },
-    "aboutUs": {
-        "upperText": "О Нас Перевод Тут ",
-        "body": "Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст"
-    }
+    
+    "home-main": {
+        "body" : "A store deisgned for all your pet needs"
+    },
+    
+    "aboutUs-main": {
+            "upperText": "About Us",
+            "tire-res-main": "Tire Recycling UA",
+            "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+        }
 }
