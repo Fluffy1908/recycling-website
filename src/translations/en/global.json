@@ -224,5 +224,76 @@
     "applications-page": {
         "applications-upper-text": "Applications",
         "applications-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces."
+    },
+
+
+
+
+
+    "dispose-tires-page": {
+        "dispose-tires-upper-text": "Dispose Tires",
+
+        "option-1-name": "Name",
+        "option-2-email": "Email",
+        "option-3-phone": "Phone",
+        "option-4-company": "Company",
+        
+        "tire-type": "Tire Type",
+        "tire-option-1": "Passenger tire",
+        "tire-option-2": "Truck tire",
+        "tire-option-3": "OTR",
+        "tire-option-4": "OTR EL",
+        "tire-option-5": "Agricultural",
+        "tire-option-6": "Studded",
+        "tire-option-7": "Different tires",
+
+        "how-many-tires-text": "How many tires do you have?",
+        "your-location-text": "Your location (Country, region)",
+
+        "do-you-have-vehicle-text": "Do you have vehicle to deliver tires to the collection point?",
+        "option-yes": "Yes",
+        "option-no": "No",
+
+        "additional-comments": "Additional comments",
+
+        "submit-button-text": "Send"
+    },
+
+
+
+
+
+    "contact-us-page": {
+        "get-in-touch-upper-text": "Get in touch",
+        "get-in-touch-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.",
+
+        "address-upper-text": "Address",
+        "address-lower-text1": "4671 Sugar Camp Road,",
+        "address-lower-text2": "Owatinna, Minnesota",
+        "address-lower-text3": "55060",
+
+        "phone-text": "Phone",
+        "phone-numbers": "+38 067 630 68 11",
+
+        "email-text": "Email",
+        "email-lower-text": "shinov.tima@gmail.com",
+
+        "usually-asked-questions-text": "Usually asked questions",
+
+        "accordion-1-title": "Option 1",
+        "accordion-1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+
+        "accordion-2-title": "Option 2",
+        "accordion-2-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+
+        "message-us-upper-text": "Message Us",
+        "message-us-main-text": "If you wish to be considered for employment at Weifield, please do not send a message, here instead, please complete Weifields job application  and our Human Resources department will contact you after their review of your submitted information.",
+
+        "option-1-name": "Name",
+        "option-2-email": "Email",
+        "option-3-phone": "Phone",
+        "option-4-company": "Company",
+        "option-5-additional-comments": "Additional comments",
+        "send-button-text": "SEND"
     }
 }
