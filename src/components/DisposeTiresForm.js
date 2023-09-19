@@ -33,8 +33,7 @@ export default function DisposeTiresForm () {
                         // value=""
                         margin="normal"
                         required
-                        align="center"
-                        color="success"/>
+                        align="center"/>
 
                         <TextField
                         fullWidth

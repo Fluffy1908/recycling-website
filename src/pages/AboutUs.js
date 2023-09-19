@@ -2,10 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './AboutUs.css';
-import { useTranslation } from 'react-i18next';
 
 export default function AboutUs () {
-    const [t, i18n] = useTranslation("global");
 
     const tireIcon = "/images/tire.png"
     const starIcon = "/images/star.png"
