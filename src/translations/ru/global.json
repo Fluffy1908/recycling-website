@@ -1,18 +1,18 @@
 {
     "navbar" : {
-        "home" : "Home",
-        "about-us": "About Us",
-        "what-we-do": "What We Do",
-        "our-products": "Our Products",
-        "overview": "Overview",
-        "crumb-rubber": "Crumb Rubber",
-        "rubber-mulch": "Rubber Mulch",
-        "metal-cord": "Metal Cord",
-        "bead-ring": "Bead Ring",
-        "textile-cord": "Textile Cord",
-        "applications": "Applications",
-        "dispose-tires": "Dispose Tires",
-        "contact-us": "Contact Us"
+        "home" : "Главная",
+        "about-us": "О нас",
+        "what-we-do": "Деятельность",
+        "our-products": "Наша продукция",
+        "overview": "Общее",
+        "crumb-rubber": "Резиновая Крошка",
+        "rubber-mulch": "Резиновая Мульча",
+        "metal-cord": "Металический корд",
+        "bead-ring": "Бортовое кольцо",
+        "textile-cord": "Текстильный корд",
+        "applications": "Применения",
+        "dispose-tires": "Сдать шины",
+        "contact-us": "Контакты"
     },
 
     "footer": {
@@ -29,7 +29,7 @@
     },
     
     "aboutUs-main": {
-            "upperText": "About Us",
+            "upperText": "О Нас",
             "tire-res-main": "Tire Recycling UA",
             "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
         },
