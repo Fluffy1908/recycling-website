@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './OurProducts.css';
@@ -6,14 +7,16 @@ import './OurProducts.css';
 export default function OurProducts () {
     const starIcon = "/images/star.png"
     const testImage = "/images/crumb-rubber.jpg"
+
+    const [ t ] = useTranslation("global")
     
     return (
         <>
             <Navbar />
-            <h2 id="our-products-background" className="mt-3">Our Products</h2>
+            <h2 id="our-products-background" className="mt-3">{t("our-products-overview-page.our-products-upper-text")}</h2>
 
             <div className="our-products-upper-text mt-3">
-                <p>Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.</p>
+                <p>{t("our-products-overview-page.our-products-main-text")}</p>
                 <img src={starIcon} alt="Star icon"/>
             </div>
 

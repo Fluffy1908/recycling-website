@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './WhatWeDo.css';
@@ -12,14 +13,16 @@ export default function WhatWeDo () {
     const crumbRubber2 = "/images/crumb-rubber5.png"
     const enlargement = "/images/enlargement.png"
 
+    const [ t ] = useTranslation("global")
+
     return (
         <>
             <Navbar />
                 
                 <div className="what-we-do-text mt-3">
-                    <h2>What We Do</h2>
+                    <h2>{t("what-we-do-page.what-we-do-upper-text")}</h2>
                     <img src={starIcon} alt="Star icon"></img>
-                    <p className="mt-3">Our company is engaged in the acceptance of used tires from companies and individuals in any quantity. Our recyclers benefit from used tires by crushing them into small granules, which can then be used to make rubber products, rubber floors, rubberized asphalt, playground mulch and more, click here to view the application. Tire collection points will soon appear in all corners of Ukraine to ensure the delivery of tires by enterprises and the population. Click here to view tire pick-up points. Recycling points will also be updated to ensure that the required volume of tires is recycled throughout Ukraine. To view the tire recycling points click here .</p>
+                    <p className="mt-3">{t("what-we-do-page.what-we-do-main-text")}</p>
                 </div>
 
                 <div className="visualization-images mt-5">
@@ -34,23 +37,23 @@ export default function WhatWeDo () {
 
             <div className="proc-col-points">
                 <div className="collections-points">
-                    <h2>Collection Points</h2>
-                    <h4>Dnipro:</h4>
-                    <p>The first collection point is located at st. Boris Krotova, 16, Dnipro Dnipropetrovsk Region, 49000
+                    <h2>{t("what-we-do-page.collection-points.upper-text")}</h2>
+                    <h4>{t("what-we-do-page.collection-points.city")}:</h4>
+                    <p>{t("what-we-do-page.collection-points.main-text")}
                     </p>
-                    <p>Contacts for communication:</p>
-                    <p>Tel. (+38) 068 68 68 700</p>
-                    <p>Email: info@tirerecycling.com.ua</p>
+                    <p>{t("what-we-do-page.collection-points.contacts-for-communication-text")}</p>
+                    <p>{t("what-we-do-page.collection-points.phone-number")}</p>
+                    <p>{t("what-we-do-page.collection-points.email")}</p>
                 </div>
                 
                 <div className="processing-points">
-                    <h2>Processing Points</h2>
-                    <h4>Dnipro:</h4>
-                    <p>Our main processing plant is located in the city of Dnipro at the address st. Boris Krotova, 16, Dnipro Dnipropetrovsk Region,49000
+                    <h2>{t("what-we-do-page.processing-points.upper-text")}</h2>
+                    <h4>{t("what-we-do-page.processing-points.city")}</h4>
+                    <p>{t("what-we-do-page.processing-points.main-text")}
                     </p>
-                    <p>Contacts for communication:</p>
-                    <p>Tel. (+38) 068 68 68 700</p>
-                    <p>Email: info@tirerecycling.com.ua</p>
+                    <p>{t("what-we-do-page.processing-points.contacts-for-communication-text")}</p>
+                    <p>{t("what-we-do-page.processing-points.phone-number")}</p>
+                    <p>{t("what-we-do-page.processing-points.email")}</p>
                 </div>
             </div>
 

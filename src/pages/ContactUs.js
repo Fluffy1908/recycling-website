@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './ContactUs.css';
@@ -10,14 +11,15 @@ import ContactForm from "../components/ContactForm";
 import AccordionComponent from "../components/AccordionComponent";
 
 export default function ContactUs() {
+    const [ t ] = useTranslation("global");
 
     return (
         <>
         <Navbar />
         <div className="contact-upper-section">
           <div className="contact-upper-section-text">
-          <h1 className="mt-3">Get in touch</h1>
-          <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.</p>
+          <h1 className="mt-3">{t("contact-us-page.get-in-touch-upper-text")}</h1>
+          <p>{t("contact-us-page.get-in-touch-main-text")}</p>
         </div>
 
           <div className="reference-contact-us">
@@ -25,24 +27,26 @@ export default function ContactUs() {
             <div className="reference-container"> 
               <div className="icon-contact-us"><LocationOnIcon sx={{fontSize: 50}}/></div>
               <div className="contact-us-info-right">
-                <h3>Address</h3>
-                <p>4671 Sugar Camp Road, <br/> Owatinna, Minnesota, <br/> 55060</p>
+                <h3>{t("contact-us-page.address-upper-text")}</h3>
+                <p>{t("contact-us-page.address-lower-text1")}</p>
+                <p>{t("contact-us-page.address-lower-text2")}</p>
+                <p>{t("contact-us-page.address-lower-text3")}</p>
               </div>
             </div>
            
             <div className="reference-container"> 
               <div className="icon-contact-us"><LocalPhoneIcon sx={{fontSize: 50}}/></div>
               <div className="contact-us-info-right">
-                <h3>Phone</h3>
-                <h4>+38 067 630 68 11</h4>
+                <h3>{t("contact-us-page.phone-text")}</h3>
+                <h4>{t("contact-us-page.phone-numbers")}</h4>
               </div>
             </div>
             
             <div className="reference-container"> 
               <div className="icon-contact-us"><MailIcon sx={{fontSize: 50}}/></div>
               <div className="contact-us-info-right">
-                <h3>Email</h3>
-                <h4>shinov.tima@gmail.com</h4>
+                <h3>{t("contact-us-page.email-text")}</h3>
+                <h4>{t("contact-us-page.email-lower-text")}</h4>
               </div>
             </div>
           </div>
@@ -50,7 +54,7 @@ export default function ContactUs() {
         </div>
 
         {/* Accordion section component*/}
-        <h2 id="usually-text">Usually asked questions</h2>
+        <h2 id="usually-text">{t("contact-us-page.usually-asked-questions-text")}</h2>
         <div className="usually-asked-contact">
           <AccordionComponent />
         </div>

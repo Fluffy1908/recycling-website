@@ -22,9 +22,9 @@ export default function Main() {
             </div>
            
             <div className="about-us">
-                    <h1 className="mt-4">{t("aboutUs-main.upperText")}</h1>
-                    <h2 className="mt-4">{t("aboutUs-main.tire-res-main")}</h2>
-                    <p className="mt-2">{t("aboutUs-main.about-us-text")}</p>
+                    <h1 className="mt-4">{t("about-us-main.upperText")}</h1>
+                    <h2 className="mt-4">{t("about-us-main.tire-res-main")}</h2>
+                    <p className="mt-2">{t("about-us-main.about-us-text")}</p>
             </div>
 
             <div className="dispose-tires mt-4">

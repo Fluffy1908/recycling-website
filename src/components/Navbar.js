@@ -16,14 +16,14 @@ const languages = [
     country_code: 'gb'
   },
   {
+    code: 'ua',
+    name: 'Український',
+    country_code: 'ua'
+  },
+  {
     code: 'ru',
     name: 'Русский',
     country_code: 'ru'
-  },
-  {
-    code: 'ua',
-    name: 'Ukrainian',
-    country_code: 'ua'
   },
 ]
 

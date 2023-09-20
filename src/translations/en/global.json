@@ -28,7 +28,7 @@
         "body" : "A store deisgned for all your pet needs"
     },
     
-    "aboutUs-main": {
+    "about-us-main": {
             "upperText": "About Us",
             "tire-res-main": "Tire Recycling UA",
             "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
@@ -52,7 +52,7 @@
     
     "application-section-main": {
         "application-text-upper": "Applications",
-        "applicaiton-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+        "application-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
     },
 
 
@@ -139,10 +139,10 @@
         "size-5-10": "5-10mm",
 
         "rubberized-asphalt-upper-text": "Rubberized asphalt",
-        "rubberized-asphalt-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.",
+        "rubberized-asphalt-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.",
 
         "sports-covering-upper-text": "Sport coverings",
-        "sports-covering-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. <br/> Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt."
+        "sports-covering-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt."
     },
 
 
@@ -203,7 +203,7 @@
     
     "bead-ring-page": {
         "bead-ring-upper-text": "Bead Ring",
-        "what-is-bead-ring-upper-text": "What is metal cord?",
+        "what-is-bead-ring-upper-text": "What is bead ring?",
         "what-is-bead-ring-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
     },
 
@@ -294,6 +294,6 @@
         "option-3-phone": "Phone",
         "option-4-company": "Company",
         "option-5-additional-comments": "Additional comments",
-        "send-button-text": "SEND"
+        "send-button-text": "Send"
     }
 }
