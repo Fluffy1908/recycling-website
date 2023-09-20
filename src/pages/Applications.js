@@ -5,8 +5,8 @@ import NewFooter from "../components/NewFooter";
 import './Application.css';
 
 export default function Applications () {
-    const starIcon = "/images/star.png"
-    const testImage = "/images/crumb-rubber.jpg"
+    const starIcon = "/images/star.webp"
+    const testImage = "/images/crumb-rubber.webp"
 
     const [ t ] = useTranslation("global");
 

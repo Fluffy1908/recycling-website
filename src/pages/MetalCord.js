@@ -5,7 +5,7 @@ import NewFooter from "../components/NewFooter";
 import './MetalCord.css';
 
 export default function MetalCord () {
-    const factoryImage = "/images/factory-photo.jpg"
+    const factoryImage = "/images/factory-photo.webp"
 
     const [ t ] = useTranslation("global");
     

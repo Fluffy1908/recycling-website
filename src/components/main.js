@@ -5,9 +5,9 @@ import './main.css'
 import { useTranslation } from "react-i18next";
 
 export default function Main() {
-    const tireHeader = "/images/rec-header.jpg"
-    // const grassImage = "/images/grass.jpg"
-    const testImage = "/images/crumb-rubber.jpg"
+    const tireHeader = "/images/rec-header.webp"
+    const testImage = "/images/crumb-rubber.webp"
+    const goldIngotsImage = "/images/gold-ingots.webp"
 
     const [ t ] = useTranslation("global")
     
@@ -35,7 +35,7 @@ export default function Main() {
 
             <div className="product-section mt-4">
                 <h2>{t("production-section-main.our-production-text-upper")}</h2>
-                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots mt-3"/>
+                <img src={goldIngotsImage} alt="Products" className="gold-ingots mt-3"/>
                 <p className="mt-4">{t("production-section-main.our-production-text")}</p>
             </div>
         
@@ -82,7 +82,7 @@ export default function Main() {
 
             <div className="product-section mt-4">
                 <h2>{t("application-section-main.application-text-upper")}</h2>
-                <img src="/images/gold-ingots.png" alt="Products" className="gold-ingots mt-3"/>
+                <img src={goldIngotsImage} alt="Products" className="gold-ingots mt-3"/>
                 <p className="mt-4">{t("application-section-main.application-text")}</p>
             </div>
             

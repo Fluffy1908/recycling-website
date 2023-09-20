@@ -8,9 +8,9 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 export default function RubberMulch () {
     const [ t ] = useTranslation("global");
     
-    const testImage = "/images/crumb-rubber.jpg"
-    const factoryImage = "/images/factory-photo.jpg"
-    const starIcon = "/images/star.png"
+    const testImage = "/images/crumb-rubber.webp"
+    const factoryImage = "/images/factory-photo.webp"
+    const starIcon = "/images/star.webp"
 
     const iconCheckMark = <IoIosCheckmarkCircleOutline size={20} id="checkmark-option"/>
 

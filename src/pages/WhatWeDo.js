@@ -6,12 +6,12 @@ import './WhatWeDo.css';
 
 
 export default function WhatWeDo () {
-    const starIcon = "/images/star.png"
-    const tirevisuIcon = "/images/tire-visu.png"
-    const rightArrow2 = "/images/right-arrow2.png"
-    const factory2 = "/images/factory.png"
-    const crumbRubber2 = "/images/crumb-rubber5.png"
-    const enlargement = "/images/enlargement.png"
+    const starIcon = "/images/star.webp"
+    const tirevisuIcon = "/images/tire-visu.webp"
+    const rightArrow2 = "/images/right-arrow2.webp"
+    const factory2 = "/images/factory.webp"
+    const crumbRubber2 = "/images/crumb-rubber5.webp"
+    const enlargement = "/images/enlargement.webp"
 
     const [ t ] = useTranslation("global")
 

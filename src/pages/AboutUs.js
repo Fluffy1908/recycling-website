@@ -7,12 +7,12 @@ import './AboutUs.css';
 
 export default function AboutUs () {
 
-    const tireIcon = "/images/tire.png"
-    const starIcon = "/images/star.png"
-    const employeeIcon = "/images/employees.png"
-    const handIcon = "/images/handshake.png"
-    const factoryIcon = "/images/eco-factory.png"
-    const earthIcon = "/images/globe-earth.png"
+    const tireIcon = "/images/tire.webp"
+    const starIcon = "/images/star.webp"
+    const employeeIcon = "/images/employees.webp"
+    const handIcon = "/images/handshake.webp"
+    const factoryIcon = "/images/eco-factory.webp"
+    const earthIcon = "/images/globe-earth.webp"
     
     const [ t ] = useTranslation("global")
 

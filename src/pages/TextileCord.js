@@ -5,7 +5,7 @@ import NewFooter from "../components/NewFooter";
 import './TextileCord.css';
 
 export default function TextileCord () {
-    const factoryImage = "/images/factory-photo.jpg"
+    const factoryImage = "/images/factory-photo.webp"
 
     const [ t ] = useTranslation("global");
     

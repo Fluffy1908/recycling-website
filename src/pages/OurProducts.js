@@ -5,8 +5,8 @@ import NewFooter from "../components/NewFooter";
 import './OurProducts.css';
 
 export default function OurProducts () {
-    const starIcon = "/images/star.png"
-    const testImage = "/images/crumb-rubber.jpg"
+    const starIcon = "/images/star.webp"
+    const testImage = "/images/crumb-rubber.webp"
 
     const [ t ] = useTranslation("global")
     
