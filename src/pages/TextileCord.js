@@ -1,20 +1,23 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './TextileCord.css';
 
 export default function TextileCord () {
     const factoryImage = "/images/factory-photo.jpg"
+
+    const [ t ] = useTranslation("global");
     
     return (
         <>
             <Navbar />
-            <h1 id="textile-cord-main-text" className="mt-3">Textile Cord</h1>
+            <h1 id="textile-cord-main-text" className="mt-3">{t("textile-cord-page.textile-cord-upper-text")}</h1>
 
 <section className="textile-cord-component">
     <div className="textile-cord-info-left">
-        <h2>What is Textile Cord?</h2>
-        <p>Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.</p>
+        <h2>{t("textile-cord-page.what-is-textile-cord-upper-text")}</h2>
+        <p>{t("textile-cord-page.what-is-textile-cord-main-text")}</p>
     </div>
 
     <div className="textile-cord-info-right">

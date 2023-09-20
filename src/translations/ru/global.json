@@ -28,21 +28,21 @@
         "body" : "A store deisgned for all your pet needs"
     },
     
-    "aboutUs-main": {
+    "about-us-main": {
             "upperText": "О Нас",
             "tire-res-main": "Tire Recycling UA",
-            "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+            "about-us-text": "Наша цель сделать украинское чище из больших свалок шин, которые убивают нашу экологию. Ежегодно в Украине выбрасывается более 210 000 тонн шин, из них перерабатывается всего около 7 000 тонн. Главная цель нашего предприятия утилизировать каждую изношенную шину в стране и делать Украину лучше"
         },
 
     "dispose-tires-main": {
-        "dispose-tires-text-upper": "Dispose Tires",
-        "dispose-tires-text": "The main priority of main-our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and main-our specialist will contact you. Some text to test here",
-        "button-text" : "Click Me"
+        "dispose-tires-text-upper": "Сдать изношенные шины",
+        "dispose-tires-text": "Главным приоритетом нашей компании является максимально удобный процесс сдачи изношенных шин для предприятий и населения. Если у Вас имеются изношенные шины, пожалуйста, нажмите на кнопку ниже для заполнения короткой формы и наш специалист свяжется с Вами.",
+        "button-text" : "Сдать шины"
     },
 
     "production-section-main": {
-        "our-production-text-upper": "Our production",
-        "our-production-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis"
+        "our-production-text-upper": "Наша продукция",
+        "our-production-text": "Долговечные свойства сырья из переработанных шин обеспечивают качество и долговечность выпускаемой продукции."
     },
 
     "production-gallery-main": {
@@ -51,8 +51,8 @@
 
     
     "application-section-main": {
-        "application-text-upper": "Applications",
-        "applicaiton-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+        "application-text-upper": "Применения",
+        "application-text": "Переработка изношенных шин в сырье имеет большое количество применений в различный отраслях, таких как резиновые изделия, резиновые полы/брусчатки, прорезиненный асфальт, детские площадки, ландшафтная мульча, амортизирующие спортивные покрытия."
     },
 
 
@@ -61,30 +61,29 @@
 
     "about-us-page": {
         "about-us-upper-text": "Tire Recycling UA",
-        "about-us-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed. Our extensive experience in the tire industry has helped us define the scale this ecological disaster and we started to act. Now Tire Recycling UA is the largest tire recycling company in Ukraine, recycling more than 15,000 tons per year, we give further life to more than two million tires. Annual investment in new equipment and expansion of our facilities throughout Ukraine helps us to increase the volume of processing every year, which will soon time will ensure the disposal and recycling of every used tire in the country.",
+        "about-us-text": "Переработка шин в нашей стране является большой проблемой, ежегодно выбрасывается более 210 тысяч тонн изношенных шин, из них перерабатывается только около 7 тысяч тонн.Наш большой опыт в отрасли шин помог нам определить масштабы этой экологической катастрофы и мы начали действовать. Сейчас Tire Recycling UA является крупнейшей компанией по переработке шин в Украине, перерабатывая более 15 000 тонн в год мы даем дальнейшую жизнь более чем двум миллионам шин. Ежегодное инвестирование в новое оборудование и расширения наших площадей по всей территории Украины помогает нам с каждым годом наращивать объём переработки, что в скором времени обеспечит утилизацию и переработку каждой изношенной шины в стране.",
         
-        "facts-section-upper-text": "Facts",
+        "facts-section-upper-text": "Факты",
         "tires-recycled-number": "2,000,000",
-        "tires-recycled-text": "Recycled tires per year",
+        "tires-recycled-text": "Количество переработанных шин в год",
         "number-one-number": "#1",
-        "number-one-text": "By technology and volume",
+        "number-one-text": "По технологии и обьему",
         "employees-number": "120",
-        "employees-text": "Employees",
+        "employees-text": "Сотрудников",
         "partners-number": "500+",
-        "partners-text": "Partners",
+        "partners-text": "Партнеров",
         "plant-capacity-number": "15,000,000",
-        "plant-capacity-text": "Plant capacity",
+        "plant-capacity-text": "Мощность завода",
         "waste-free-proceeds-number": "15,000",
-        "waste-free-proceeds-text": "Tons of waste-free processing",
+        "waste-free-proceeds-text": "Тонн безотходной переработки",
 
-        "our-history-upper-text": "Our History",
-        "our-history-main-text": "We, as tire manufacturers in Ukraine, have pondered the of used tires. The very idea of environmentally friendly recycling originated back in 2008. In 2019, we found a waste-free technology for recycling tires for raw materials. The company was founded in 2020 and started its production activities in 2021.",
+        "our-history-upper-text": "Наша история",
+        "our-history-main-text": "Мы как производители шин в Украине задумались над судьбой изношенных шин.Сама идея переработки зародилась еще в 2008 году, лишь в 2019 году мы нашли технологию экологически чистой переработки шин под сырье. Компания была основана в 2020 и начала свою производственную деятельность в 2021 году.",
+        "our-goals-upper-text": "Наши цели",
+        "our-goals-main-text": "Очистка нашей страны от изношенных шин является приоритетом нашей компании. Каждый год наша компания будет масштабироваться, увеличивая объём переработки изношенных шин и изделий из резины. Появление перерабатывающих предприятий в регионах Украины является главной целью нашей компании. Наша задача, чтобы сдача шин стала нормой для нашего общества при поддержке общественных организаций и активной части населения. Чтобы привычка выбрасывать шины стала неприемлемой в обществе. Мы создадим все необходимые условия, при поддержке местных органов и общественности: чтобы в каждом городе появились наши сборочные пункты, куда любой желающий мог сдать изношенные шины, а сама процедура сдачи была легкой, быстрой, а главное доступной каждому жителю нашей страны.",
 
-        "our-goals-upper-text": "Our goals",
-        "our-goals-main-text": "Cleaning our country of used tires is a priority of our company. Every year our company will scale up, increasing the volume of recycling of used tires and rubber products.The emergence of processing enterprises in the regions of Ukraine is the main goal of our company. Our task is to make the delivery of tires a norm for our society with the support of public organizations and the active part of the population. To make the habit of throwing out tires unacceptable in society.",
-
-        "our-team-upper-text": "Our Team",
-        "our-team-main-text": "Our company consists of experienced managers, engineers, designers, environmentalists who have worked in the tire industry, as well as young ambitious specialists with high demands on teamwork." 
+        "our-team-upper-text": "Наша команда",
+        "our-team-main-text": "Наша компания состоит из опытных руководителей, инженеров, конструкторов, экологов работавших в шинной отрасли, а также молодых амбициозных специалистов с высокими требованиями к командной работе." 
     },
 
 

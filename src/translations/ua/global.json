@@ -1,18 +1,18 @@
 {
     "navbar" : {
-        "home" : "Home",
-        "about-us": "About Us",
-        "what-we-do": "What We Do",
-        "our-products": "Our Products",
-        "overview": "Overview",
-        "crumb-rubber": "Crumb Rubber",
-        "rubber-mulch": "Rubber Mulch",
-        "metal-cord": "Metal Cord",
-        "bead-ring": "Bead Ring",
-        "textile-cord": "Textile Cord",
-        "applications": "Applications",
-        "dispose-tires": "Dispose Tires",
-        "contact-us": "Contact Us"
+        "home" : "Головна",
+        "about-us": "Про нас",
+        "what-we-do": "Діяльність",
+        "our-products": "Наша продукция",
+        "overview": "Загальне",
+        "crumb-rubber": "Гумові гранули",
+        "rubber-mulch": "Гумова мульча",
+        "metal-cord": "Бортове кільце",
+        "bead-ring": "Металевий корд",
+        "textile-cord": "Текстильний корд",
+        "applications": "Застосування",
+        "dispose-tires": "Здати зношені шини",
+        "contact-us": "Контакти"
     },
 
     "footer": {
@@ -28,21 +28,21 @@
         "body" : "A store deisgned for all your pet needs"
     },
     
-    "aboutUs-main": {
-            "upperText": "About Us",
+    "about-us-main": {
+            "upperText": "Про нас",
             "tire-res-main": "Tire Recycling UA",
-            "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+            "about-us-text": "Наша мета зробити Україну чистіше від великих звалищ шин, які вбивають нашу екологію. Щорічно в Україні викидаються більш ніж 210 000 тон шин з них переробляється тільки близько 7 000 тоннГоловна мета нашого підприємства утилізувати кожну зношену шину в країні і робити Україна краще."
         },
 
     "dispose-tires-main": {
-        "dispose-tires-text-upper": "Dispose Tires",
-        "dispose-tires-text": "The main priority of main-our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and main-our specialist will contact you. Some text to test here",
-        "button-text" : "Click Me"
+        "dispose-tires-text-upper": "Здати шини",
+        "dispose-tires-text": "Головним пріоритетом нашої компанії є максимально зручний процес здачі зношених шин для підприємств і населення. Якщо у Вас є зношені шини, будь ласка, натисніть на кнопку нижче для заповнення короткої форми і наш фахівець зв'яжеться з Вами.",
+        "button-text" : "Здати шини"
     },
 
     "production-section-main": {
-        "our-production-text-upper": "Our production",
-        "our-production-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis"
+        "our-production-text-upper": "Наша продукція",
+        "our-production-text": "Довговічні властивості переробленої гуми забезпечують якість і безпеку наших різних продуктів, допомагаючи нам у досягненні наших цілей з охорони навколишнього середовища."
     },
 
     "production-gallery-main": {
@@ -51,8 +51,8 @@
 
     
     "application-section-main": {
-        "application-text-upper": "Applications",
-        "applicaiton-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+        "application-text-upper": "Застосування",
+        "application-text": "Переробка зношених шин в сировину має велику кількість застосувань в різний галузях, таких як гумові вироби, гумові підлоги / бруківки, прогумований асфальт, дитячі майданчики, ландшафтна мульча, амортизуючі спортивні покриття."
     },
 
 
