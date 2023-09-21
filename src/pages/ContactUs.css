@@ -4,35 +4,20 @@
 
 .reference-contact-us {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    /* background-color: #f0f0f0; */
-    padding: 2rem;
 }
 
-.reference-container {
-    display: flex;
-    border-radius: 2rem;
-    margin-right: 1rem;
-    padding: 1rem;
-    border: 1px solid black;
+.container-contact-us {
+    text-align: center;
+    margin: 1rem;
 }
 
-.contact-us-info-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-us-info-right h3 {
+.container-contact-us p {
     margin-bottom: 0;
 }
 
-.contact-us-info-right p {
-    margin-top: 0.40rem;
-}
-
-.icon-contact-us {
-    padding: 2rem;
+#contact-us-icon-top {
+    margin-bottom: 0.50rem;
 }
 
 #contact-us-connector {
@@ -58,11 +43,8 @@
         flex-direction: column;
     }
 
-    .reference-container {
-        margin-bottom: 1rem;
-    }
-
-    .contact-us-info-right h4 {
-        font-size: 0.80rem;
+    .container-contact-us {
+        text-align: center;
+        margin: 0.70rem;
     }
  }

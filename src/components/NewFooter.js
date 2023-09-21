@@ -30,7 +30,7 @@ export default function NewFooter() {
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
+                <MDBIcon icon="industry" className="me-3" />
                 Tire Recycling UA
               </h6>
               <p>
@@ -90,19 +90,17 @@ export default function NewFooter() {
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
-                Lastochkina 27, Dnipro, Ukraine
+                <MDBIcon icon="building" className="me-2" />
+                Boris Krotova, 16, Dnipro, Dnipropetrovsk Oblast, 49000, Ukraine
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
                 info@tirerecycling.com.ua
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> + 38 067 631 22 22
               </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-              </p>
+              <p><MDBIcon icon="angles-right" className="me-3" />"Recycling-UA" USREOU: 43519366 </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

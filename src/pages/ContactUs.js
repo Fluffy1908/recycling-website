@@ -20,38 +20,31 @@ export default function ContactUs() {
           <div className="contact-upper-section-text">
           <h1 className="mt-3">{t("contact-us-page.get-in-touch-upper-text")}</h1>
           <p>{t("contact-us-page.get-in-touch-main-text")}</p>
-        </div>
-
-          <div className="reference-contact-us">
-
-            <div className="reference-container"> 
-              <div className="icon-contact-us"><LocationOnIcon sx={{fontSize: 50}}/></div>
-              <div className="contact-us-info-right">
-                <h3>{t("contact-us-page.address-upper-text")}</h3>
-                <p>{t("contact-us-page.address-lower-text1")}</p>
-                <p>{t("contact-us-page.address-lower-text2")}</p>
-                <p>{t("contact-us-page.address-lower-text3")}</p>
-              </div>
-            </div>
-           
-            <div className="reference-container"> 
-              <div className="icon-contact-us"><LocalPhoneIcon sx={{fontSize: 50}}/></div>
-              <div className="contact-us-info-right">
-                <h3>{t("contact-us-page.phone-text")}</h3>
-                <h4>{t("contact-us-page.phone-numbers")}</h4>
-              </div>
-            </div>
-            
-            <div className="reference-container"> 
-              <div className="icon-contact-us"><MailIcon sx={{fontSize: 50}}/></div>
-              <div className="contact-us-info-right">
-                <h3>{t("contact-us-page.email-text")}</h3>
-                <h4>{t("contact-us-page.email-lower-text")}</h4>
-              </div>
-            </div>
           </div>
-
         </div>
+
+          <div className="reference-contact-us mt-2 mb-2">
+            <div className="container-contact-us">
+              <LocalPhoneIcon sx={{fontSize: 50}}/>
+              <p id="contact-us-icon-top">{t("contact-us-page.phone-text")}</p>
+              <p><a href="tel:+380676312222">{t("contact-us-page.phone-numbers")}</a></p>
+            </div>
+
+            <div className="container-contact-us">
+              <MailIcon sx={{fontSize: 50}}/>
+              <p id="contact-us-icon-top">{t("contact-us-page.email-text")}</p>
+              <p><a href="mailto: shinov.tima@gmail.com">{t("contact-us-page.email-lower-text")}</a></p>
+            </div>
+
+            <div className="container-contact-us">
+              <LocationOnIcon sx={{fontSize: 50}}/>
+              <p id="contact-us-icon-top">{t("contact-us-page.address-upper-text")}</p>
+              <p>{t("contact-us-page.address-lower-text1")}</p>
+              <p>{t("contact-us-page.address-lower-text2")}</p>
+              <p>{t("contact-us-page.address-lower-text3")}</p>
+            </div>
+
+          </div>
 
         {/* Accordion section component*/}
         <h2 id="usually-text">{t("contact-us-page.usually-asked-questions-text")}</h2>
