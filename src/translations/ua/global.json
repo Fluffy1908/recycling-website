@@ -37,7 +37,14 @@
     "dispose-tires-main": {
         "dispose-tires-text-upper": "Здати шини",
         "dispose-tires-text": "Головним пріоритетом нашої компанії є максимально зручний процес здачі зношених шин для підприємств і населення. Якщо у Вас є зношені шини, будь ласка, натисніть на кнопку нижче для заповнення короткої форми і наш фахівець зв'яжеться з Вами.",
-        "button-text" : "Здати шини"
+        "button-text" : "Здати шини",
+        "crumb-rubber-text": "Crumb Rubber",
+        "rubber-mulch-text": "Rubber Mulch",
+        "metal-cord-text": "Metal Cord",
+        "textile-cord-text": "Textile Cord",
+        "onboard-ring-text": "Onboard ring",
+        "one-more-product-text": "Product Name",
+        "gallery-button-text": "More details"
     },
 
     "production-section-main": {

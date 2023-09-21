@@ -42,7 +42,14 @@
 
     "production-section-main": {
         "our-production-text-upper": "Наша продукция",
-        "our-production-text": "Долговечные свойства сырья из переработанных шин обеспечивают качество и долговечность выпускаемой продукции."
+        "our-production-text": "Долговечные свойства сырья из переработанных шин обеспечивают качество и долговечность выпускаемой продукции.",
+        "crumb-rubber-text": "Crumb Rubber",
+        "rubber-mulch-text": "Rubber Mulch",
+        "metal-cord-text": "Metal Cord",
+        "textile-cord-text": "Textile Cord",
+        "onboard-ring-text": "Onboard ring",
+        "one-more-product-text": "Product Name",
+        "gallery-button-text": "More details"
     },
 
     "production-gallery-main": {

@@ -23,40 +23,40 @@ export default function OurProducts () {
             <div className="our-product-gallery">
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
 
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.rubber-mulch-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
                 
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.metal-cord-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
             </div>
 
             <div className="our-product-gallery mb-5">
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.textile-cord-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
 
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.onboard-ring-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
                 
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h2>Hello</h2></div>
-                    <div className="product-lower-center"><p>Hello</p></div>
+                    <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}</h3></div>
+                    <div><a href="/" className="product-lower-center">Button</a></div>
                 </div>
             </div>
 

@@ -37,16 +37,23 @@
     "dispose-tires-main": {
         "dispose-tires-text-upper": "Dispose Tires",
         "dispose-tires-text": "The main priority of main-our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and main-our specialist will contact you. Some text to test here",
-        "button-text" : "Click Me"
+        "button-text" : "Fill up form"
     },
 
     "production-section-main": {
         "our-production-text-upper": "Our production",
-        "our-production-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis"
+        "our-production-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis",
+        "crumb-rubber-text": "Crumb Rubber",
+        "rubber-mulch-text": "Rubber Mulch",
+        "metal-cord-text": "Metal Cord",
+        "textile-cord-text": "Textile Cord",
+        "onboard-ring-text": "Onboard ring",
+        "one-more-product-text": "Product Name",
+        "gallery-button-text": "More details"
     },
 
     "production-gallery-main": {
-        "crumb-rubber-photo-text": "some text here"
+        "crumb-rubber-photo-text": "Crumb rubber"
     },
 
     

@@ -23,20 +23,17 @@ export default function Applications () {
             <div className="application-gallery">
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
             </div>
@@ -44,20 +41,17 @@ export default function Applications () {
             <div className="application-gallery">
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
             </div>
@@ -65,20 +59,17 @@ export default function Applications () {
             <div className="application-gallery mb-5">
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="centered"><h2>Hello</h2></div>
-                    <div className="lower-center"><p>Hello</p></div>
+                    <div className="centered"><h2>Applications</h2></div>
                 </div>
 
             </div>
