@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
 import global_en from "./translations/en/global.json";
 import global_ru from "./translations/ru/global.json";
 import global_ua from "./translations/ua/global.json"
