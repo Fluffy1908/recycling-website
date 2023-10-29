@@ -28,9 +28,9 @@ i18n
         global: global_ua
       }
     },
-    fallbackLng: "ru", //In case other languages fail
+    fallbackLng: "ua", //In case other languages fail
     detection: {
-      order: ['cookie', 'htmlTag', 'path', 'localStorage', 'subdomain'], //Using language detection
+      order: [], //Using language detection
       caches: ['cookie'],
     }
   });
@@ -38,13 +38,6 @@ i18n
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
       <App />
-    
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();

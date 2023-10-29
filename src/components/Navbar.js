@@ -42,7 +42,7 @@ const GlobeIcon = ({ width = 22, height = 22 }) => (
 
 function NavbarComponent() {
   const [ t , i18n] = useTranslation("global")
-  const currentLanguageCode = cookies.get('i18next') || 'en'
+  const currentLanguageCode = cookies.get('i18next') || 'ua'
 
   function ScrollToTopMain() {
     window.scrollTo({top: 0, behavior: 'smooth'});
