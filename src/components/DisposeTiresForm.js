@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { useTranslation } from 'react-i18next';
-import './DisposeTiresForm.css';
 import { TextField, Typography, Box } from "@mui/material";
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';

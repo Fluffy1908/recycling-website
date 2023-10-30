@@ -14,9 +14,7 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .use(LanguageDetector)
   .init({
-    // the translations
-    // (tip move them in a JSON file and import them,
-    // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
+    // manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
     resources: {
       en: {
         global: global_en,
@@ -28,9 +26,9 @@ i18n
         global: global_ua
       }
     },
-    fallbackLng: "ua", //In case other languages fail
+    fallbackLng: "ua", //In case all methods fail
     detection: {
-      order: [], //Using language detection
+      order: ['path', 'cookie', 'htmlTag',  'localStorage', 'subdomain'], //Language detection methods
       caches: ['cookie'],
     }
   });

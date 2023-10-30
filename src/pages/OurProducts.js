@@ -3,12 +3,15 @@ import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
 import NewFooter from "../components/NewFooter";
 import './OurProducts.css';
+import cookies from 'js-cookie'
+import { Link } from 'react-router-dom';
 
 export default function OurProducts () {
     const starIcon = "/images/star.webp"
     const testImage = "/images/crumb-rubber.webp"
 
     const [ t ] = useTranslation("global")
+    const currentLanguageCode = cookies.get('i18next') || 'ua'
     
     return (
         <>
@@ -20,43 +23,59 @@ export default function OurProducts () {
                 <img src={starIcon} alt="Star icon"/>
             </div>
 
+            {/* Crumb Rubber */}
             <div className="our-product-gallery">
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div><Link to={`/${currentLanguageCode}/crumb-rubber`}className="product-lower-center">Button</Link></div>
                 </div>
 
+                {/* Rubber Mulch  */}
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.rubber-mulch-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div>
+                        <Link to={`/${currentLanguageCode}/rubber-mulch`}className="product-lower-center">Button</Link>
+                    </div>
                 </div>
                 
+                {/* Metal Cord */}
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.metal-cord-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div>
+                        <Link to={`/${currentLanguageCode}/metal-cord`}className="product-lower-center">Button</Link>
+                    </div>
                 </div>
             </div>
 
+            {/* Textile Cord */}
             <div className="our-product-gallery mb-5">
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.textile-cord-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div>
+                        <Link to={`/${currentLanguageCode}/textile-cord`}className="product-lower-center">Button</Link>
+                    </div>
                 </div>
 
+                {/* Bead Ring */}
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.onboard-ring-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div>
+                        <Link to={`/${currentLanguageCode}/bead-ring`}className="product-lower-center">Button</Link>
+                    </div>
                 </div>
                 
+                {/* Our Products(change required) */}
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}</h3></div>
-                    <div><a href="/" className="product-lower-center">Button</a></div>
+                    <div>
+                        <Link to={`/${currentLanguageCode}/our-products`}className="product-lower-center">Button</Link>
+                    </div>
                 </div>
             </div>
 

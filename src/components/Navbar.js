@@ -53,31 +53,37 @@ function NavbarComponent() {
     <>
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky='top'>
       <Container>
-        <Navbar.Brand as={Link} to="/" onClick={ScrollToTopMain}>Tire Recycling UA</Navbar.Brand>
+        <Navbar.Brand as={Link} to={`/${currentLanguageCode}`} onClick={ScrollToTopMain}>Tire Recycling UA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">{t("navbar.home")}</Nav.Link>
-            <Nav.Link as={Link} to="/about-us">{t("navbar.about-us")}</Nav.Link>
-            <Nav.Link as={Link} to="/what-we-do">{t("navbar.what-we-do")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}`}>{t("navbar.home")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}/about-us`}>{t("navbar.about-us")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}/what-we-do`}>{t("navbar.what-we-do")}</Nav.Link>
             <NavDropdown title={t("navbar.our-products")} id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/our-products">{t("navbar.overview")}</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/crumb-rubber">{t("navbar.crumb-rubber")}</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/rubber-mulch">{t("navbar.rubber-mulch")}</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/metal-cord">{t("navbar.metal-cord")}</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/bead-ring">{t("navbar.bead-ring")}</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/textile-cord">{t("navbar.textile-cord")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/our-products`}>{t("navbar.overview")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/crumb-rubber`}>{t("navbar.crumb-rubber")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/rubber-mulch`}>{t("navbar.rubber-mulch")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/metal-cord`}>{t("navbar.metal-cord")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/bead-ring`}>{t("navbar.bead-ring")}</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={`/${currentLanguageCode}/textile-cord`}>{t("navbar.textile-cord")}</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/applications">{t("navbar.applications")}</Nav.Link>
-            <Nav.Link as={Link} to="/dispose-tires">{t("navbar.dispose-tires")}</Nav.Link>
-            <Nav.Link as={Link} to="/contact-us">{t("navbar.contact-us")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}/applications`}>{t("navbar.applications")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}/dispose-tires`}>{t("navbar.dispose-tires")}</Nav.Link>
+            <Nav.Link as={Link} to={`/${currentLanguageCode}/contact-us`}>{t("navbar.contact-us")}</Nav.Link>
             <NavDropdown title={<GlobeIcon />} id="collapsible-nav-dropdown">
               {languages.map(({ code, name}) => (
-                <NavDropdown.Item 
-                onClick={() => i18n.changeLanguage(code)} 
-                href='#'
-                disabled={code === currentLanguageCode}>
-                  {name}
+                  <NavDropdown.Item 
+                    onClick={() => {
+                        i18n.changeLanguage(code);
+
+                        // window.location.pathname = `/${code}${window.location.pathname.split('/').slice(2).join('/')}`; can be edited, so not to redirect user to main page
+
+                        window.location = `/${code}`
+                    }}
+                    href='#'
+                    disabled={code === currentLanguageCode}>
+                    {name}
                 </NavDropdown.Item>
               ))}
             </NavDropdown>
