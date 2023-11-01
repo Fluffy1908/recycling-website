@@ -1,13 +1,41 @@
-import { useState } from "react";
+import React, { useRef, useState } from "react";
 import { useTranslation } from 'react-i18next';
 import { TextField } from "@mui/material";
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import './ContactForm.css';
+import emailjs from '@emailjs/browser';
+import config from "../config";
+
 
 export default function ContactForm() {
+  const [messageSent, setMessageSent] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+  const [isDisabled, setIsDisabled] = useState(false);
+
   const [ t ] = useTranslation("global");
+
+  const serviceID = config.YOUR_SERVICE_ID;
+  const templateIDContact = config.YOUR_TEMPLATE_ID_contact_form;
+  const publicKEY = config.YOUR_PUBLIC_KEY;
+
+  const form =useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(serviceID, templateIDContact, form.current, publicKEY) //from config.js
+    .then((result) => {
+        setMessageSent(true);
+        setIsDisabled(true);
+        console.log(`${result.text}, message sent. Thank you.`);
+    }, (error) => {
+        setErrorMessage(true);
+        setIsDisabled(true);
+        console.log(`${error.text}, error occured.`);
+    });
+}
 
   return (
     <>
@@ -19,13 +47,16 @@ export default function ContactForm() {
         </div>
 
         <div className="contact-us-right-container">
-        <TextField
+                  <form ref={form} onSubmit={sendEmail}>
+                    <TextField
                         fullWidth
                         label={t("contact-us-page.option-1-name")}
                         // value=""
                         margin="normal"
                         required
-                        align="center"/>
+                        align="center"
+                        name="fname"
+                        />
 
                         <TextField
                         fullWidth
@@ -33,20 +64,26 @@ export default function ContactForm() {
                         type="email"
                         required
                         // value=""
-                        margin="dense" />
+                        margin="dense" 
+                        name="email"
+                        />
 
                         <TextField
                         fullWidth
                         label={t("contact-us-page.option-3-phone")}
                         type="phone"
                         // value=""
-                        margin="dense" />
+                        margin="dense"
+                        name="phone"
+                        />
 
                         <TextField
                         fullWidth
                         label={t("contact-us-page.option-4-company")}
                         // value=""
-                        margin="dense" />
+                        margin="dense"
+                        name="company"
+                        />
                         
                         <TextField 
                             multiline
@@ -54,12 +91,20 @@ export default function ContactForm() {
                             fullWidth
                             id="filled" 
                             label={t("contact-us-page.option-5-additional-comments")}
-                            margin="dense"  
+                            margin="dense"
+                            name="additional-comments"  
                             />
                           
-                          <Button variant="contained" endIcon={<SendIcon />} size="large" type="submit" className="mt-2">
-                          {t("contact-us-page.send-button-text")}
-                          </Button>
+                      <Button variant="contained" endIcon={<SendIcon />} size="large" type="submit" className="mt-2" disabled={isDisabled}>
+                        {t("contact-us-page.send-button-text")}
+                      </Button>
+                      
+                    {messageSent ? <h3>Message sent. Thank you!</h3>  : ""}
+                    
+                    {errorMessage ? <h3>Some error occured. Please try again.</h3> : ""} 
+                    
+                    {/* Style this two, and add dynamic text for every language.*/}
+               </form>
         </div>
       </div>
     </>

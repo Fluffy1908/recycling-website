@@ -10,9 +10,35 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 import emailjs from '@emailjs/browser';
+import config from "../config";
 
 export default function DisposeTiresForm () {
+    const [messageSent, setMessageSent] = useState(false);
+    const [errorMessage, setErrorMessage] = useState(false);
+    const [isDisabled, setIsDisabled] = useState(false);
+
     const [ t ] = useTranslation("global");
+    
+    const serviceID = config.YOUR_SERVICE_ID;
+    const templateID = config.YOUR_TEMPLATE_ID;
+    const publicKEY = config.YOUR_PUBLIC_KEY;
+
+    const form =useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(serviceID, templateID, form.current, publicKEY) //from config.js
+        .then((result) => {
+            setMessageSent(true);
+            setIsDisabled(true);
+            console.log(`${result.text}, message sent. Thank you.`);
+        }, (error) => {
+            setErrorMessage(true);
+            setIsDisabled(true);
+            console.log(`${error.text}, error occured.`);
+        });
+    }
     
     return (
         <>
@@ -27,14 +53,16 @@ export default function DisposeTiresForm () {
                 <Typography variant="h4" align="center" mb={2}>
                 {t("dispose-tires-page.dispose-tires-upper-text")}
                 </Typography>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <TextField
                         fullWidth
                         label={t("dispose-tires-page.option-1-name")}
                         // value=""
                         margin="normal"
                         required
-                        align="center"/>
+                        align="center"
+                        name="fname"
+                        />
 
                         <TextField
                         fullWidth
@@ -42,20 +70,26 @@ export default function DisposeTiresForm () {
                         type="email"
                         required
                         // value=""
-                        margin="normal" />
+                        margin="normal"
+                        name="email"
+                        />
 
                         <TextField
                         fullWidth
                         label={t("dispose-tires-page.option-3-phone")}
                         type="phone"
                         // value=""
-                        margin="normal" />
+                        margin="normal"
+                        name="phone"
+                        />
 
                         <TextField
                         fullWidth
                         label={t("dispose-tires-page.option-4-company")}
                         // value=""
-                        margin="normal" />
+                        margin="normal"
+                        name="company"
+                        />
 
                         <FormControl
                         margin="dense"
@@ -65,8 +99,7 @@ export default function DisposeTiresForm () {
                             <RadioGroup
                                 aria-labelledby="demo-radio-buttons-group-label"
                                 // defaultValue="Passenger tire"
-                                name="dispose-radio-buttons"
-                            >
+                                name="tire-type">
                                 <FormControlLabel value="passenger-tire" control={<Radio />} label={t("dispose-tires-page.tire-option-1")} />
                                 <FormControlLabel value="truck-tire" control={<Radio />} label={t("dispose-tires-page.tire-option-2")} />
                                 <FormControlLabel value="OTR" control={<Radio />} label={t("dispose-tires-page.tire-option-3")} />
@@ -83,7 +116,8 @@ export default function DisposeTiresForm () {
                             fullWidth
                             id="filled" 
                             label={t("dispose-tires-page.how-many-tires-text")}
-                            margin="dense"  
+                            margin="dense"
+                            name="how-many-tires"  
                             />
                             
                             <TextField 
@@ -93,6 +127,7 @@ export default function DisposeTiresForm () {
                             id="filled" 
                             label={t("dispose-tires-page.your-location-text")}
                             margin="dense"  
+                            name="location"
                             />
 
                             <FormControl
@@ -100,8 +135,7 @@ export default function DisposeTiresForm () {
                                 <FormLabel id="yes-no-dispose">{t("dispose-tires-page.do-you-have-vehicle-text")}</FormLabel>
                                 <RadioGroup
                                     aria-labelledby="demo-radio-buttons-group-label"
-                                    name="radio-buttons-group"
-                                >
+                                    name="vehicle-radio">
                                     <FormControlLabel value="yes" control={<Radio />} label={t("dispose-tires-page.option-yes")} />
                                     <FormControlLabel value="no" control={<Radio />} label={t("dispose-tires-page.option-no")}/>
                                 </RadioGroup>
@@ -113,19 +147,21 @@ export default function DisposeTiresForm () {
                             fullWidth
                             id="filled" 
                             label={t("dispose-tires-page.additional-comments")}
-                            margin="dense"  
+                            margin="dense"
+                            name="additional-comments"  
                             />
                             
                             <Stack direction="row" spacing={2} style={{justifyContent: 'center'}} margin="dense" sx={{m: 1}}>
-                                <Button variant="contained" endIcon={<SendIcon />} size="large" type="submit">
+                                <Button variant="contained" endIcon={<SendIcon />} size="large" type="submit" disabled={isDisabled}>
                                 {t("dispose-tires-page.submit-button-text")}
                                 </Button>
-                                </Stack>
-                                                    
+                            </Stack>                                  
                     </form>
+                </Box>
             </Box>
-
-            </Box>
+        {messageSent ? <h3>Message sent. Thank you!</h3> : ""}
+        {errorMessage ? <h3>Some error occured. Please try again.</h3> : ""} 
+        {/* Style this two, and add dynamic text for every language.*/}
         </>
     ) 
 }
