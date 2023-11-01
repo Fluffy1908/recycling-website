@@ -1,3 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Sitemap: https://CHANGE IT !!.com/sitemap-en.xml 
+Sitemap: https://example.com/sitemap-ua.xml
+Sitemap: https://example.com/sitemap-ru.xml

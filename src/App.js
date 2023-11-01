@@ -16,11 +16,13 @@ import ContactUs from './pages/ContactUs';
 import NoPage from './pages/NoPage';
 
 function App() {
-  
+
   return (
     <BrowserRouter>
     <ScrollToTop />
       <Routes>
+        <Route path="/" element={<Main />} />
+
         <Route path="/en" element={<Main />} />
         <Route path="/ua" element={<Main />} />
         <Route path="/ru" element={<Main />} />
