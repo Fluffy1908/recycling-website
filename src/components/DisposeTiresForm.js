@@ -18,9 +18,9 @@ export default function DisposeTiresForm () {
 
     const [ t ] = useTranslation("global");
     
-    const serviceID = process.env.YOUR_SERVICE_ID;
-    const templateID = process.env.YOUR_TEMPLATE_ID;
-    const publicKEY = process.env.YOUR_PUBLIC_KEY;
+    const serviceID = process.env.REACT_APP_YOUR_SERVICE_ID;
+    const templateID = process.env.REACT_APP_YOUR_TEMPLATE_ID;
+    const publicKEY = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
     const form =useRef();
 

@@ -15,16 +15,16 @@ export default function ContactForm() {
 
   const [ t ] = useTranslation("global");
 
-  const serviceID = process.env.YOUR_SERVICE_ID;
-  const templateIDContact = process.env.YOUR_TEMPLATE_ID_CONTACT_FORM;
-  const publicKEY = process.env.YOUR_PUBLIC_KEY;
+  const serviceID = process.env.REACT_APP_YOUR_SERVICE_ID;
+  const templateIDContact = process.env.REACT_APP_YOUR_TEMPLATE_ID_CONTACT_FORM;
+  const publicKEY = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 
   const form =useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(serviceID, templateIDContact, form.current, publicKEY) //from config.js
+    emailjs.sendForm(serviceID, templateIDContact, form.current, publicKEY) //from environment variables (.env)
     .then((result) => {
         setMessageSent(true);
         setIsDisabled(true);
