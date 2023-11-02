@@ -10,7 +10,6 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 import emailjs from '@emailjs/browser';
-import config from "../config";
 
 export default function DisposeTiresForm () {
     const [messageSent, setMessageSent] = useState(false);
@@ -19,9 +18,9 @@ export default function DisposeTiresForm () {
 
     const [ t ] = useTranslation("global");
     
-    const serviceID = config.YOUR_SERVICE_ID;
-    const templateID = config.YOUR_TEMPLATE_ID;
-    const publicKEY = config.YOUR_PUBLIC_KEY;
+    const serviceID = process.env.YOUR_SERVICE_ID;
+    const templateID = process.env.YOUR_TEMPLATE_ID;
+    const publicKEY = process.env.YOUR_PUBLIC_KEY;
 
     const form =useRef();
 

@@ -6,7 +6,6 @@ import SendIcon from '@mui/icons-material/Send';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import './ContactForm.css';
 import emailjs from '@emailjs/browser';
-import config from "../config";
 
 
 export default function ContactForm() {
@@ -16,9 +15,9 @@ export default function ContactForm() {
 
   const [ t ] = useTranslation("global");
 
-  const serviceID = config.YOUR_SERVICE_ID;
-  const templateIDContact = config.YOUR_TEMPLATE_ID_contact_form;
-  const publicKEY = config.YOUR_PUBLIC_KEY;
+  const serviceID = process.env.YOUR_SERVICE_ID;
+  const templateIDContact = process.env.YOUR_TEMPLATE_ID_CONTACT_FORM;
+  const publicKEY = process.env.YOUR_PUBLIC_KEY;
 
   const form =useRef();
 
