@@ -10,7 +10,7 @@ export default function NewFooter() {
         </div>
 
         <div>
-          <a href='https://facebook.com/' className='me-4 text-reset'>
+          <a href='https://www.facebook.com/tirerecycling.com.ua/' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
           <a href='https://twitter.com/' className='me-4 text-reset'>
