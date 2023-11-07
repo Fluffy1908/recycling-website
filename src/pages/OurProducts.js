@@ -28,7 +28,7 @@ export default function OurProducts () {
                 <div className="our-product-image-container">
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
-                    <div><Link to={`/${currentLanguageCode}/crumb-rubber`}className="product-lower-center">Button</Link></div>
+                    <div><Link to={`/${currentLanguageCode}/crumb-rubber`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link></div>
                 </div>
 
                 {/* Rubber Mulch  */}
@@ -36,7 +36,7 @@ export default function OurProducts () {
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.rubber-mulch-text")}</h3></div>
                     <div>
-                        <Link to={`/${currentLanguageCode}/rubber-mulch`}className="product-lower-center">Button</Link>
+                        <Link to={`/${currentLanguageCode}/rubber-mulch`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
                     </div>
                 </div>
                 
@@ -45,7 +45,7 @@ export default function OurProducts () {
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.metal-cord-text")}</h3></div>
                     <div>
-                        <Link to={`/${currentLanguageCode}/metal-cord`}className="product-lower-center">Button</Link>
+                        <Link to={`/${currentLanguageCode}/metal-cord`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ export default function OurProducts () {
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.textile-cord-text")}</h3></div>
                     <div>
-                        <Link to={`/${currentLanguageCode}/textile-cord`}className="product-lower-center">Button</Link>
+                        <Link to={`/${currentLanguageCode}/textile-cord`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@ export default function OurProducts () {
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.onboard-ring-text")}</h3></div>
                     <div>
-                        <Link to={`/${currentLanguageCode}/bead-ring`}className="product-lower-center">Button</Link>
+                        <Link to={`/${currentLanguageCode}/bead-ring`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
                     </div>
                 </div>
                 
@@ -74,7 +74,7 @@ export default function OurProducts () {
                     <img src={testImage} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}</h3></div>
                     <div>
-                        <Link to={`/${currentLanguageCode}/our-products`}className="product-lower-center">Button</Link>
+                        <Link to={`/${currentLanguageCode}/our-products`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
                     </div>
                 </div>
             </div>

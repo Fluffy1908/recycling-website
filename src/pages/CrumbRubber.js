@@ -17,7 +17,7 @@ export default function AboutUs () {
             <h1 className="crumb-rubber-title mt-3">{t("crumb-rubber-page.crumb-rubber-upper-text")}</h1>
 
             <div className="what-is-crumb-rubber mt-3">
-                <h2>{t("crumb-rubber-page.what-is-crumb-rubber-text")}</h2>
+                {/* <h2>{t("crumb-rubber-page.what-is-crumb-rubber-text")}</h2> */}
                 <p>{t("crumb-rubber-page.what-is-crumb-rubber-main-text")}</p>
             </div>
 

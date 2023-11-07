@@ -19,7 +19,7 @@ export default function ContactUs() {
         <div className="contact-upper-section">
           <div className="contact-upper-section-text">
           <h1 className="mt-3">{t("contact-us-page.get-in-touch-upper-text")}</h1>
-          <p>{t("contact-us-page.get-in-touch-main-text")}</p>
+          {/* <p>{t("contact-us-page.get-in-touch-main-text")}</p> */}
           </div>
         </div>
 

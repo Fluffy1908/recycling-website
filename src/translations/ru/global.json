@@ -5,7 +5,7 @@
         "what-we-do": "Деятельность",
         "our-products": "Наша продукция",
         "overview": "Общее",
-        "crumb-rubber": "Резиновая крошка",
+        "crumb-rubber": "Резиновые гранулы",
         "rubber-mulch": "Резиновая мульча",
         "metal-cord": "Металический корд",
         "bead-ring": "Бортовое кольцо",
@@ -59,7 +59,7 @@
     
     "application-section-main": {
         "application-text-upper": "Применения",
-        "application-text": "Изношенные шины обретают новую жизнь благодаря нашим инновационным методам переработки, превращаясь в высококачественное сырье для многочисленных отраслей. Наш продукт идеально подходит для создания резиновых изделий, устойчивых резиновых напольных покрытий, экологичной брусчатки, долговечного прорезиненного асфальта, безопасных покрытий для детских площадок, функциональной ландшафтной мульчи и амортизирующих спортивных поверхностей. Переработка шин с нашей помощью — это не только вклад в экологию, но и инвестиции в устойчивое будущее вашего бизнеса."
+        "application-text": "Изношенные шины обретают новую жизнь благодаря нашим инновационным методам переработки, превращаясь в высококачественное сырье для многочисленных отраслей. Наш продукт идеально подходит для создания резиновых изделий, устойчивых резиновых напольных покрытий, экологичной брусчатки, долговечного прорезиненного асфальта, безопасных покрытий для детских площадок, функциональной ландшафтной мульчи и амортизирующих спортивных поверхностей. Переработка шин — это не только вклад в экологию, но и инвестиции в устойчивое будущее вашего бизнеса."
     },
 
 
@@ -112,7 +112,7 @@
 
         "processing-points": {
             "upper-text": "Пункты переработки",
-            "city": "Днепр",
+            "city": "Днепр:",
             "main-text": "Главное производственное предприятие нашей компании расположено в городе Днепр, по адресу: улица Бориса Кротова, 16, Днепропетровская область, 49000.",
             "contacts-for-communication-text": "Контакты:",
             "phone-number": "Tel. (+38) 068 68 68 700",
@@ -126,7 +126,8 @@
 
     "our-products-overview-page": {
         "our-products-upper-text": "Наша продукция",
-        "our-products-main-text": "Наша продукция из переработанных шин — это сочетание качества и долговечности. Мы тщательно выбираем и перерабатываем изношенные шины, чтобы обеспечить высокую надежность и продолжительный срок службы каждого из наших изделий. Этот процесс не только приносит новую жизнь материалам, которые иначе загрязнили бы нашу планету, но и способствует устойчивому развитию и сокращению экологического следа. Наша продукция, включающая в себя всё от резиновых гранул до мульчи для ландшафтного дизайна. Наша продукция демонстрирует, как инновационные решения в области переработки могут сочетаться с экологической ответственностью и практичностью."
+        "our-products-main-text": "Наша продукция из переработанных шин — это сочетание качества и долговечности. Мы тщательно выбираем и перерабатываем изношенные шины, чтобы обеспечить высокую надежность и продолжительный срок службы каждого из наших изделий. Этот процесс не только приносит новую жизнь материалам, которые иначе загрязнили бы нашу планету, но и способствует устойчивому развитию и сокращению экологического следа. Наша продукция, включающая в себя всё от резиновых гранул до мульчи для ландшафтного дизайна. Наша продукция демонстрирует, как инновационные решения в области переработки могут сочетаться с экологической ответственностью и практичностью.",
+        "button-text": "Подробнее"
     },
 
 
@@ -156,42 +157,41 @@
 
 
     "rubber-mulch-page" : {
-        "rubber-mulch-upper-text": "Rubber Mulch",
-        "what-is-rubber-mulch": "What is rubber mulch?",
-        "what-is-rubber-mulch-main-text": "One of the best uses for recycled tires is to turn them into rubber mulch for landscaping, playgrounds, and training courses. Rubber mulch serves the same purpose as regular wood mulch, but it has a number of additional benefits.",
+        "rubber-mulch-upper-text": "Резиновая мульча",
+        "what-is-rubber-mulch": "Что такое резиновая мульча?",
+        "what-is-rubber-mulch-main-text": "Использование резиновой мульчи, изготовленной из переработанных шин, представляет собой эко-инновационное решение для ландшафтного дизайна, детских игровых площадок и спортивных полей. Этот материал не только выполняет все функции традиционной деревянной мульчи, но и превосходит её, обеспечивая долговечность, безопасность и низкое требование к обслуживанию. Резиновая мульча отличается высокой устойчивостью к погодным условиям, не привлекает вредителей и сохраняет свой цвет на протяжении многих лет, что делает её идеальным выбором для любого ландшафтного проекта.",
 
         "applications-for-playgrounds": {
-            "applications-upper-text": "Application for playgrounds",
-            "option-1": "Home / summer cottages",
-            "option-2": "Association platforms",
-            "option-3": "City / County / State Park Playgrounds",
-            "option-4": "Commercial Playgrounds",
-            "option-5": "Church playgrounds"
+            "applications-upper-text": "Применение для игровых площадок",
+            "option-1": "Дома / Дачи",
+            "option-2": "Площадки для собраний",
+            "option-3": "Игровые площадки городских / областных / государственных парков",
+            "option-4": "Коммерческие игровые площадки",
+            "option-5": "Игровые площадки при церквях"
         },
 
         "applications-for-landscape": {
-            "applications-landscape-upper-text": "Landscape for houses / summer cottages",
-            "option-1": "Commercial landscape",
-            "option-2": "B2B / corporate playgrounds",
-            "option-3": "Playgrounds for municipal construction"
+            "applications-landscape-upper-text": "Ландшафт для домов / дач",
+            "option-1": "Коммерческий ландшафт",
+            "option-2": "B2B / корпоративные игровые площадки",
+            "option-3": "Игровые площадки для муниципального строительства"
         },
 
         "applications-for-training-courses": {
-            "applications-training-courses-upper-text": "Application for training courses",
-            "option-1": "Obstacle course protective coating",
-            "option-2": "Climbing wallcovering",
-            "option-3": "Rope course protective cover",
-            "option-4": "Fitness course protective cover",
-            "option-5": "Protective cover of the police training course",
-            "option-6": "Rope course protective cover"
+            "applications-training-courses-upper-text": "Применение для учебных курсов",
+            "option-1": "Защитное покрытие для полосы препятствий",
+            "option-2": "Покрытие для скалодрома",
+            "option-3": "Защитное покрытие для канатного курса",
+            "option-4": "Защитное покрытие для фитнес-курса",
+            "option-5": "Защитное покрытие учебного курса полиции",
+            "option-6": "Защитное покрытие для канатного курса"
         },
 
-        "landscape-for-houses-upper-text": "Landscape for your houses",
-        "landscape-for-houses-main-text" : "Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.",
+        "landscape-for-houses-upper-text": "Ландшафт для вашего дома",
+        "landscape-for-houses-main-text" : "Резиновая мульча — это экологически устойчивая альтернатива деревянной мульче, обладающая улучшенной долговечностью и устойчивостью к ветру благодаря своему весу. Этот материал эффективно пропускает дождевую воду к корням растений, не удерживая её в себе, и не привлекает термитов, что делает его безопасным для ландшафтного дизайна. Резиновая мульча — это инвестиции в красоту вашего сада на долгие годы: она не требует ежегодной замены и сохраняет свой яркий цвет на протяжении десятилетия, в отличие от деревянной мульчи, которая под воздействием элементов быстро приходит в негодность.",
 
-        "coating-for-playgrounds-upper-text": "Coating for playgrounds",
-        "coating-for-playgrounds-main-text" : "Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years."
-
+        "coating-for-playgrounds-upper-text": "Покрытие для игровых площадок",
+        "coating-for-playgrounds-main-text" : "Резиновая мульча для игровых площадок представляет собой безопасное и долговечное покрытие, созданное для обеспечения максимальной защиты и комфорта. Этот материал, произведенный из переработанных автомобильных шин, является отличным выбором для любой игровой зоны благодаря своим ударопоглощающим свойствам, которые снижают риск травм при падениях. "
     },
 
 
@@ -199,18 +199,18 @@
 
 
     "metal-cord-page": {
-        "metal-cord-upper-text": "Metal Cord",
-        "what-is-metal-cord-upper-text": "What is metal cord?",
-        "what-is-metal-cord-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "metal-cord-upper-text": "Металлический корд",
+        "what-is-metal-cord-upper-text": "Что такое металлический корд?",
+        "what-is-metal-cord-main-text": "Металлический корд - это стальная проволока, которая укрепляет шины и придает им структурную целостность. После жизненного цикла шины, этот корд извлекается в процессе переработки и может быть повторно использован или переплавлен для создания новых стальных изделий. Металлический корд — ценный материал для переработки, поскольку сталь легко поддается вторичной переработке и имеет широкий спектр применений в различных отраслях промышленности, от строительства до производства новых металлических продуктов."
     },
 
     
     
     
     "bead-ring-page": {
-        "bead-ring-upper-text": "Bead Ring",
-        "what-is-bead-ring-upper-text": "What is metal cord?",
-        "what-is-bead-ring-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "bead-ring-upper-text": "Бортовое кольцо",
+        "what-is-bead-ring-upper-text": "Что такое бортовое кольцо?",
+        "what-is-bead-ring-main-text": "Бортовое кольцо — это усиленный элемент шины, который обеспечивает надежную фиксацию шины на диске колеса. После срока службы шины, бортовое кольцо извлекается в ходе переработки и может быть переработано для изготовления новых продуктов, таких как уплотнительные кольца, защитные ободки. Это ценный ресурс для промышленности вторичного сырья, так как содержит качественные материалы, способствующие устойчивому производству и минимизации отходов."
     },
 
 
@@ -218,9 +218,9 @@
 
 
     "textile-cord-page": {
-        "textile-cord-upper-text": "Textile cord",
-        "what-is-textile-cord-upper-text": "What is textile cord?",
-        "what-is-textile-cord-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "textile-cord-upper-text": "Текстильный корд",
+        "what-is-textile-cord-upper-text": "Что такое текстильный корд",
+        "what-is-textile-cord-main-text": "Текстильный корд — это волокнистый материал, который входит в состав каркаса шины и придает ей прочность и гибкость. После износа шин текстильный корд можно отделить и использовать как вторичное сырье в различных отраслях, например, в строительстве для укрепления строительных смесей, в производстве нетканых материалов или как наполнитель для автомобильных ковриков и сидений. Переработка текстильного корда способствует сокращению отходов."
     },
     
     
@@ -228,8 +228,8 @@
     
     
     "applications-page": {
-        "applications-upper-text": "Applications",
-        "applications-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces."
+        "applications-upper-text": "Применения",
+        "applications-main-text": "Переработанные шины превращаются в ценное сырьё, используемое во многих отраслях промышленности. Это сырьё служит основой для производства разнообразных резиновых изделий, напольных покрытий и брусчатки. Прорезиненный асфальт, созданный с использованием резиновых крошек, обладает улучшенными эксплуатационными характеристиками. Также материалы из переработанных шин широко применяются в обустройстве безопасных и долговечных игровых площадок, а также как ландшафтная мульча, сохраняющая влагу и предотвращающая рост сорняков. В спортивных сооружениях они используются как амортизирующие покрытия, повышающие безопасность и комфорт атлетов."
     },
 
 
@@ -237,32 +237,32 @@
 
 
     "dispose-tires-page": {
-        "dispose-tires-upper-text": "Dispose Tires",
+        "dispose-tires-upper-text": "Сдать шины",
 
-        "option-1-name": "Name",
+        "option-1-name": "Имя",
         "option-2-email": "Email",
-        "option-3-phone": "Phone",
-        "option-4-company": "Company",
+        "option-3-phone": "Телефон",
+        "option-4-company": "Компания",
         
-        "tire-type": "Tire Type",
-        "tire-option-1": "Passenger tire",
-        "tire-option-2": "Truck tire",
-        "tire-option-3": "OTR",
-        "tire-option-4": "OTR EL",
-        "tire-option-5": "Agricultural",
-        "tire-option-6": "Studded",
-        "tire-option-7": "Different tires",
+        "tire-type": "Тип шин",
+        "tire-option-1": "Легковые",
+        "tire-option-2": "Грузовые",
+        "tire-option-3": "КГШ",
+        "tire-option-4": "СКГШ",
+        "tire-option-5": "Сельхоз",
+        "tire-option-6": "Шипованные",
+        "tire-option-7": "Разные шины",
 
-        "how-many-tires-text": "How many tires do you have?",
-        "your-location-text": "Your location (Country, region)",
+        "how-many-tires-text": "Какое количество шин у Вас есть?",
+        "your-location-text": "Ваше расположение (город или область)",
 
-        "do-you-have-vehicle-text": "Do you have vehicle to deliver tires to the collection point?",
-        "option-yes": "Yes",
-        "option-no": "No",
+        "do-you-have-vehicle-text": "Есть ли у Вас транспорт для доставки шин на пункт сбора?",
+        "option-yes": "Да",
+        "option-no": "Нет",
 
-        "additional-comments": "Additional comments",
+        "additional-comments": "Дополнительные комментарии",
 
-        "submit-button-text": "Send"
+        "submit-button-text": "Отправить"
     },
 
 
@@ -270,36 +270,53 @@
 
 
     "contact-us-page": {
-        "get-in-touch-upper-text": "Get in touch",
+        "get-in-touch-upper-text": "Контакты",
         "get-in-touch-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.",
 
-        "address-upper-text": "Address",
+        "address-upper-text": "Адрес",
         "address-lower-text1": "4671 Sugar Camp Road,",
         "address-lower-text2": "Owatinna, Minnesota",
         "address-lower-text3": "55060",
 
-        "phone-text": "Phone",
+        "phone-text": "Телефон",
         "phone-numbers": "+38 067 630 68 11",
 
         "email-text": "Email",
         "email-lower-text": "shinov.tima@gmail.com",
 
-        "usually-asked-questions-text": "Usually asked questions",
+        "usually-asked-questions-text": "Часто задаваемые вопросы",
 
-        "accordion-1-title": "Option 1",
-        "accordion-1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "accordion-1-title": "Какие предприятия и организации могут сдавать шины на переработку?",
+        "accordion-1-text": "Возможность сдать шины на переработку доступна как компаниям, так и частным лицам.",
 
-        "accordion-2-title": "Option 2",
-        "accordion-2-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "accordion-2-title": "Что происходит с изношенными шинами после сдачи их на переработку?",
+        "accordion-2-text": "Изношенные шины размельчаются и преобразуются в сырье для создания новых продуктов.",
 
-        "message-us-upper-text": "Message Us",
-        "message-us-main-text": "If you wish to be considered for employment at Weifield, please do not send a message, here instead, please complete Weifields job application  and our Human Resources department will contact you after their review of your submitted information.",
+        "message-us-upper-text": "Напишите нам",
+        "message-us-main-text": "Мы будем рады услышать от Вас! Если у вас есть вопросы или вы хотели бы узнать больше, пожалуйста, оставьте свои контактные данные в форме, и мы свяжемся с вами в ближайшее время.",
 
-        "option-1-name": "Name",
+        "option-1-name": "Имя",
         "option-2-email": "Email",
-        "option-3-phone": "Phone",
-        "option-4-company": "Company",
-        "option-5-additional-comments": "Additional comments",
-        "send-button-text": "SEND"
+        "option-3-phone": "Телефон",
+        "option-4-company": "Компания",
+        "option-5-additional-comments": "Дополнительные комментарии",
+        "send-button-text": "Отправить"
+    },
+
+
+
+
+
+    "on-form-submit-message": {
+        "dispose-form": {
+            "ok": "Мы получили вашу форму, сообщение отправлено, спасибо. Специалист скоро свяжется с Вами.",
+            "error": "Ошибка, пожалуйста, повторите попытку позже."
+        },
+
+        "contact-form": {
+            "ok": "Ваше сообщение отправлено, спасибо.",
+            "error": "Ошибка, пожалуйста, повторите попытку позже."
+        }
     }
+
 }

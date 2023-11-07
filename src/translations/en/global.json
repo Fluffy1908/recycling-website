@@ -127,7 +127,8 @@
 
     "our-products-overview-page": {
         "our-products-upper-text": "Our Products",
-        "our-products-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces."
+        "our-products-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.",
+        "button-text": "Подробнее"
     },
 
 
@@ -302,5 +303,20 @@
         "option-4-company": "Company",
         "option-5-additional-comments": "Additional comments",
         "send-button-text": "Send"
+    },
+
+
+
+
+    "on-form-submit-message": {
+        "dispose-form": {
+            "ok": "Мы получили вашу форму, сообщение отправлено, спасибо. Специалист скоро свяжется с Вами.",
+            "error": "Ошибка, пожалуйста, повторите попытку позже."
+        },
+
+        "contact-form": {
+            "ok": "Ваше сообщение отправлено, спасибо.",
+            "error": "Ошибка, пожалуйста, повторите попытку позже."
+        }
     }
 }
