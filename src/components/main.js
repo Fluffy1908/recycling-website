@@ -26,7 +26,7 @@ export default function Main() {
             </div>
            
             <div className="about-us">
-                    <h1 className="mt-4">{t("about-us-main.upperText")}</h1>
+                    {/* <h1 className="mt-4">{t("about-us-main.upperText")}</h1> */}
                     <h3 className="mt-4">{t("about-us-main.tire-res-main")}</h3>
                     <p className="mt-2">{t("about-us-main.about-us-text")}</p>
             </div>

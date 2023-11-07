@@ -80,4 +80,12 @@
         margin-top: 2rem;
     }
 
+    .proc-col-points .collections-points p {
+        width: 80vw;
+    }
+    
+    .proc-col-points .processing-points p {
+        width: 80vw;
+    }
+
 }
