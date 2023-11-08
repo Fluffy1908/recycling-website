@@ -25,24 +25,24 @@
 
 
     "home-main": {
-        "body" : "A store deisgned for all your pet needs"
+        "body" : ""
     },
     
     "about-us-main": {
             "upperText": "About Us",
             "tire-res-main": "Tire Recycling UA",
-            "about-us-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non odio nisl. Nunc at rhoncus sapien. Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+            "about-us-text": "Saving nature, tire by tire. We are your reliable partner in recycling used tires in Ukraine. Over 210,000 tons of used tires pollute our country every year, we strive to reduce this number by recycling every tire to protect and restore our ecology. Together we can create a clean and green future for Ukraine."
         },
 
     "dispose-tires-main": {
-        "dispose-tires-text-upper": "Dispose Tires",
-        "dispose-tires-text": "The main priority of main-our company is the most convenient return of used tires for enterprises and population. If you have worn tires, please click on the button below to fill out a short form and main-our specialist will contact you. Some text to test here",
+        "dispose-tires-text-upper": "Dispose Used Tires",
+        "dispose-tires-text": "Give your business and home a greener future with our tire recycling services. We offer an easy and convenient solution for businesses and individuals. Get rid of your worn tires: Click below to fill out the form and one of our experts will contact you.",
         "button-text" : "Fill up form"
     },
 
     "production-section-main": {
         "our-production-text-upper": "Our production",
-        "our-production-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis",
+        "our-production-text": "Our recycled tire products combine quality and durability. We use the durable properties of our raw materials to ensure superior reliability in every product.",
         "crumb-rubber-text": "Crumb Rubber",
         "rubber-mulch-text": "Rubber Mulch",
         "metal-cord-text": "Metal Cord",
@@ -59,7 +59,7 @@
     
     "application-section-main": {
         "application-text-upper": "Applications",
-        "application-text": "Suspendisse sed interdum purus. Maecenas mattis nunc ut nunc bibendum venenatis. Nulla risus tortor, eleifend quis ipsum at, blandit accumsan dolor. Cras eu ultricies urna, quis viverra tortor. Nulla euismod lobortis leo sit amet euismod. Nullam elementum maximus mi. In tristique malesuada enim quis sollicitudin. Morbi condimentum elementum ipsum, sed eleifend neque molestie id. Nullam rhoncus egestas lectus, sed eleifend risus venenatis quis. Vestibulum egestas arcu vel sem maximus dignissim."
+        "application-text": "Used tires are given new life through our innovative recycling methods, turning them into high-quality raw materials for numerous industries. Our product is ideal for creating rubber products, durable rubber flooring, pavers, durable rubberized asphalt, playground safety surfaces, functional landscape mulch and shock-absorbing sports surfaces. Tire recycling is not only an environmental contribution, but also an investment in the sustainable future of your business."
     },
 
 
@@ -68,7 +68,7 @@
 
     "about-us-page": {
         "about-us-upper-text": "Tire Recycling UA",
-        "about-us-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed. Our extensive experience in the tire industry has helped us define the scale this ecological disaster and we started to act. Now Tire Recycling UA is the largest tire recycling company in Ukraine, recycling more than 15,000 tons per year, we give further life to more than two million tires. Annual investment in new equipment and expansion of our facilities throughout Ukraine helps us to increase the volume of processing every year, which will soon time will ensure the disposal and recycling of every used tire in the country.",
+        "about-us-text": "At Tire Recycling UA, we transform an environmental problem into a sustainable solution. With an annual volume of 210 thousand tons of waste tires, our mission is to increase recycling rates from the current 7!! thousand tons and promote an environmentally responsible approach. As the market leader in Ukraine, we already recycle more than 15,000 tons of tires per year, helping to avoid environmental pollution and reduce waste generation. With investments in the latest technology and capacity expansion, we are committed to achieving the goal of complete recycling of all used tires in the country.",
         
         "facts-section-upper-text": "Facts",
         "tires-recycled-number": "2,000,000",
@@ -85,13 +85,13 @@
         "waste-free-proceeds-text": "Tons of waste-free processing",
 
         "our-history-upper-text": "Our History",
-        "our-history-main-text": "We, as tire manufacturers in Ukraine, have pondered the of used tires. The very idea of environmentally friendly recycling originated back in 2008. In 2019, we found a waste-free technology for recycling tires for raw materials. The company was founded in 2020 and started its production activities in 2021.",
+        "our-history-main-text": "What happens to worn tires? This issue forced us, tire manufacturers in Ukraine, to look for ways to effectively dispose them. In 2019 we developed!!or found!! an environmentally friendly process for recycling tires into secondary raw materials. Since 2021, we have been actively pursuing our mission to return used tires back into the life cycle with minimal impact on the environment.",
 
         "our-goals-upper-text": "Our goals",
-        "our-goals-main-text": "Cleaning our country of used tires is a priority of our company. Every year our company will scale up, increasing the volume of recycling of used tires and rubber products.The emergence of processing enterprises in the regions of Ukraine is the main goal of our company. Our task is to make the delivery of tires a norm for our society with the support of public organizations and the active part of the population. To make the habit of throwing out tires unacceptable in society.",
+        "our-goals-main-text": "Every year we increase the scale of recycling, expanding the possibilities for reusing rubber. Our strategic plan includes launching new processing plants throughout Ukraine, making recycling easily accessible to every corner of the country. We strive to make tire disposal a daily practice, supported by public organizations and active citizens. In collaboration with local authorities and communities, we aim to develop a comprehensive network of tire collection points. This will make it easier for every resident and business to recycle their used tires, helping to protect the environment.",
 
         "our-team-upper-text": "Our Team",
-        "our-team-main-text": "Our company consists of experienced managers, engineers, designers, environmentalists who have worked in the tire industry, as well as young ambitious specialists with high demands on teamwork." 
+        "our-team-main-text": "Engineers, designers and environmentalists with a deep understanding of the tire industry. Our team is strengthened by young, ambitious specialists, distinguished by an innovative approach. We value teamwork and maintain high standards in everything we do. Together, these talented professionals form the strong core of our company, advancing the development of sustainable tire recycling solutions for the benefit of society and the environment." 
     },
 
 
@@ -100,12 +100,12 @@
 
     "what-we-do-page": {
         "what-we-do-upper-text": "What We Do",
-        "what-we-do-main-text": "Our company is engaged in the acceptance of used tires from companies and individuals in any quantity. Our recyclers benefit from used tires by crushing them into small granules, which can then be used to make rubber products, rubber floors, rubberized asphalt, playground mulch and more, click here to view the application. Tire collection points will soon appear in all corners of Ukraine to ensure the delivery of tires by enterprises and the population. Click here to view tire pick-up points. Recycling points will also be updated to ensure that the required volume of tires is recycled throughout Ukraine. To view the tire recycling points click here.",
+        "what-we-do-main-text": "Our services cover the acceptance of used tires from businesses and individuals without restrictions on quantity. We process these tires into valuable raw materials - rubber granules, which are widely used in the production of a variety of rubber products. In the near future, we will expand the network of tire collection points to simplify recycling anywhere in Ukraine.",
 
         "collection-points": {
             "upper-text": "Collection Points",
             "city": "Dnipro",
-            "main-text": "The first collection point is located at st. Boris Krotova, 16, Dnipro Dnipropetrovsk Region, 49000",
+            "main-text": "The first tire collection point is located at: Boris Krotov Street, 16, Dnipro city, Dnepropetrovsk region, 49000",
             "contacts-for-communication-text": "Contacts for communication:",
             "phone-number": "Tel. (+38) 068 68 68 700",
             "email": "Email: info@tirerecycling.com.ua"
@@ -114,7 +114,7 @@
         "processing-points": {
             "upper-text": "Processing Points",
             "city": "Dnipro",
-            "main-text": "Our main processing plant is located in the city of Dnipro at the address st. Boris Krotova, 16, Dnipro Dnipropetrovsk Region,49000",
+            "main-text": "The main production plant of our company is located in the city of Dnipro at: Boris Krotov Street 16, Dnepropetrovsk region, 49000.",
             "contacts-for-communication-text": "Contacts for communication:",
             "phone-number": "Tel. (+38) 068 68 68 700",
             "email": "Email: info@tirerecycling.com.ua"
@@ -127,8 +127,8 @@
 
     "our-products-overview-page": {
         "our-products-upper-text": "Our Products",
-        "our-products-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces.",
-        "button-text": "Подробнее"
+        "our-products-main-text": "Our recycled tire products combine quality and durability. We carefully select and recycle used tires to ensure the reliability and long life of each of our products. This process not only brings new life to materials that would otherwise pollute our planet, but also promotes sustainable development and a reduced environmental footprint. Our products include everything from rubber granules to landscaping mulch. Our products demonstrate how innovative recycling solutions can be combined with environmental responsibility and practicality.",
+        "button-text": "More details"
     },
 
 
@@ -138,19 +138,19 @@
     "crumb-rubber-page": {
         "crumb-rubber-upper-text": "Crumb Rubber",
         "what-is-crumb-rubber-text": "What is crumb rubber",
-        "what-is-crumb-rubber-main-text": "Crumb rubber is a product of shredded tires into little granules of different fractions, the size of the fractions can reach up to 0.55mm on our factory. Depending on the size of the fraction, crumb rubber can be used in a variety of very differentindustries.",
+        "what-is-crumb-rubber-main-text": "Rubber granules, produced by shredding used tires, are a versatile product suitable for a wide range of industrial applications. With the ability to produce fractions down to 0.55 mm, our crumb rubber is ideal for creating safe sports surfaces, effective sound insulation materials and durable road surface elements. Our rubber granule production meets the strictest quality and environmental standards, providing customers with a reliable and sustainable product for their projects.",
 
         "fractions-of-crumb-rubber-upper-text": "Fractions of crumb rubber",
-        "fractions-of-crumb-rubber-main-text": "Our company provides crumb rubber sizes up to 0.55mm",
+        "fractions-of-crumb-rubber-main-text": "We offer high quality crumb rubber with particle sizes down to 0.55mm, ideal for a variety of industrial and commercial applications.",
         "size-055": "0.55mm",
         "size-2-5": "2-5mm",
         "size-5-10": "5-10mm",
 
         "rubberized-asphalt-upper-text": "Rubberized asphalt",
-        "rubberized-asphalt-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt.",
+        "rubberized-asphalt-main-text": "Rubberized asphalt concrete is an advanced road surface that combines standard asphalt concrete with the addition of rubber granules made from recycled car tires. These granules, occupying from 15% to 22% of the volume of the road mixture, improve the characteristics of asphalt, making it more elastic and resistant to various weather conditions. Using rubberized asphalt is a time-tested practice that has been used for over four decades. This material does not require specialized equipment for installation, which makes it convenient to use on a par with traditional asphalt mixtures.",
 
         "sports-covering-upper-text": "Sport coverings",
-        "sports-covering-main-text": "Rubberized asphalt concrete, also known simply as rubberized asphalt, is a pavement material consisting of a mixture of standard asphalt concrete and rubber granules recycled from car tires. Rubber granules can make up 15-22% of rubberized asphalt mix for road construction. Rubberized asphalt has been in use for over 40 years, in most cases it is laid using the same equipment as traditional asphalt."
+        "sports-covering-main-text": "Sports surfaces made from rubber granules are an ideal solution for creating safe and comfortable sports fields. These surfaces have excellent shock absorption, which reduces the risk of injury for athletes. In addition, they provide excellent grip and can be adapted for a variety of sports, from athletics to football and basketball. Rubber granules make the surface resistant to changing weather conditions, as well as being easy to maintain and durable, making them a cost-effective choice for sports facilities."
     },
 
 
@@ -160,7 +160,7 @@
     "rubber-mulch-page" : {
         "rubber-mulch-upper-text": "Rubber Mulch",
         "what-is-rubber-mulch": "What is rubber mulch?",
-        "what-is-rubber-mulch-main-text": "One of the best uses for recycled tires is to turn them into rubber mulch for landscaping, playgrounds, and training courses. Rubber mulch serves the same purpose as regular wood mulch, but it has a number of additional benefits.",
+        "what-is-rubber-mulch-main-text": "Using rubber mulch made from recycled tires is an eco-innovative solution for landscaping, children's playgrounds and sports fields. This material not only performs all the functions of traditional wood mulch, but also surpasses it, providing durability, safety and low maintenance requirements. Rubber mulch is highly weather-resistant, does not attract pests, and retains its color for many years, making it an ideal choice for any landscaping project.",
 
         "applications-for-playgrounds": {
             "applications-upper-text": "Application for playgrounds",
@@ -188,11 +188,11 @@
             "option-6": "Rope course protective cover"
         },
 
-        "landscape-for-houses-upper-text": "Landscape for your houses",
-        "landscape-for-houses-main-text" : "Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years.",
+        "landscape-for-houses-upper-text": "Landscape for your house",
+        "landscape-for-houses-main-text" : "Rubber mulch is an environmentally sustainable alternative to wood mulch that offers improved durability and wind resistance due to its weight. This material effectively passes rainwater to plant roots without retaining it and does not attract termites, making it safe for landscaping. Rubber mulch is an investment in the long-term beauty of your garden: it does not require annual replacement and retains its vibrant color for a decade, unlike wood mulch, which quickly deteriorates when exposed to the elements.",
 
         "coating-for-playgrounds-upper-text": "Coating for playgrounds",
-        "coating-for-playgrounds-main-text" : "Rubber mulch serves the same purpose as conventional wood mulch, but it has the added benefit of being more durable, more weight that keeps it from being blown away by the wind.Rubber mulch does not absorb rainwater, so more water reaches the plant roots. Another plus is that, unlike some woody mulches, rubber mulches do not harbor pests such as termites.In addition, rubber mulch eliminates the need for annual replacements, while wood mulch breaks down and tarnishes quickly when exposed to the sun. Rubber mulch does not degrade and should retain its color for more than 10 years."
+        "coating-for-playgrounds-main-text" : "Rubber playground mulch is a safe, durable surface designed to provide maximum protection and comfort. Made from recycled car tires, this material is an excellent choice for any play area due to its impact-absorbing properties that reduce the risk of injury from falls."
 
     },
 
@@ -203,7 +203,7 @@
     "metal-cord-page": {
         "metal-cord-upper-text": "Metal Cord",
         "what-is-metal-cord-upper-text": "What is metal cord?",
-        "what-is-metal-cord-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "what-is-metal-cord-main-text": "Metal cord is a steel wire that strengthens tires and gives them structural integrity. After the tire's life cycle, this cord is recovered through recycling and can be reused or melted down to create new steel products. Metal cord is a valuable recycling material because steel is easily recyclable and has a wide range of applications in a variety of industries, from construction to the production of new metal products."
     },
 
     
@@ -212,7 +212,7 @@
     "bead-ring-page": {
         "bead-ring-upper-text": "Bead Ring",
         "what-is-bead-ring-upper-text": "What is bead ring?",
-        "what-is-bead-ring-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "what-is-bead-ring-main-text": "The bead ring is a reinforced element of the tire that ensures reliable fixation of the tire on the wheel rim. After the tire's life, the bead ring is removed during recycling and can be recycled into new products such as O-rings and protective rims. It is a valuable resource for the recycling industry as it contains quality materials that promote sustainable production and waste minimization."
     },
 
 
@@ -222,7 +222,7 @@
     "textile-cord-page": {
         "textile-cord-upper-text": "Textile cord",
         "what-is-textile-cord-upper-text": "What is textile cord?",
-        "what-is-textile-cord-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed."
+        "what-is-textile-cord-main-text": "Textile cord is a fibrous material that is part of the tire carcass and gives it strength and flexibility. After tire wear, textile cord can be separated and used as a secondary raw material in various industries, such as in construction to strengthen mortars, in the production of nonwovens, or as filler for car mats and seats. Recycling textile cord helps reduce waste."
     },
     
     
@@ -231,7 +231,7 @@
     
     "applications-page": {
         "applications-upper-text": "Applications",
-        "applications-main-text": "Recycling waste tires into raw materials has a wide variety of applications in a variety of industries such as rubber products, rubber floors / pavers, rubberized asphalt, playgrounds, landscape mulch, shock absorbing sports surfaces."
+        "applications-main-text": "Recycled tires are turned into valuable raw materials used in many industries. These raw materials serve as the basis for the production of a variety of rubber products, flooring and more. Rubberized asphalt, created using crumb rubber, has improved performance characteristics. Recycled tire materials are also widely used in creating safe and durable playgrounds and as landscape mulch to retain moisture and prevent weed growth. In sports facilities they are used as shock-absorbing coatings that increase the safety and comfort of athletes."
     },
 
 
@@ -256,7 +256,7 @@
         "tire-option-7": "Different tires",
 
         "how-many-tires-text": "How many tires do you have?",
-        "your-location-text": "Your location (Country, region)",
+        "your-location-text": "Your location (city or region)",
 
         "do-you-have-vehicle-text": "Do you have vehicle to deliver tires to the collection point?",
         "option-yes": "Yes",
@@ -273,7 +273,7 @@
 
     "contact-us-page": {
         "get-in-touch-upper-text": "Get in touch",
-        "get-in-touch-main-text": "Recycling tires in our country is a big problem, more than 210 thousand tons of used tires are discarded annually, only about 7 thousand tons of them are processed.",
+        "get-in-touch-main-text": "",
 
         "address-upper-text": "Address:",
         "address-lower-text1": "Boris Krotova, 16, Dnipro,",
@@ -288,14 +288,14 @@
 
         "usually-asked-questions-text": "Usually asked questions",
 
-        "accordion-1-title": "Option 1",
-        "accordion-1-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "accordion-1-title": "Which enterprises and organizations can recycle tires?",
+        "accordion-1-text": "The opportunity to recycle tires is available to both companies and individuals.",
 
-        "accordion-2-title": "Option 2",
-        "accordion-2-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.",
+        "accordion-2-title": "What happens to used tires after they are disposed?",
+        "accordion-2-text": "Used tires are crushed and converted into raw materials to create new products.",
 
         "message-us-upper-text": "Message Us",
-        "message-us-main-text": "If you wish to be considered for employment at Weifield, please do not send a message, here instead, please complete Weifields job application  and our Human Resources department will contact you after their review of your submitted information.",
+        "message-us-main-text": "We'd love to hear from you! If you have questions or would like to know more, please leave your contact details in the form and we will contact you as soon as possible.",
 
         "option-1-name": "Name",
         "option-2-email": "Email",
@@ -310,13 +310,13 @@
 
     "on-form-submit-message": {
         "dispose-form": {
-            "ok": "Мы получили вашу форму, сообщение отправлено, спасибо. Специалист скоро свяжется с Вами.",
-            "error": "Ошибка, пожалуйста, повторите попытку позже."
+            "ok": "We have received your form, your message has been sent, thank you. A specialist will contact you soon.",
+            "error": "Error, please try again later."
         },
 
         "contact-form": {
-            "ok": "Ваше сообщение отправлено, спасибо.",
-            "error": "Ошибка, пожалуйста, повторите попытку позже."
+            "ok": "Your message has been sent, thank you.",
+            "error": "Error, please try again later."
         }
     }
 }
