@@ -8,7 +8,12 @@ import { Link } from 'react-router-dom';
 
 export default function OurProducts () {
     const starIcon = "/images/star.webp"
-    const testImage = "/images/crumb-rubber.webp"
+    const testImage = "/images/crumb-rubber1.webp"
+    const rubberMulch = "/images/rubber-mulch.webp"
+    const metalCord = "/images/metal-cord.webp"
+    const textileCord = "/images/textile-cord.webp"
+    const beadRing = "/images/metal-cord-6.webp"
+    const rte = "/images/rte.webp"
 
     const [ t ] = useTranslation("global")
     const currentLanguageCode = cookies.get('i18next') || 'ua'
@@ -33,7 +38,7 @@ export default function OurProducts () {
 
                 {/* Rubber Mulch  */}
                 <div className="our-product-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={rubberMulch} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.rubber-mulch-text")}</h3></div>
                     <div>
                         <Link to={`/${currentLanguageCode}/rubber-mulch`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
@@ -42,7 +47,7 @@ export default function OurProducts () {
                 
                 {/* Metal Cord */}
                 <div className="our-product-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={metalCord} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.metal-cord-text")}</h3></div>
                     <div>
                         <Link to={`/${currentLanguageCode}/metal-cord`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
@@ -53,7 +58,7 @@ export default function OurProducts () {
             {/* Textile Cord */}
             <div className="our-product-gallery mb-5">
                 <div className="our-product-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={textileCord} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.textile-cord-text")}</h3></div>
                     <div>
                         <Link to={`/${currentLanguageCode}/textile-cord`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
@@ -62,7 +67,7 @@ export default function OurProducts () {
 
                 {/* Bead Ring */}
                 <div className="our-product-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={beadRing} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.onboard-ring-text")}</h3></div>
                     <div>
                         <Link to={`/${currentLanguageCode}/bead-ring`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
@@ -71,7 +76,7 @@ export default function OurProducts () {
                 
                 {/* Our Products(change required) */}
                 <div className="our-product-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={rte} alt="Image" />
                     <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}</h3></div>
                     <div>
                         <Link to={`/${currentLanguageCode}/our-products`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>

@@ -7,9 +7,10 @@ import './CrumbRubber.css';
 export default function AboutUs () {
     const [ t ] = useTranslation("global");
 
-    const testImage = "/images/crumb-rubber.webp"
-    const factoryImage = "/images/factory-photo.webp"
+    const testImage = "/images/crumb-rubber1.webp"
     const starIcon = "/images/star.webp"
+    const rubberAsp = "/images/rubberAsp.webp"
+    const sportCov = "/images/sportCov.jpg"
     
     return (
         <>
@@ -54,7 +55,7 @@ export default function AboutUs () {
                     </div>
 
                     <div className="crumb-rubber-info-right">
-                        <img src={factoryImage} alt="Asphalt" />
+                        <img src={rubberAsp} alt="Asphalt" />
                     </div>
                 
                 </div>
@@ -68,7 +69,7 @@ export default function AboutUs () {
                     </div>
 
                     <div className="crumb-rubber-info-right">
-                        <img src={factoryImage} alt="Asphalt" />
+                        <img src={sportCov} alt="Asphalt" />
                     </div>
                 
                 </div>

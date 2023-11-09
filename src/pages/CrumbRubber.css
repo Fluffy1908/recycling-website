@@ -68,8 +68,8 @@
 }
 
 .crumb-rubber-info-right img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50vw;
+    height: 50vh;
     border-radius: 1rem;
 }
 
@@ -101,6 +101,12 @@
 
     .crumb-rubber-info-left img {
         width: 10vw;
+    }
+
+    .crumb-rubber-info-right img {
+        max-width: 80vw;
+        height: auto;
+        border-radius: 1rem;
     }
         
 }
