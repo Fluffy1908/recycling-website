@@ -10,7 +10,9 @@ export default function AboutUs () {
     const testImage = "/images/crumb-rubber1.webp"
     const starIcon = "/images/star.webp"
     const rubberAsp = "/images/rubberAsp.webp"
-    const sportCov = "/images/sportCov.jpg"
+    const sportCov = "/images/sportCovering.webp"
+    const crumb1 = "/images/55-crumb.webp"
+    const crumb2 = "/images/100-crumb.webp"
     
     return (
         <>
@@ -30,19 +32,19 @@ export default function AboutUs () {
              <section className="crumb-rubber-gallery">
                 
                 <div className="crumb-rubber-image-container">
-                    <img src={testImage} alt="Image" />
-                    <h3>{t("crumb-rubber-page.size-055")}</h3>
+                    <img src={crumb1} alt="Image" />
+                    {/* <h3>{t("crumb-rubber-page.size-055")}</h3> */}
                 </div>
 
                 <div className="crumb-rubber-image-container">
-                    <img src={testImage} alt="Image" />
-                    <h3>{t("crumb-rubber-page.size-2-5")}</h3>
+                    <img src={crumb2} alt="Image" id="crumb-image-2"/>
+                    {/* <h3>{t("crumb-rubber-page.size-2-5")}</h3> */}
                 </div>
-                
+{/*                 
                 <div className="crumb-rubber-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={crumb3} alt="Image" />
                     <h3>{t("crumb-rubber-page.size-5-10")}</h3>
-                </div>
+                </div> */}
 
             </section>
                 

@@ -49,7 +49,8 @@
 
 .application-image-container img {
     border-radius: 1rem;
-    width: 19vw;
+    width: 20vw;
+    height: 27vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -60,7 +61,8 @@
 
     .application-image-container img {
         border-radius: 1rem;
-        width: 70vw;
+        width: 80vw;
+        height: auto;
     }
 
     .applications-upper-text img {

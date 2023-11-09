@@ -5,7 +5,7 @@ import NewFooter from "../components/NewFooter";
 import './BeadRing.css';
 
 export default function BeadRing () {
-    const factoryImage = "/images/factory-photo.webp"
+    const beadRing = "/images/metal-cord-6.webp"
 
     const [ t ] = useTranslation("global");
     
@@ -21,7 +21,7 @@ export default function BeadRing () {
             </div>
 
             <div className="textile-cord-info-right">
-                <img src={factoryImage} alt="Factory Icon"/>
+                <img src={beadRing} alt="Factory Icon"/>
             </div>
         </section>
             <NewFooter />

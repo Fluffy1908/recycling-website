@@ -82,7 +82,7 @@
 }
 
 .rubber-mulch-info-right img {
-    max-width: 100%;
+    width: 30vw;
     height: auto;
     /* border-radius: 0.30rem; */
     border-bottom: 5px solid green ;
@@ -119,5 +119,13 @@
     
     .rubber-mulch-use-section {
         margin-top: 3rem;
+    }
+
+    .rubber-mulch-info-right img {
+        width: 70vw;
+    }
+
+    .rubber-mulch-info-left img {
+        width: 8vw;
     }
 }

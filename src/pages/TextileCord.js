@@ -5,7 +5,7 @@ import NewFooter from "../components/NewFooter";
 import './TextileCord.css';
 
 export default function TextileCord () {
-    const factoryImage = "/images/factory-photo.webp"
+    const textileCord = "/images/textile-cord.webp"
 
     const [ t ] = useTranslation("global");
     
@@ -21,7 +21,7 @@ export default function TextileCord () {
     </div>
 
     <div className="textile-cord-info-right">
-        <img src={factoryImage} alt="Factory img"/>
+        <img src={textileCord} alt="Factory img"/>
     </div>
 </section>
             <NewFooter />

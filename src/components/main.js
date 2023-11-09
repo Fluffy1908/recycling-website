@@ -1,4 +1,4 @@
-import React, { useTransition } from "react";
+import React from "react";
 import Navbar from "./Navbar";
 import NewFooter from "./NewFooter";
 import './main.css'
@@ -19,8 +19,8 @@ export default function Main() {
     const barier = "/images/barier.webp"
     const asphalt = "/images/asphalt.webp"
     const rubberMats = "/images/rubber-mats.webp"
-    const sportCoverings = "/images/sportCov.jpg"
-    const tiles = "/images/plitka.webp"
+    const sportCoverings = "/images/sportCovering.webp"
+    const tiles = "/images/tiles2.webp"
 
     const [ t ] = useTranslation("global")
     const currentLanguageCode = cookies.get('i18next') || 'ua'

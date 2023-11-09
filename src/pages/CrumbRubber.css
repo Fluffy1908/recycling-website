@@ -31,8 +31,9 @@
 }
 
 .crumb-rubber-image-container img {
-    border-radius: 1rem;
-    width: 24vw;
+    /* border-radius: 1rem; */
+    width: 28vw;
+    /* height: 40vh; */
 }
 
 .image-text-crumb-rubber-container {
@@ -100,13 +101,17 @@
     }
 
     .crumb-rubber-info-left img {
-        width: 10vw;
+        width:7vw;
     }
 
     .crumb-rubber-info-right img {
         max-width: 80vw;
         height: auto;
         border-radius: 1rem;
+    }
+
+    #crumb-image-2 {
+        margin-left: 2rem;
     }
         
 }

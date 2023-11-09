@@ -5,7 +5,7 @@ import NewFooter from "../components/NewFooter";
 import './MetalCord.css';
 
 export default function MetalCord () {
-    const factoryImage = "/images/factory-photo.webp"
+    const metalCord = "/images/metal-cord.webp"
 
     const [ t ] = useTranslation("global");
     
@@ -21,7 +21,7 @@ export default function MetalCord () {
                     </div>
 
                     <div className="metal-cord-info-right">
-                        <img src={factoryImage} alt="Factory image"/>
+                        <img src={metalCord} alt="Factory image"/>
                     </div>
                 </section>
             <NewFooter />

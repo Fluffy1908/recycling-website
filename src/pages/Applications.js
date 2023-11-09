@@ -7,6 +7,15 @@ import './Application.css';
 export default function Applications () {
     const starIcon = "/images/star.webp"
     const testImage = "/images/crumb-rubber.webp"
+    const rte = "/images/rte.webp"
+    const playgrounds = "/images/play2.webp"
+    const barier = "/images/barier.webp"
+    const asphalt = "/images/asphalt.webp"
+    const rubberMats = "/images/rubber-mats.webp"
+    const sportCoverings = "/images/sportCovering.webp"
+    const tiles = "/images/plitka.webp"
+    const footballFi = "/images/footbal.webp"
+    const land2 = "/images/land2.webp"
 
     const [ t ] = useTranslation("global");
 
@@ -22,17 +31,17 @@ export default function Applications () {
                 
             <div className="application-gallery">
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={rte} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={playgrounds} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={land2} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 
@@ -40,17 +49,17 @@ export default function Applications () {
                 
             <div className="application-gallery">
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={asphalt} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={sportCoverings} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={rubberMats} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 
@@ -58,17 +67,17 @@ export default function Applications () {
 
             <div className="application-gallery mb-5">
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={tiles} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={footballFi} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
                 
                 <div className="application-image-container">
-                    <img src={testImage} alt="Image" />
+                    <img src={barier} alt="Image" />
                     <div className="centered"><h2>Applications</h2></div>
                 </div>
 

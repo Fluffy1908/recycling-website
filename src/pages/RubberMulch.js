@@ -12,6 +12,12 @@ export default function RubberMulch () {
     const factoryImage = "/images/factory-photo.webp"
     const starIcon = "/images/star.webp"
     const rubberMulch = "/images/rubber-mulch.webp"
+    const land1 = "/images/land1.webp"
+    const land2 = "/images/land2.webp"
+    const land3 = "/images/land3.webp"
+    const playgrounds1 = "/images/playg1.webp"
+    const playgrounds2 = "/images/playg2.webp"
+    const playgrounds3 = "/images/playg3.webp"
 
     const iconCheckMark = <IoIosCheckmarkCircleOutline size={20} id="checkmark-option"/>
 
@@ -80,9 +86,9 @@ export default function RubberMulch () {
                     </div>
 
                     <div className="rubber-mulch-info-right">
-                        <img src={rubberMulch} alt="Asphalt" />
-                        <img src={rubberMulch} alt="Asphalt" />
-                        <img src={rubberMulch} alt="Asphalt" />
+                        <img src={land1} alt="Asphalt" />
+                        <img src={land2} alt="Asphalt" />
+                        <img src={land3} alt="Asphalt" />
                     </div>
                 
                 </div>
@@ -96,9 +102,9 @@ export default function RubberMulch () {
                     </div>
 
                     <div className="rubber-mulch-info-right">
-                        <img src={factoryImage} alt="Asphalt" />
-                        <img src={factoryImage} alt="Asphalt" />
-                        <img src={factoryImage} alt="Asphalt" />
+                        <img src={playgrounds1} alt="Asphalt" />
+                        <img src={playgrounds2} alt="Asphalt" />
+                        <img src={playgrounds3} alt="Asphalt" />
                     </div>
                 
                 </div>
