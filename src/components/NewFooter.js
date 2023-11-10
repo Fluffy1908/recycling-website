@@ -1,12 +1,18 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
+import cookies from "js-cookie";
+import { useTranslation } from "react-i18next";
 
 export default function NewFooter() {
+  const currentLanguageCode = cookies.get('i18next') || 'ua'
+  const [ t ] = useTranslation("global");
+
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted mt-5'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span>{t("footer-new.get-connected")}</span>
         </div>
 
         <div>
@@ -34,73 +40,101 @@ export default function NewFooter() {
                 Tire Recycling UA
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              {t("footer-new.left-text")}
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>{t("footer-new.products.products-top")}</h6>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/crumb-rubber`} style={{ color: 'brown' }}>
+                {t("footer-new.products.crumb-rubber")}
+                </Link>
+              </div>
               </p>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  React
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/rubber-mulch`} style={{ color: 'brown' }}>
+                {t("footer-new.products.rubber-mulch")}
+                </Link>
+              </div>
               </p>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/metal-cord`} style={{ color: 'brown' }}>
+                {t("footer-new.products.metal-cord")}
+                </Link>
+              </div>
               </p>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/bead-ring`} style={{ color: 'brown' }}>
+                {t("footer-new.products.bead-ring")}
+                </Link>
+              </div>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>
+              {t("footer-new.useful-links.usef-links")}
+                </h6>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Pricing
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/what-we-do`} style={{ color: 'brown' }}>
+                {t("footer-new.useful-links.what-we-do")}
+                </Link>
+              </div>
               </p>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Settings
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/dispose-tires`} style={{ color: 'brown' }}>
+                {t("footer-new.useful-links.dispose-tires")}
+                </Link>
+              </div>
               </p>
+
               <p>
-                <a href='#!' className='text-reset'>
-                  Orders
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/about-us`} style={{ color: 'brown' }}>
+                {t("footer-new.useful-links.abouts-us")}
+                </Link>
+              </div>
               </p>
+              
               <p>
-                <a href='#!' className='text-reset'>
-                  Help
-                </a>
+              <div>
+                <Link to={`/${currentLanguageCode}/contact-us`} style={{ color: 'brown' }}>
+                {t("footer-new.useful-links.contacts")}
+                </Link>
+              </div>
               </p>
+              
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="building" className="me-2" />
-                Boris Krotova, 16, Dnipro, Dnipropetrovsk Oblast, 49000, Ukraine
+                {t("footer-new.address.cor-address")}
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@tirerecycling.com.ua
+                <a href="mailto: shinov.tima@gmail.com">
+                  info@tirerecycling.com.ua
+                </a>
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 38 067 631 22 22
+                <MDBIcon icon="phone" className="me-3" /> <a href="tel:+380676312222">+ 38 067 631 22 22</a>
               </p>
-              <p><MDBIcon icon="angles-right" className="me-3" />"Recycling-UA" USREOU: 43519366 </p>
+              <p><MDBIcon icon="angles-right" className="me-3" />{t("footer-new.address.company")}</p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

@@ -318,5 +318,34 @@
             "ok": "Your message has been sent, thank you.",
             "error": "Error, please try again later."
         }
+    },
+
+
+    "footer-new": {
+        "get-connected": "Get connected with us on social networks:",
+
+        "left-text": "Some text here",
+
+        "products": {
+            "products-top": "Products",
+            "crumb-rubber": "Crumb Rubber",
+            "rubber-mulch": "Rubber Mulch",
+            "metal-cord": "Metal Cord",
+            "bead-ring": "Bead Ring",
+            "textile-cord": "Textile Cord"
+        },
+
+        "useful-links": {
+            "usef-links": "Useful Links",
+            "what-we-do": "What We Do",
+            "dispose-tires": "Dispose worn tires",
+            "abouts-us": "About Us",
+            "contacts": "Contact Us"
+        }, 
+
+        "address": {
+            "cor-address": "Boris Krotova, 16, Dnipro, Dnipropetrovsk Oblast, 49000, Ukraine",
+            "company": "Recycling-UA USREOU: 43519366"
+        }
     }
 }
