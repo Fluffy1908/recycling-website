@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const baseURL = "https://example.com"; // Replace with your website's URL
+const baseURL = "https://rec-site-testing223.netlify.app"; // Replace with your website's URL
 const languages = ["en", "ua", "ru"]; // Replace with your supported languages
 const routes = [
   "/",
