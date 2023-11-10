@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://example.com/en/</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/about-us</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/what-we-do</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/our-products</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/crumb-rubber</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/rubber-mulch</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/metal-cord</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/bead-ring</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/textile-cord</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/applications</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/dispose-tires</loc>
+    </url>
+    <url>
+      <loc>https://example.com/en/contact-us</loc>
+    </url>
+</urlset>
