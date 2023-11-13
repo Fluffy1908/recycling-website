@@ -1,1 +1,1 @@
-Tire Recycling Site developed with React. This is not finished project, it's not optimized for SEO. However it's fully functional and can be used if SEO is not important. It's better to use Next.js for this particular case for better seo. I'll create new repo for this exact project but implemented with Next.
+Tire Recycling Site developed with React. Using SPA, client side rendering. Not SEO optimized.
