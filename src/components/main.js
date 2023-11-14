@@ -61,7 +61,7 @@ export default function Main() {
             <div className="main-our-product-gallery">
                 <div className="main-our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("applications-section-text.")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/crumb-rubber`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
 
@@ -108,19 +108,19 @@ export default function Main() {
             <div className="main-our-product-gallery">
                 <div className="main-our-product-image-container">
                     <img src={playgrounds} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.playgrounds")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`}className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
 
                 <div className="main-our-product-image-container">
                     <img src={tiles} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.rubber-tiles")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
                 
                 <div className="main-our-product-image-container">
                     <img src={sportCoverings} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.sport-coverings")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
             </div>
@@ -128,19 +128,19 @@ export default function Main() {
             <div className="main-our-product-gallery">
                 <div className="main-our-product-image-container">
                     <img src={asphalt} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.rubber-asphalt")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
 
                 <div className="main-our-product-image-container">
                     <img src={barier} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.barriers")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
                 
                 <div className="main-our-product-image-container">
                     <img src={rubberMats} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
+                    <div className="product-centered"><h3>{t("application-section-text.rubber-mats")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/applications`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
             </div>

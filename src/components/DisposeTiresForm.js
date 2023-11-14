@@ -158,8 +158,8 @@ export default function DisposeTiresForm () {
                     </form>
                 </Box>
             </Box>
-        {messageSent ? <h3>Message sent. Thank you!</h3> : ""}
-        {errorMessage ? <h3>Error occured. Please check your internet connection, refresh page and try again. If you still encounter an error, please use "contact us" page for email or phone number.</h3> : ""} 
+        {messageSent ? <h3>{t("on-form-submit-message.dispose-form.ok")}</h3> : ""}
+        {errorMessage ? <h3>{t("on-form-submit-message.dispose-form.error")}</h3> : ""} 
         {/* Style this two, and add dynamic text for every language.*/}
         </>
     ) 

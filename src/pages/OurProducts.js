@@ -74,13 +74,19 @@ export default function OurProducts () {
                     </div>
                 </div>
                 
-                {/* Our Products(change required) */}
+                {/* Our Products */}
                 <div className="our-product-image-container">
                     <img src={rte} alt="Image" />
-                    <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}</h3></div>
-                    <div>
+                    <div className="product-centered"><h3>{t("production-section-main.one-more-product-text")}
+                    </h3></div>
+                    
+                    
+                    {/* <div>
                         <Link to={`/${currentLanguageCode}/our-products`}className="product-lower-center">{t("our-products-overview-page.button-text")}</Link>
-                    </div>
+                    </div> */}
+
+
+                    
                 </div>
             </div>
 

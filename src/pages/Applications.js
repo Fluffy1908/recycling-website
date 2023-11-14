@@ -32,17 +32,17 @@ export default function Applications () {
             <div className="application-gallery">
                 <div className="application-image-container">
                     <img src={rte} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.rte")}</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={playgrounds} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.playgrounds")}</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={land2} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.rubber-mulch")}</h2></div>
                 </div>
 
             </div>
@@ -50,17 +50,17 @@ export default function Applications () {
             <div className="application-gallery">
                 <div className="application-image-container">
                     <img src={asphalt} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.rubber-asphalt")}</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={sportCoverings} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.sport-coverings")}</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={rubberMats} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.rubber-mats")}</h2></div>
                 </div>
 
             </div>
@@ -68,17 +68,17 @@ export default function Applications () {
             <div className="application-gallery mb-5">
                 <div className="application-image-container">
                     <img src={tiles} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.rubber-tiles")}</h2></div>
                 </div>
 
                 <div className="application-image-container">
                     <img src={footballFi} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.footbal-coverings")}</h2></div>
                 </div>
                 
                 <div className="application-image-container">
                     <img src={barier} alt="Image" />
-                    <div className="centered"><h2>Applications</h2></div>
+                    <div className="centered"><h2>{t("application-section-text.barriers")}</h2></div>
                 </div>
 
             </div>
