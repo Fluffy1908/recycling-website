@@ -16,18 +16,15 @@ export default function NewFooter() {
         </div>
 
         <div>
-          <a href='https://www.facebook.com/tirerecycling.com.ua/' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          <a href='https://twitter.com/' className='me-4 text-reset'>
-            <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='https://instagram.com/' className='me-4 text-reset'>
-            <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='https://linkedin.com/' className='me-4 text-reset'>
+          <a href='https://www.linkedin.com/company/tirerecycling-ua/' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
+          <a href='https://www.facebook.com/tirerecycling.com.ua' className='me-4 text-reset'>
+            <MDBIcon fab icon="facebook-f" />
+          </a>
+          {/* <a href='https://www.instagram.com/tirerecycling.com.ua/' className='me-4 text-reset'>
+            <MDBIcon fab icon="instagram" />
+          </a> */}
         </div>
       </section>
 
@@ -127,12 +124,12 @@ export default function NewFooter() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                <a href="mailto: shinov.tima@gmail.com">
-                  info@tirerecycling.com.ua
+                <a href="mailto:info@tirerecycling.com.ua">
+                info@tirerecycling.com.ua
                 </a>
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> <a href="tel:+380676312222">+ 38 067 631 22 22</a>
+                <MDBIcon icon="phone" className="me-3" /> <a href="tel:+380676312222">+38 068 68 68 700</a>
               </p>
               <p><MDBIcon icon="angles-right" className="me-3" />{t("footer-new.address.company")}</p>
             </MDBCol>

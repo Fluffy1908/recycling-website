@@ -71,7 +71,7 @@ export default function RubberMulch () {
                 <p>{iconCheckMark}{t("rubber-mulch-page.applications-for-training-courses.option-3")}</p>
                 <p>{iconCheckMark}{t("rubber-mulch-page.applications-for-training-courses.option-4")}</p>
                 <p>{iconCheckMark}{t("rubber-mulch-page.applications-for-training-courses.option-5")}</p>
-                <p>{iconCheckMark}{t("rubber-mulch-page.applications-for-training-courses.option-6")}</p>
+                {/* <p>{iconCheckMark}{t("rubber-mulch-page.applications-for-training-courses.option-6")}</p> */}
             </div>
         
         </section>

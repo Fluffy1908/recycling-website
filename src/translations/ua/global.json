@@ -287,15 +287,15 @@
         "get-in-touch-main-text": "",
 
         "address-upper-text": "Адреса",
-        "address-lower-text1": "4671 Sugar Camp Road,",
-        "address-lower-text2": "Owatinna, Minnesota",
-        "address-lower-text3": "55060",
+        "address-lower-text1": "Бориса Кротова, 16, Дніпро,",
+        "address-lower-text2": "Дніпропетровська Область,",
+        "address-lower-text3": "49000, Україна",
 
         "phone-text": "Телефон",
-        "phone-numbers": "+38 067 630 68 11",
+        "phone-numbers": "+38 068 68 68 700",
 
         "email-text": "Email",
-        "email-lower-text": "shinov.tima@gmail.com",
+        "email-lower-text": "info@tirerecycling.com.ua",
 
         "usually-asked-questions-text": "Поширені запитання",
 
@@ -354,7 +354,7 @@
 
         "address": {
             "cor-address": "Бориса Кротова, 16, Дніпро, Дніпропетровська Область, 49000, Україна",
-            "company": "Recycling-UA USREOU: 43519366"
+            "company": "Ресайклiнг-ЮА ЄДРПОУ: 43519366"
         }
     }
 }

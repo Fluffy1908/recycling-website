@@ -61,7 +61,7 @@ export default function Main() {
             <div className="main-our-product-gallery">
                 <div className="main-our-product-image-container">
                     <img src={testImage} alt="Image" />
-                    <div className="product-centered"><h3>{t("applications-section-text.")}</h3></div>
+                    <div className="product-centered"><h3>{t("production-section-main.crumb-rubber-text")}</h3></div>
                     <div><Link to={`/${currentLanguageCode}/crumb-rubber`} className="product-lower-center">{t("production-section-main.gallery-button-text")}</Link></div>
                 </div>
 

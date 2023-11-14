@@ -27,13 +27,13 @@ export default function ContactUs() {
             <div className="container-contact-us">
               <LocalPhoneIcon sx={{fontSize: 50}}/>
               <p id="contact-us-icon-top">{t("contact-us-page.phone-text")}</p>
-              <p><a href="tel:+380676312222">{t("contact-us-page.phone-numbers")}</a></p>
+              <p><a href="tel:+380686868700">{t("contact-us-page.phone-numbers")}</a></p>
             </div>
 
             <div className="container-contact-us">
               <MailIcon sx={{fontSize: 50}}/>
               <p id="contact-us-icon-top">{t("contact-us-page.email-text")}</p>
-              <p><a href="mailto: shinov.tima@gmail.com">{t("contact-us-page.email-lower-text")}</a></p>
+              <p><a href="mailto:info@tirerecycling.com.ua">{t("contact-us-page.email-lower-text")}</a></p>
             </div>
 
             <div className="container-contact-us">
